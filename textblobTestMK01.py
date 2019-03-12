@@ -8,6 +8,7 @@
 # TODO mit https://www.clips.uantwerpen.be/pattern
 # TODO mit NLTK
 # TODO mit GENSIM weitermachen: https://radimrehurek.com/gensim/tutorial.html
+# Todo spacy
 
 from textblob_de import TextBlobDE
 import pandas as pd

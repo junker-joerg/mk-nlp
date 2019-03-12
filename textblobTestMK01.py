@@ -4,7 +4,7 @@
 # TODO commit
 # TODO  git push https://github.com/junker-joerg/mk-nlp
 # ! git remote add origin https://github.com/junker-joerg/mk-nlp
-# - eröffnet
+# - eröffnet und nochmal
 
 from textblob import TextBlobDE
 

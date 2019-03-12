@@ -5,27 +5,35 @@
 # TODO  git push https://github.com/junker-joerg/mk-nlp
 # ! git remote add origin https://github.com/junker-joerg/mk-nlp
 # - eröffnet und nochmal
+# TODO mit https://www.clips.uantwerpen.be/pattern
+# TODO mit NLTK
+# TODO mit GENSIM weitermachen: https://radimrehurek.com/gensim/tutorial.html
 
 from textblob_de import TextBlobDE
+import pandas as pd
 
-text = '''
-"Der Blob" macht in seiner unbekümmert-naiven Weise einfach nur Spass.
-Er hat eben den gewissen Charme, bei dem auch die eher hölzerne Regie und
-das konfuse Drehbuch nicht weiter stören.
-'''
+f1 = open("DHB.txt", mode ="r", encoding="UTF8")
 
-blob = TextBlobDE(text)
-blob.tags           # [('Der', 'DT'), ('Blob', 'NN'), ('macht', 'VB'),
+text1 = f1.read()
+blob2= TextBlobDE(text1)
+f1.close()
+blob2.sentences
+sens = pd.DataFrame(blob2.sentences)
+tgs = pd.DataFrame(blob2.tags)
+
+
+#blob = TextBlobDE(text)
+
+blob2.tags           # [('Der', 'DT'), ('Blob', 'NN'), ('macht', 'VB'),
                     #  ('in', 'IN'), ('seiner', 'PRP$'), ...]
 
-blob.noun_phrases   # WordList(['Der Blob', 'seiner unbekümmert-naiven Weise',
+blob2.noun_phrases   # WordList(['Der Blob', 'seiner unbekümmert-naiven Weise',
                     #           'den gewissen Charme', 'hölzerne Regie',
                     #           'konfuse Drehbuch'])
 
 
-for sentence in blob.sentences:
+"""
+for sentence in blob2.sentences:
     print(sentence.sentiment.polarity)
-# 1.0
-# 0.0
 
-blob.translate(to="es")  # '" The Blob " hace a su manera ingenua...'
+"""

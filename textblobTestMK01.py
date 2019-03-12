@@ -6,7 +6,7 @@
 # ! git remote add origin https://github.com/junker-joerg/mk-nlp
 # - eröffnet und nochmal
 
-from textblob import TextBlobDE
+from textblob_de import TextBlobDE
 
 text = '''
 "Der Blob" macht in seiner unbekümmert-naiven Weise einfach nur Spass.

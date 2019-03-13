@@ -35,7 +35,7 @@ for chunk in doc.noun_chunks:
 # ein Berliner
 
 # noun chunks include so-called measure constructions ...
-doc = de(u'Ich möchte gern zum Essen eine Tasse Kaffee bestellen.')
+doc = de(u'Ich möchte gern zum Essen eine Tasse Kaffee bestellen.') # TODO hängt wohl an den fehlenden Links
 print([ chunk for chunk in doc.noun_chunks ])
 # output:
 # [Essen, eine Tasse Kaffee]
@@ -45,3 +45,17 @@ doc = de(u'Der Senator vermeidet das Thema Flughafen.')
 print([ chunk for chunk in doc.noun_chunks ])
 # output:
 # [Der Senator, das Thema Flughafen]
+
+# Use word vectors
+de = spacy.load('de')
+doc = de(u'Der Apfel und die Orange sind ähnlich')
+# assert len(doc.vector) == len(doc[0].vector))
+der_apfel = doc[:2]
+die_orange = doc[3:5]
+der_apfel.similarity(die_orange)
+# output:
+# 0.63665210991205579
+der, apfel = der_apfel
+der.similarity(apfel)
+# output:
+# 0.24995991403916812

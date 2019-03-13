@@ -9,6 +9,16 @@
 # TODO mit NLTK
 # TODO mit GENSIM weitermachen: https://radimrehurek.com/gensim/tutorial.html
 # Todo spacy
+# ! für Windows: pip install 
+# für Ubuntu / Mint sudo apt-get install build-essential python-dev git 
+# WIN: spacy.load('en') geht nicht - dagegen spacy.load('en_core_web_sm') geht...
+# also immer nlp = spacy.load('en_core_web_sm') nehmen
+# wenn keine Permissions: pip install de_core_news_sm-2.0.0.tar (muss im gleichen Verzeichnis stehen) ==> manuelle installation
+# pip install .tar.gz archive from path or URL
+# ! pip install /Users/you/en_core_web_sm-2.0.0.tar.gz
+# import de_core_news_sm geht
+
+import de_core_news_sm
 
 from textblob_de import TextBlobDE
 import pandas as pd
@@ -21,7 +31,7 @@ f1.close()
 blob2.sentences
 sens = pd.DataFrame(blob2.sentences)
 tgs = pd.DataFrame(blob2.tags)
-
+print(sens)
 
 #blob = TextBlobDE(text)
 

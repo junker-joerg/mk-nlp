@@ -1,0 +1,3522 @@
+ 
+
+ 
+
+ 
+
+ 
+__________________________________________________________________________ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ IT-Strategie   
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+Stand: 30.06.2014 
+
+ 
+
+IT -Strategie                                 
+
+ 
+
+INHALT 
+
+1  MANAGEMENT SUMMARY ..................................................................................... 6 
+
+2  KAPITELÜBERSICHT .............................................................................................. 8 
+
+3  SITUATION DER ABTEILUNG INFORMATIONSMANAGEMENT UND 
+BANKBETRIEB............................................................................................................... 9 
+
+3.1  Organisationsstruktur und Personal ............................................................................ 9 
+
+3.2 
+
+IT-Anwendungs-Architektur .......................................................................................... 9 
+
+3.3 
+
+IT-Infra-Architektur ....................................................................................................... 12 
+
+3.4  Kosten........................................................................................................................... 12 
+
+3.5  Handlungsbedarf ......................................................................................................... 12 
+
+4  STRATEGISCHE ZIELE UND MAßNAHMEN DER DÜSSELDORFER 
+HYPOTHEKENBANK AG ............................................................................................. 14 
+
+4.1  Generelle Ziele ............................................................................................................. 14 
+
+4.2  Geschäftsspezifische Ziele ......................................................................................... 14 
+
+4.3  Umsetzung ................................................................................................................... 15 
+
+4.4  Auswirkungen auf die IT-Struktur ............................................................................... 15 
+
+5 
+
+IT-INFRASTRUKTUR-ARCHITEKTUR .................................................................. 17 
+
+5.1 
+
+Software as a Service / Cloud ..................................................................................... 17 
+
+5.2  Web 2.0 ......................................................................................................................... 18 
+
+5.3 
+
+ITIL ................................................................................................................................ 19 
+
+5.4  Kennzahlen (Key Performance Indicators) ................................................................. 19 
+
+5.5 
+
+Service- und Produktkatalog ....................................................................................... 21 
+
+6 
+
+IT-ANWENDUNGSARCHITEKTUR ....................................................................... 23 
+
+6.1  Grundlegende Prinzipien ............................................................................................. 23 
+
+6.2 
+
+IT-Bebauungsplan (siehe Anlage) ............................................................................... 23 
+
+6.3 
+
+SAP-Anwendungen ...................................................................................................... 23 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 2 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+6.4  Business Warehouse ................................................................................................... 24 
+
+6.5 
+
+SEPA-Fähigkeit ............................................................................................................ 24 
+
+6.6 
+
+PMS ............................................................................................................................... 25 
+
+6.7  Marktdatenversorgung ................................................................................................ 27 
+Reuters .................................................................................................................................... 27 
+Bloomberg ............................................................................................................................... 27 
+
+6.7.1 
+6.7.2 
+
+6.8  Workflow ....................................................................................................................... 27 
+SAP Workflow ......................................................................................................................... 27 
+
+6.8.1 
+
+6.9 
+
+Textverarbeitung .......................................................................................................... 27 
+
+6.10  Weitere Konsolidierung ............................................................................................... 28 
+Ablösung Lotus Notes nach Aufbewahrungsfristen von COR-PARIS .................................... 28 
+ACCESS .................................................................................................................................. 28 
+
+6.10.1 
+6.10.2 
+
+7  PROZESSMANAGEMENT DER IT-ANWENDUNGEN .......................................... 28 
+
+7.1 
+
+Steuerung und Überwachung der operativen IT-Prozesse ....................................... 28 
+
+7.2 
+
+Testmanagement (Dokumentation, Verzahnung, Testfälle) ...................................... 29 
+
+7.3 
+
+ITIL (Change, Incident, Configuration) ....................................................................... 30 
+
+8 
+
+IT-TECHNOLOGIE-STRATEGIE ............................................................................ 30 
+
+8.1  Grundlegende Prinzipien ............................................................................................. 30 
+Infrastrukturwandel im SAN Speicherumfeld .......................................................................... 32 
+Produktionsprinzipien .............................................................................................................. 33 
+
+8.1.1 
+8.1.2 
+
+8.2 
+
+IT-Betrieb ...................................................................................................................... 34 
+7 x 24 Stunden-Betrieb ........................................................................................................... 34 
+Steuerung und Überwachung ................................................................................................. 34 
+Schicht-Betrieb ........................................................................................................................ 35 
+Daten- und Middlewaresysteme.............................................................................................. 35 
+SAP-Basisbetreuung und Releasemanagement .................................................................... 35 
+Outsourcing Strategie ............................................................................................................. 35 
+
+8.2.1 
+8.2.2 
+8.2.3 
+8.2.4 
+8.2.5 
+8.2.6 
+
+8.3 
+
+Systemplattformen ....................................................................................................... 36 
+Plattformen ......................................................................... Fehler! Textmarke nicht definiert. 
+Betriebssysteme ...................................................................................................................... 36 
+Datenbanken ........................................................................................................................... 36 
+
+8.3.1 
+8.3.2 
+8.3.3 
+
+8.4  Datenhaltung und -archivierung ................................................................................. 36 
+Normalbetrieb .......................................................................................................................... 36 
+Archivierungssystem ............................................................................................................... 37 
+
+8.4.1 
+8.4.2 
+
+8.5  Netzwerke ..................................................................................................................... 37 
+Daten-Netzwerk....................................................................................................................... 37 
+
+8.5.1 
+
+8.6 
+
+End- und Peripherie-Geräte ......................................................................................... 38 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 3 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+8.7 
+
+IT-Arbeitsplatz, Authentifizierung und Berechtigungen ............................................ 39 
+IT-Arbeitsplatz ......................................................................................................................... 39 
+Benutzer-Authentifizierung ...................................................................................................... 39 
+Verwaltung von Berechtigungen ............................................................................................. 39 
+
+8.7.1 
+8.7.2 
+8.7.3 
+
+9 
+
+IT-SICHERHEIT ...................................................................................................... 40 
+
+9.1 
+
+Zugriffssicherheit ......................................................................................................... 40 
+
+9.2  Ausfallsicherheit .......................................................................................................... 40 
+
+9.3  Gebäudesicherheit ....................................................................................................... 41 
+
+9.4  Kommunikationssicherheit ......................................................................................... 41 
+
+10  UMWELTSTRATEGIE (GREEN IT) ........................................................................ 43 
+
+10.1  Zentraler Serverbetrieb ................................................................................................ 43 
+
+10.2  Energieeffizienz am Arbeitsplatz ................................................................................ 43 
+
+11  ORGANISATIONSSTRATEGIE ............................................................................. 44 
+
+11.1  Aktueller Stand der Organisation ............................................................................... 44 
+Aufgaben ................................................................................................................................. 44 
+Instrumente (Dokumentation) .................................................................................................. 44 
+Fazit ......................................................................................................................................... 45 
+
+11.1.1 
+11.1.2 
+11.1.3 
+
+11.2  Handlungsbedarf im Bereich der Bankorganisation ................................................. 46 
+11.2.1  Optimierung Ablauforganisation .............................................................................................. 46 
+11.2.2  Weiterentwicklung OHB .......................................................................................................... 46 
+11.2.3  Optimierung Aufbauorganisation ............................................................................................ 47 
+11.2.4  Mitwirken bei der Umsetzung gesetzlicher Änderungen ......................................................... 47 
+
+12  IT/BANKORGANISATION ...................................................................................... 47 
+
+12.1  Organisationsstruktur ................................................................................................. 47 
+
+12.2  Sourcing ....................................................................................................................... 47 
+
+12.3  Personalentwicklung ................................................................................................... 48 
+
+13  IT-KOSTEN ............................................................................................................. 49 
+
+13.1  Entwicklung der IT-Kosten .......................................................................................... 49 
+
+13.2  Kostensteuerung ......................................................................................................... 49 
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 4 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+Genehmigung 
+
+ 
+
+Das vorliegende IT-Strategie-Papier beinhaltet die Fortschreibung der Informationstechnologie 
+(IT) in der Düsseldorfer Hypothekenbank AG. Es trägt sowohl der Entwicklung der Bank in der 
+Fortschreibung ihrer Geschäftsstrategie, als auch der Entwicklung des IT-Marktes Rechnung. 
+  
+Dieses Papier bildet die Grundlage für die IT-Entwicklung der Düsseldorfer Hypothekenbank AG 
+in den nächsten vier Jahren und muss daher durch den Vorstand genehmigt werden.  
+Dies wird in einer Vorstandssitzung per Vorstandsvorlage vollzogen. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Wahrung der Vertraulichkeit 
+ 
+Der Inhalt dieses Dokuments ist Eigentum der Düsseldorfer Hypothekenbank AG. Er darf ohne 
+schriftliche Genehmigung der Düsseldorfer Hypothekenbank AG weder ganz noch teilweise 
+dupliziert, an Dritte weitergegeben oder anderweitig veröffentlich werden. Dies gilt nicht für Ko-
+pien, die für interne Verwendung bestimmt sind. 
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 5 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+1  Management Summary 
+ 
+Das Kerngeschäft der Düsseldorfer Hypothekenbank AG ist die gewerbliche Immobilienfinanzie-
+rung im Inland und in ausgewählten Ballungszentren im angrenzenden europäischen Ausland. 
+Kundenzielgruppe sind professionelle Immobilieninvestoren, die ein breites Spektrum an inte-
+grierten und kapitalmarktorientierten Finanzierungs- und Zusatzleistungen anfordern.  
+ 
+Strategische Neuausrichtung der Bank seit 2012:  
+
+•  Oberstes Geschäftsziel ist die Reorganisation der Bank zu einem fokussierten, nachhaltig 
+
+operierenden und rentablen Unternehmen. 
+ 
+
+•  Die Bank konzentriert sich auf die gewerbliche Immobilienfinanzierung als Kerngeschäft und 
+dabei insbesondere auf den Ausbau des spezifischen Know-hows in der Geschäftsakquisiti-
+on, der Prozessgestaltung und dem Risikomanagement. 
+ 
+
+•  Das Kapitalmarktgeschäft (einschließlich Staatskreditgeschäft) wird durch ein aktives Ma-
+
+nagement zurückgefahren und ist in Zukunft nunmehr ein komplementäres Geschäftsfeld zur 
+Immobilienfinanzierung. 
+ 
+
+•  Mit ihrer überschaubaren Personalausstattung und ihrer effizienten Unternehmensorganisa-
+tion verfügt die DHB über wettbewerbsfähige Kostenstrukturen. Es gilt, diesen Wettbewerbs-
+vorteil zu bewahren und auch durch Kooperationen auszubauen. 
+
+ 
+Aus der Zieldefinition ergibt sich, dass vorwiegend komplexe (auch hinsichtlich der Refinanzie-
+rung) Geschäfte in geringer Stückzahl zu bearbeiten sind.  
+In den nächsten Jahren ist im Kerngeschäft mit einem hohen (vielfachem) Wachstum  zu rech-
+nen.  
+ 
+
+Bei der Ableitung der IT-Strategie aus den Geschäftszielen und -schwerpunkten sind zwei we-
+sentliche Aspekte zu berücksichtigen: 
+
+1.  Einerseits ist die IT-Strategie vorrangig auf die Anforderungen der Kernbank ausgerich-
+
+tet und implementiert. Die Geschäftsprozesse sind im Wesentlichen definiert aber die 
+Mengengerüste in Bezug auf Neugeschäft und Gesamtportfolio erfordern einen hohen 
+Anpassungsbedarf hinsichtlich Effektivität und Effizienz. Die IT ist hier gefordert dyna-
+misch den Wachstumsprozess zu fördern. 
+
+2.  Zum anderen ist das Geschäftsmodell in der Praxis bewährt und wird gemäß der Strate-
+
+gie keinen grundsätzlichen prozessualen Änderungen unterworfen. Da der Fokus nun 
+mehr in der mengenorientierten Justage entsprechend der Kunden- und Markterforder-
+nisse wie auch den gesetzlichen und regulatorischen Anforderungen liegt, ist die jetzige 
+IT-Plattform als Kernelement der Anwendungslandschaft anzusehen. Entsprechend der 
+genannten Einflüsse sind hier Anforderungen der Fachbereiche in einem stabilen Um-
+feld vorzunehmen. 
+
+Im Rahmen der konkreten Ausarbeitung der IT-Strategie wurden in dem vorliegenden Strate-
+giepapier die wesentlichen inhaltlichen und organisatorischen Bereiche in der 
+IT/Bankorganisation untersucht und unter Beachtung der angeführten Rahmenbedingungen die 
+konkreten Auswirkungen auf die IT-Strategie ausgearbeitet. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 6 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+Neben den allgemeinen Architekturrichtlinien und der grundsätzlichen Positionierung in Bezug 
+auf IT-technische Trends und Schwerpunkte wurden die Rahmenbedingungen für die zukünfti-
+ge Weiterentwicklung der  Anwendungs- und Systemlandschaft formuliert. Dies umfasst neben 
+der technologischen Strategie auch technische Infrastrukturthemen und die Organisation des 
+IT-Betriebes inklusive der Sourcing-Strategie für die Düsseldorfer Hypothekenbank AG. 
+
+Als wesentliche Maßnahmen sind die weitere Konsolidierung der eingesetzten Technologien 
+und der Anwendungslandschaft vorzusehen, die Feinjustage der Standard-
+Anwendungssoftware sowie der weitere Ausbau des Outsourcing in geschäftsunkritischen Be-
+reichen. Die wesentlichen Kernelemente der Anwendungsarchitektur bilden hierbei SAP als 
+Buchungsmaschine und PMS als Handels- und Risikomaschine. 
+
+Zur Sicherstellung der IT-Sicherheit werden diverse Maßnahmen auf den Gebieten Zugriffs-
+schutz, Systemausfall und Archivierung umgesetzt. 
+
+Im Bereich der Bankorganisation wird aktuell die derzeitige Dokumentations-Plattform geprüft 
+und im Laufe des Jahres 2015 abgelöst, um zukünftig die Bereitstellung aller benötigten Infor-
+mationen für das Tagesgeschäft der Mitarbeiter in schneller, aktueller, übersichtlicher, verständ-
+licher Form zu gewährleisten.  
+
+In der Personalentwicklung wird das zukünftige Anforderungsprofil der IT-Mitarbeiter sowie der  
+IT-Koordinatoren in den Fachbereichen und das Schulungskonzept zu entwickeln sein, welches 
+die notwendige Steigerung der Innovationsfähigkeit gewährleistet. 
+
+Bei den IT-Kosten ist mittelfristig von einer leichten Reduktion auszugehen. Insbesondere 
+nachdem  in 2014 die wesentlichen Organisationsänderungen abgeschlossen sind. Parallel wird 
+die Steuerung der IT-Kosten durch zusätzliche Maßnahmen optimiert. Zielsetzung ist dabei die 
+kontinuierliche Erhöhung der Kostentransparenz in der Kostenrechnungssystematik. 
+
+Das Projektportfolio der Bank findet in der IT-Strategie Berücksichtigung, insofern Ressourcen 
+und Budgets seitens der IT zur Verfügung gestellt werden sowie die IT grundsätzlich flexible 
+Erweiterungsmöglichkeiten der Systeme anbietet. 
+
+Die Umsetzung der IT-Strategie soll im Rahmen der IT-Maßnahmenplanung und der IT-
+Kostenplanung erfolgen. Der Vorstand wird regelmäßig über den aktuellen Stand der Umset-
+zung informiert.  
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 7 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+2  Kapitelübersicht 
+ 
+In Kapitel 3 wird die aktuelle IT-Landschaft der Düsseldorfer Hypothekenbank AG be-
+schrieben. 
+ 
+In Kapitel 4 werden strategisch relevante unternehmerische Ziele und Maßnahmen aufge-
+führt und erläutert. Aus ihnen leitet sich ein Großteil der strategischen Ziele und Maßnahmen 
+der IT ab.  
+ 
+Andere IT-Maßnahmen begründen sich aus den IT-Infrastruktur-Architektur, die in  
+Kapitel 5 – ausgehend von aktuellen Markttrends unter Berücksichtigung Düsseldorfer Hypo-
+thekenbank AG spezifischer Randbedingungen –  aufgestellt werden.  
+ 
+Die IT-Anwendungsstrategie in Kapitel 6 behandelt die zukünftige Entwicklung der einzelnen, 
+das Leistungsspektrum der IT umfassenden, anwendungsbezogenen Produkte. In die hier auf-
+geführten Ziele und Maßnahmen fließen sowohl Anforderungen aus der Unternehmensstrategie 
+(Kapitel 4) als auch Vorgaben aus dem IT-Infrastruktur-Architektur-Konzept (Kapitel 5) ein. 
+ 
+In Kapitel 7 (Prozessmanagement der IT-Anwendungen) wird dargestellt, wie im Servicema-
+nagement  der IT unter Kosten-/Nutzengesichtspunkten ein hoher Automationsgrad angestrebt 
+wird. 
+ 
+Kapitel 8 stellt die Strategie zur IT-Technologie vor, die vornehmlich für die Konzeption und 
+Aufrechterhaltung des IT-Betriebes verantwortlich ist und von einem entsprechenden Out-
+sourcer gefordert sind. Hier werden strategische Ziele und Maßnahmen zu Themen wie Hard-
+ware-Ausstattung, Datenhaltung und -sicherung, Netzwerktechnik und -kommunikation bis hin 
+zu Gebäude- und Ausfallsicherheit vorgestellt.  
+ 
+Kapitel 9 stellt die technischen als auch organisatorischen Vorkehrungen dar, die auf  ver-
+schiedensten Ebenen getroffen werden damit die IT-Sicherheit gewährleistet ist. 
+ 
+Kapitel 10 stellt die Umweltstrategie im IT Umfeld (Green IT) vor, die auf die Einsparung von 
+Primärenergie und damit die Verminderung der CO2 Emissionen zielt. 
+ 
+In Kapitel 11 (Bankorganisation) erfolgt neben der aktuellen Darstellung der Bankorganisation 
+die Darstellung der zukünftigen Anforderungen. 
+ 
+Ziele und Maßnahmen zu Personalentwicklung, Personaleinsatz und Aufbauorganisation wer-
+den im Kapitel 12 (Personalstrategie) vorgestellt. 
+ 
+Kapitel 13 beinhaltet die IT-Kostenstruktur und beschreibt Ansätze zur Erhöhung der Kos-
+tensteuerung und -transparenz. 
+ 
+Aus der Strategie werden Maßnahmen abgeleitet, die in den kommenden Jahren umgesetzt 
+oder zumindest angestoßen werden.  
+ 
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 8 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+3  Situation der Abteilung Informationsmanagement und Bankbetrieb 
+
+3.1  Organisationsstruktur und Personal 
+
+ 
+Der SAP- IT-Betrieb ist derzeit zur IMS (IBM Mittelstand Systeme) ausgelagert. Ebenso unter-
+liegen die internen Services der Infrastruktur dem Outsourcing zur IKB-Data. Die Koordination 
+und Kontrolle der Outsourcer erfolgt über die Abteilungsleitung der ITB.  
+ 
+Die derzeitige Organisationsstruktur der DHB Informationsmanagement und Bankbetrieb stellt 
+sich wie folgt dar: 
+ 
+Informationsmanagement und Bankbetrieb 
+Leiter Hr. Thiele; Vertreter H. Jung (Erweiterte Geschäftsleitung);  
+Vertreter Bankbetrieb:  Fr. Kirstein 
+ 
+Bankbetrieb: 
+Verwaltung/ Organisation/ Service 
+ 
+Fr.Kirstein 
+Hr. Haack 
+Hr. Giertz  
+ 
+
+Informationsmanagement 
+ 
+
+BraCor GmbH 
+IKB-Data 
+  
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+3.2 
+
+IT-Anwendungs-Architektur 
+
+ 
+Derzeit nutzt die Bank SAP-Systeme mit den branchenunabhängigen Modulen für die Finanz-
+buchhaltung und das Kostencontrolling. Als bankenspezifische SAP-Software-Module kommen 
+das Darlehensmodul (CML) sowie das Wertpapiermodul (CFM) zum Einsatz. Die Module für 
+Banksteuerung (SEM) und Bauträgermodul / Modul für das Einlagengeschäft (BCA) sind instal-
+liert, aber nicht produktiv im Einsatz. 
+ 
+Aktiv-Seite:  
+Neben dem SAP-Standard wird zusätzlich eine speziell für Hypothekenbanken entwickelte 
+Software (MBS: Mortgage Banking Solution) eingesetzt, welche durch die iBS, Wiesbaden, ver-
+trieben wird. 
+ 
+Wichtige Buchungsvorgänge wie Stornobuchungen, Rücklastschriften oder Ausfälle von leis-
+tungsgestörten Darlehen verbleiben in der Bearbeitung der Buchhaltung. Die Buchhaltung ist 
+ferner zuständig für die Abstimmung der Haupt- und Nebenbuchsalden. Die Sollstellung für Zin-
+sen und Tilgung wird täglich im Rahmen eines automatisierten Ablaufs gebucht und von der 
+Zahlungsabwicklung weiterverarbeitet.  
+ 
+Passiv-Seite: 
+In der Abteilung Treasury Operations / Deckungsmanagement werden im Wesentlichen sämtli-
+che Handelsgeschäfte Wertpapiere, Geld, Devisen und Derivate sowie Schuldschein- / Kom-
+munaldarlehen und Namenspapiere systemtechnisch erfasst und gepflegt. Aktuell erfolgt dieses 
+im SAP- und im PMS-System (Portfolio und Risiko Management System der Firma much-net). 
+Geplant ist, dass bis Mitte 2015 die Doppeleingabe auf der Passiv-Seite entfällt und nach einer 
+Erfassung im PMS-System vollintegriert die Geschäfte nach SAP übernommen werden. Agio- / 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 9 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+Disagio-Abgrenzung, Sollstellung (Zins und Tilgung) und Bewertung werden vom System ma-
+schinell vorgenommen. Die Nebenbuchhaltungen sind integriert mit der Haupt- bzw. Finanz-
+buchhaltung verbunden.  
+ 
+Hauptbuchhaltung:  
+Anhand der Monatsumsätze wird eine detaillierte Kontrollrechnung für alle Geschäftsarten er-
+stellt und dem Ergebnis der Buchhaltung gegenübergestellt; Abweichungen werden geklärt. Die 
+Zahlungsabwicklung innerhalb der Finanzbuchhaltung wird beleghaft durchgeführt. Es erfolgt 
+eine manuelle Zuordnung von Zahlungseingängen auf gebuchte „Offene Posten“ und deren 
+Ausgleich im SAP-System. Als Schnittstelle für die Verbindung zur ausführenden Bank dienen 
+unsere Outsourcing-Partner für den Zahlungsverkehr, die Firmen van den Berg und EFIS. 
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 10 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+In der folgenden Skizze ist die Anwendungsarchitektur 2014 dargestellt. 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 11 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+3.3 
+
+IT-Infra-Architektur 
+
+ 
+
+ 
+ 
+ 
+Die nachfolgende Skizze zeigt die Standort Struktur in der Zusammenarbeit mit der IKB-Data 
+GmbH und IBM / IMS auf. 
+ 
+
+  
+Stand  01.04.2014 
+ 
+ 
+
+3.4  Kosten 
+
+ 
+
+ 
+Durch die SAP-Einführung aus dem Jahr 2012 können die Kosten im eingeschwungenen er-
+heblich reduziert werden. Die Ursachen hierfür liegen insbesondere in den Betreiberkosten der 
+SAP-Lösung und der Kooperation durch gemeinsame Entwicklung und Benutzerbetreuung der 
+Anwendungsmodule.  
+ 
+
+3.5  Handlungsbedarf 
+
+ 
+Im nachfolgenden sind einige Punkte aufgeführt in denen generell ein Handlungsbedarf gese-
+hen wird. In den nachfolgenden Kapiteln wird auf die einzelnen Punkte eingegangen. 
+ 
+Im Bereich der Informationsmanagement: 
+
+•  Optimierung der Struktur- und Prozessorganisation (insbesondere auch mit den IT-
+
+Systemen und der Integration von SAP und PMS) 
+
+•  Releasewechsel Meldewesen und PMS 
+•  Weitere Standardisierung der SAP-Landschaft (Wegfall MBS-add ons) 
+•  Ausbau wirksames Kostencontrolling 
+•  Durchführung regelmäßiger IT-Benchmarks ab 2015 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 12 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+•  Festlegung von weiteren KPI’s für die IT 
+ 
+
+ 
+Im Bereich der Organisation: 
+
+•  Einführung / Ausbau eines wirksamen Kostencontrolling 
+•  Begleitung von Prozessoptimierungen Optimierung der Ablauforganisation durch elekt-
+
+ronischen Workflowsystem 
+
+•  Überarbeitung des Organisationshandbuches und Aufbau einer verbesserten elektroni-
+
+schen Plattform 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 13 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+4  Strategische Ziele und Maßnahmen der Düsseldorfer Hypothekenbank AG 
+ 
+Hier werden zunächst grob die wichtigsten strategischen Ziele und Maßnahmen der Düsseldor-
+fer Hypothekenbank AG aufgeführt. Diese bilden den Ausgangspunkt für die IT-Strategie. 
+
+4.1  Generelle Ziele 
+
+ 
+Die Düsseldorfer Hypothekenbank AG positioniert sich als Spezialist für gewerbliche Immobili-
+enfinanzierungen im Inland und in ausgewählten Ballungszentren im angrenzenden europäi-
+schen Ausland. Kundenzielgruppe sind professionelle Immobilieninvestoren, die ein breites 
+Spektrum an integrierten und kapitalmarktorientierten Finanzierungs- und Zusatzleistungen an-
+fordern. Die Bank verfolgt seit dem Übergang auf den neuen Eigentümer die folgende strategi-
+sche Neuausrichtung:  
+
+•  Oberstes Geschäftsziel ist die Reorganisation der Bank zu einem fokussierten, nachhal-
+
+tig operierenden und rentablen Unternehmen. 
+ 
+
+•  Die Bank konzentriert sich auf die gewerbliche Immobilienfinanzierung als Kerngeschäft 
+und dabei insbesondere auf den Ausbau des spezifischen Know-hows in der Geschäfts-
+akquisition, der Prozessgestaltung und dem Risikomanagement. 
+ 
+
+•  Das Kapitalmarktgeschäft (einschließlich Staatskreditgeschäft) wird durch ein aktives 
+
+Management zurückgefahren und ist in Zukunft nunmehr ein komplementäres Ge-
+schäftsfeld zur Immobilienfinanzierung. 
+ 
+
+•  Mit ihrer überschaubaren Personalausstattung und ihrer effizienten Unternehmensorga-
+nisation verfügt die DHB über wettbewerbsfähige Kostenstrukturen. Es gilt, diesen Wett-
+bewerbsvorteil zu bewahren und beispielsweise durch Kooperationen auszubauen. 
+ 
+Rahmenbedingungen 
+ 
+Hieraus lassen sich für die IT-Strategie folgende wesentlichen Leitplanken ableiten: 
+ 
+
+•  Flexibilität bei der Unterstützung der Restrukturierung und der Neuausrichtung 
+
+ 
+
+ 
+
+•  Wirtschaftliche Geschäftsprozesse mit hohem Automatisierungsgrad und geringer Per-
+
+• 
+
+sonalausstattung 
+ 
+IT ist kein Kerngeschäft – Outsourcing von IT-Services wenn Leistungen im Markt  effek-
+tiver und effizienter sind und auch alle aufsichtsrechtlichen Rahmenbedingungen erfül-
+len. 
+ 
+Dieses Geschäftsmodell erfordert im Immobiliengeschäft erhebliche Umstellungs- und 
+Aufbauarbeiten. Darüber hinaus liegt der Fokus auf laufenden Feinausrichtungen ent-
+sprechend der Kunden- und Markterfordernisse sowie der gesetzlichen bzw. regulatori-
+schen Anforderungen. 
+
+4.2  Geschäftsspezifische Ziele 
+
+Die Eckpunkte des Geschäftsmodells sind wie folgt definiert: 
+•  Die Bank konzentriert sich auf den deutschen Markt sowie Finanzierungen in ausgewählten 
+
+Ballungszentren im angrenzenden europäischen Ausland. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 14 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+•  Zielkunden sind professionelle Immobilienkunden aus dem In- und Ausland. Es werden 
+
+grundsätzlich alle marktgängigen Objektarten – Büroobjekte, Handelsimmobilien, Lo-
+gistikzentren und Wohngebäude (gewerblich, d.h. Mehrfamilienhaus) finanziert; Spezia-
+limmobilien wie z.B. Pflegeheime und Hotels werden in geringerem Umfang selektiv fi-
+nanziert 
+
+•  Kerngeschäftsfeld der Bank ist die Finanzierung mittelgroßer Transaktionen mit einem 
+Finanzierungsvolumen zwischen ca. 10 Mio. Euro und ca. 50 Mio. Euro, in Einzelfällen 
+auch darüber hinaus 
+
+•  Schwerpunktmäßig werden am Markt wieder platzierbare Kredite herein genommen; 
+
+grundsätzlich stehen drei Exit-Kanäle zur Verfügung, wobei der Fokus auf Pfandbriefen 
+liegt, aber auch Syndizierungen und Verbriefungen strategisch angestrebt werden 
+•  Die Abwicklung und Verwertung notleidender Kredite werden von der Bank betreut. 
+
+4.3  Umsetzung 
+
+ 
+Aus der Zieldefinition ergeben sich unmittelbar Schlussfolgerungen für die Fortführung der Ge-
+schäftsstrategie: 
+
+•  Das  Geschäftsmodell  ist  in  der  Immobilienfinanzierung  verbunden  mit  einem  deutlich 
+
+steigendem jährlichen Neugeschäft 
+
+•  Die Bank ist an einem zentralen Standort präsent  
+•  Hinsichtlich der schlanken Aufstellung und Spezialisierung der Bank ist eine Anzahl von 
+
+ca. 70 Mitarbeitern im Kerngeschäftsbereich längerfristig realistisch 
+
+ 
+Insgesamt bedeutet dies, dass vorwiegend komplexe (auch hinsichtlich der Refinanzierung) 
+Geschäfte in geringer Stückzahl zu bearbeiten sind. 
+In den nächsten Jahren ist im Kerngeschäft mit einem hohen (vielfachen) Wachstum zu rech-
+nen.  
+
+4.4  Auswirkungen auf die IT-Struktur 
+
+Bei der Ableitung der IT-Strategie aus den Geschäftszielen und -schwerpunkten sind zwei we-
+sentliche Aspekte zu berücksichtigen: 
+
+1.  Einerseits ist die IT-Strategie vorrangig auf die Anforderungen der Kernbank ausgerich-
+
+tet und implementiert. Die Geschäftsprozesse sind im Wesentlichen definiert aber die 
+Mengengerüste in Bezug auf Neugeschäft und Gesamtportfolio erfordern einen hohen 
+Anpassungsbedarf hinsichtlich Effektivität und Effinzienz. Die IT ist hier gefordert dyna-
+misch den Wachstumsprozess zu fördern. 
+
+2.  Zum anderen ist das Geschäftsmodell in der Praxis bewährt und wird gemäß der Strate-
+
+gie keinen grundsätzlichen prozessualen Änderungen unterworfen. Da der Fokus nun 
+mehr in der mengenorientierten Justage entsprechend der Kunden- und Markterforder-
+nisse wie auch den gesetzlichen und regulatorischen Anforderungen liegt, ist die jetzige 
+IT-Plattform als Kernelement der Anwendungslandschaft anzusehen. Entsprechend der 
+genannten Einflüsse sind hier Anforderungen der Fachbereiche in einem stabilen Um-
+feld vorzunehmen. 
+
+Unter dem Aspekt der Stabilität und des Aufbaues sind nun im Systemkontext die Potenziale in 
+Bezug auf  
+
+•  Anwendungsarchitektur,  
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 15 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+IT-Sicherheit, 
+
+•  Systemarchitektur,  
+• 
+• 
+• 
+
+IT-Organisation,  
+
+IT-Kosten 
+
+kritisch zu betrachten und im Hinblick auf die Anforderungen des Tagesgeschäfts anzupassen 
+bzw. zu optimieren. 
+
+Durch die Anwendungslandschaft der Düsseldorfer Hypothekenbank AG wurde die IT-
+Unterstützung der Bankfunktionalitäten in den letzten zwei Jahren verbessert bzw. auf Basis 
+des Turnarounds des Hauses sukzessive ausgebaut. 
+
+ 
+Im Bereich der Kreditanbahnung und Abwicklung wurden die vorhandenen Anwendungen und 
+Funktionen zur Unterstützung der Anbahnungsphase und der Bestandsverwaltung weiter ge-
+nutzt Dies gilt auch für die Syndizierung und die Verwaltung von syndizierten Krediten. 
+ 
+Für die Refinanzierung wurde die IT-technische Unterstützung der Verbriefungstransaktionen 
+und die Abbildung der Pfandbriefrefinanzierung in SAP unter dem Modul CML Core Banking 
+Mortgage Loans in den letzten Jahren weiter ausgebaut. Durch ausgeprägte Schnittstellen zum 
+Management für Finanzprodukte, dem Meldewesen und dem Zahlungsverkehr wurde ein den 
+Anforderungen entsprechender Automatisierungsgrad erreicht. Verbindungen zum Hauptbuch, 
+den Debitoren- und Kreditoren-Nebenbüchern sowie dem Controlling sind durch die Standard-
+Software gewährleistet 
+Die Prozesse im Umfeld des Analytical Banking wurden weitgehend unter PMS (System der 
+much-net) ausgebaut. Das Reporting basiert auf Datenbanken, die über Schnittstellen aus den 
+verschiedenen Systemen gefüllt werden. Optimierungen sind aktuelle in der Analyse.   
+Zur Stärkung der Vertriebsstruktur, die auf Grund der neuen Ausrichtung auf den deutschen 
+Markt und den gewerblichen Zielmarkt sowohl hinsichtlich der geographischen Ausrichtung als 
+auch auf Grund des angestrebten Zielsegmentes neue technische Bearbeitungswerkzeuge be-
+nötigt, soll in Zukunft das Deal-Team besser unterstützt werden. Die Geschwindigkeit des Deal-
+Teams als echten Wettbewerbsfaktor der Düsseldorfer Hypothekenbank AG noch besser aus-
+zunutzen, kann durch IT verstärkt werden.  
+
+ 
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 16 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+IT-Infrastruktur-Architektur 
+
+5 
+Der Begriff IT-Infrastruktur-Architektur bezeichnet den konzeptionellen Aufbau der Anwen-
+dungssysteme bei der Düsseldorfer Hypothekenbank AG. Im Folgenden werden diejenigen As-
+pekte der IT-Infrastruktur-Architektur beschrieben, die für eine effiziente und effektive Umset-
+zung der strategischen IT-Ziele und damit auch der Unternehmensziele maßgeblich sind.  
+Vor allem aus den Zielen Flexibilität und effiziente Kostenstruktur ergeben sich prinzipielle An-
+forderungen an die IT-Architektur in der Düsseldorfer Hypothekenbank AG: 
+
+(cid:1)  Hohe  Anpassungsfähigkeit  an  sich  schnell  verändernde  Geschäftsprozesse  Verkür-
+
+zung der Produkt-Auslieferungszyklen (Time-to-Market)  
+
+(cid:1)  Konsequente  Verfolgung  einer  minimum-Vendor-Strategie  ermöglicht  Kosteneffizienz 
+
+durch Reduzierung der Plattformvielfalt 
+
+(cid:1)  Vermehrter  Einsatz  von  Standard-Software  bzw.  Standard-Komponenten  senkt  die 
+Wartungskosten und ermöglicht die Umwidmung von Wartungsressourcen für die Um-
+setzung neuer Anforderungen 
+
+(cid:1)  Bei Erweiterungen der IT-Landschaft ist einerseits die Kosteneffizienz zu berücksichti-
+gen, aber andererseits sind Erweiterungen auch so flexibel zu gestalten, dass sie auf 
+Veränderungen im Geschäftsmodell reagieren können 
+
+ 
+SAP und PMS werden als Kernelemente der Anwendungslandschaft betrachtet. Die Systeme 
+sind produktiv und konsequent auf die Bedürfnisse der Bank ausgerichtet. Es handelt sich bei 
+diesen Anwendungssystemen um auf dem IT-Markt etablierte Systeme, so dass Support in die-
+sem Bereich langfristig gewährleistet ist. 
+Daneben wird die IT-Architektur auch durch technische Innovationen beeinflusst. Die derzeit 
+aktuellen IT-Technologie-Trends und die technologische Ausrichtung der o.g. Vendoren auf 
+dem IT-Markt wurden bei der Konzeption dieser IT-Architektur berücksichtigt.  
+Die hier vorgestellten Konzepte zur strategischen Ausrichtung der zukünftigen Düsseldorfer 
+Hypothekenbank AG IT-Architektur werden bei der Konzeption und Entwicklung neuer Anwen-
+dungen, bei Konsolidierungsmaßnahmen und bei der Auswahl von Fremdprodukten und 
+Fremdleistungen verbindlichen Charakter haben. 
+
+5.1  Software as a Service / Cloud 
+
+ 
+Die Begriffe Software as a Service (SaaS) und Cloud-Computing sind mittlerweile in der IT sy-
+nonym zu verwenden. Hierbei steht im Vordergrund, dass ein Anbieter Software zur Verfügung 
+stellt und diese betreibt. Der Anwender kann nun auf den Rechnern des Anbieters die zu nut-
+zende Software (as a Service) aufrufen, mit dieser arbeiten und sich nach dem Erreichen des 
+gewünschten Ergebnisses wieder abmelden. Er zahlt für diesen Service „on demand“ also nur 
+für die tatsächliche Nutzung. Cloud-Computing ist lediglich eine Erweiterung dieser SaaS-
+Funktionalität dahingehend, dass das System des Anbieters auf Rechnern verteilt (Cloud) lie-
+gen kann und die Software auf einem dieser Rechner ausgeführt wird.  
+ 
+Anbieter – wie z.B. SAP – setzen in Zukunft auf solche Services, um ihre Produkte (quasi aus 
+einer Hand) dem Anwender zur Verfügung zu stellen. Mit dieser Technologie wird man sich in 
+Zukunft von einem Rechenzentrum als Service-Provider zunehmend lösen können. Allerdings 
+ist die Technologie heute auf weniger kritische Anwendungen beschränkt, da Sicherheitsme-
+chanismen im Internet verteilten Anwendungen noch nicht den erwünschten Reifegrad haben. 
+Dennoch gehört dieses Thema explizit in die IT-Strategie der Düsseldorfer Hypothekenbank 
+AG, da sich in absehbarer Zeit Potenziale vom Markt abschöpfen lassen. 
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 17 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+Ziel 
+Ziel der Düsseldorfer Hypothekenbank AG ist es, auf dem Markt angebotene Services im 
+Gleichgewicht von Preis-/Leistungsverhältnis von professionellen Anbietern zu nutzen. Die IT 
+hat in diesem Fall die starke Rolle des „Enablers“, da sich Unternehmensprozesse, die nicht 
+unmittelbar einen Beitrag zur Wertschöpfung haben im Sinne des Business Process Outsour-
+cing auslagern lassen.  
+
+5.2  Web 2.0 
+
+ 
+Während das Internet in den 90er Jahren des letzten Jahrhunderts einen Hype auslöste und die 
+bis dahin eingefahrenen Gewohnheiten von PC-Usern in revolutionärer Weise nachhaltig beein-
+flusste, ist die weitere Entwicklung des Internets eher evolutionär zu sehen. Es haben sich in 
+dieser Fortentwicklung (bekannt unter dem Stichwort Web 2.0, das langsam durch das Schlag-
+wort Social Media abgelöst wird) eine Reihe interaktiver und kollaborativer Elemente in der 
+Mensch-Maschine-Mensch Interaktion manifestiert, die den Anwender im Umgang mit dem In-
+ternet selbständiger und intuitiver machten. Diese Arbeitsweisen sind mittlerweile im privaten 
+Gebrauch von Internet und IT derart etabliert, dass es naheliegend ist, das „Look, Work & Feel“ 
+dieser Art zu arbeiten in die professionellen Umgebungen zu integrieren. Das bedeutet, dass 
+zum einen Standardsoftware diesem Thema Rechnung tragen wird und im Zusammenhang mit 
+der Bereitstellung in einer Cloud (s.o.) solche Arbeitsweisen sinnvoll sind.   
+ 
+Hierbei gewinnen sog. Mashups (von engl. „to mash“: „vermischen“) bei der Bereitstellung von 
+Diensten zunehmend an Bedeutung.  Es ist nicht mehr die Regel, die einzelnen Dienste ge-
+trennt zu nutzen, sondern die Webinhalte verschiedener Dienste werden über offene Program-
+mierschnittstellen nahtlos zu neuen Diensten verbunden.  
+ 
+Daher wird die Unterscheidung zwischen Intra- und Extranet zunehmend fließend. Der Anwen-
+der ist vielmehr in eine Portalumgebung eingebettet, in der er sich aufgrund seiner Benutzerbe-
+rechtigung bewegt. Damit wird der Übergang zwischen verschiedenen Anwendungen und 
+Diensten erleichtert. 
+ 
+Die SAP-Software bietet in ihrer Weiterentwicklung diese Portallösung an, so dass dies mehr 
+und mehr zum Standard gehört. Darüber hinaus lassen sich durch Open Source-Produkte frei 
+zugängliche Anwendungen in ein Portal integrieren.  
+ 
+Das zurzeit bekannteste Produkt des Web 2.0 ist das sog. WIKI (hawaiisch: „schnell“), dass es 
+ermöglicht, in Kollaboration (unter Beachtung einer Versionierung) Texte in einer Gemeinschaft 
+zu entwerfen. Dieses Vorgehen bietet sich für Dokumentation (Handbücher, Org-
+Dokumentation, Protokolle etc.) sehr gut an, da eine Abstimmung nicht formalisiert, sondern 
+direkt und online unter Berücksichtigung der Nachvollziehbarkeit (wer hat was geändert) eben 
+schnell erfolgt. 
+ 
+Für die Projektarbeit gewinnen in Projektteams „Weblogs“ zunehmend an Bedeutung. Ein 
+Weblog wird oftmals als Tagebuch im Internet bezeichnet. Ein festgelegter Autorenkreis ver-
+fasst Einträge, die in chronologisch umgekehrter Reihenfolge aufgelistet werden. Der Leser 
+kann Kommentare zu den Einträgen verfassen. 
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 18 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+Ziel 
+Die Düsseldorfer Hypothekenbank AG wird diesem Anspruch in der Weiterentwicklung ihrer 
+Anwendungslandschaft gerecht, in dem zum einen zunehmend die Techniken von WIKI inte-
+griert werden und zum anderen mit dem neuen SAP Release die technischen Grundlagen für 
+eine Portallösung gegeben ist.   
+
+5.3 
+
+ITIL  
+
+ 
+Die IT Infrastructure Library (ITIL) ist eine Sammlung von Best Practices in einer Reihe von 
+Publikationen, die eine mögliche Umsetzung eines IT-Service-Managements (ITSM) beschrei-
+ben und inzwischen international als De-facto-Standard hierfür gelten. In dem Regel- und Defi-
+nitionswerk werden die für den Betrieb einer IT-Infrastruktur notwendigen Prozesse, die Auf-
+bauorganisation und die Werkzeuge beschrieben. Die ITIL orientiert sich an dem durch den IT-
+Betrieb zu erbringenden wirtschaftlichen Mehrwert für den Nutzer. Dabei werden die Planung, 
+Erbringung, Unterstützung und Effizienz-Optimierung von IT-Serviceleistungen im Hinblick auf 
+ihren Nutzen als relevante Faktoren zur Erreichung der Geschäftsziele eines Unternehmens 
+betrachtet. 
+ 
+ITIL schließt die Lücke zwischen strategischer Unternehmensplanung und die daraus resultie-
+rende effiziente Umsetzung in IT (strategische Informationsplanung). Das Regelwerk beschreibt 
+in mehr als 40 (!) Büchern die Vorgehensweise mit Methoden und Verfahren, wie ein reibungs-
+loser IT-Betrieb aufgestellt sein sollte.  
+ 
+Da die IT der Düsseldorfer Hypothekenbank AG in großen Teilen bereits ausgelagert ist und 
+somit die meisten Verfahren (IT-Sicherheit, Service-Desk, IT-Continuity Management etc.) beim 
+„Outsourcer“ Anwendung finden, sollten die Verfahren dieses Best Practice Ansatzes effizient 
+und gezielt in der Düsseldorfer Hypothekenbank AG eingesetzt werden. In Form eines „Cherry 
+Picking“ aus den Vorgaben der IT Infrastructure Library lassen sich noch Potenziale zur Steige-
+rung der Effizienz des bestehenden IT-Betriebes in der Düsseldorfer Hypothekenbank AG ab-
+schöpfen.  
+ 
+Ziel 
+So wird Potenzial in der Kontrolle und Weiterentwicklung von Applikationen und deren Steue-
+rung gesehen. Konkret bedeutet dies, dass die Düsseldorfer Hypothekenbank AG (als Anwen-
+der) mit ihren Anforderungen architekturkonform gemäß der SAP (als Softwarevendor) Anforde-
+rungen an die Servicer (Hoster) in diesem Dreiklang umsetzen kann. Darüber hinaus können 
+bei Applikationsneuerungen bzw. –erweiterungen die Fachbereichsanforderungen in Form ei-
+nes verbesserten Testmanagement dediziert nachvollzogen werden. 
+ 
+Die Standardsoftware von SAP bietet hier mit dem Solution Manager als in der Lizenz verfügba-
+res Paket die Chance, diese Anforderungen kostenneutral in der IT der Düsseldorfer Hypothe-
+kenbank AG umzusetzen. Darüber hinaus muss das sog. Change Control Management mit dem 
+„Outsourcer“ verbessert werden, so dass vor allem (unvorhergesehene) Abbrüche in der Nacht-
+verarbeitung (Incidents) aufgrund von Daten- oder Prozessfehler noch besser nachvollziehbar 
+und damit noch schneller behebbar werden.    
+ 
+
+5.4  Kennzahlen (Key Performance Indicators) 
+
+ 
+Das Ziel von Kennzahlen (Key Performance Indicators, KPIs) ist es, komplexe Sachverhalte in 
+Unternehmen in relativ einfacher Form darzustellen. Dabei steht insbesondere der Aspekt der 
+optimalen Aggregation im Vordergrund, da zum einen die Anzahl der Kennzahlen möglichst 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 19 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+gering und sie selbst möglichst einfach gehalten werden sollten. Andererseits sollten sie aber 
+auch den realen Sachverhalt möglichst originalgetreu und unverfälscht wiedergeben. Diese Ori-
+ginaltreue kann nur begrenzt erreicht werden, da die Ermittlung der Kennzahlen von der Genau-
+igkeit der Messmethode und von stochastischen Schwankungen abhängig ist. Außerdem kön-
+nen einzelne Kennzahlen unterschiedlich interpretiert werden, da unter Umständen weitere In-
+formationen für eine genaue Beurteilung des Sachverhalts fehlen. 
+ 
+Diese Nachteile einzelner Kennzahlen können teilweise durch Kennzahlensysteme behoben 
+werden. Unter einem Kennzahlensystem versteht man eine geordnete Gesamtheit von Kenn-
+zahlen, die in sachlich sinnvoller Beziehung zueinander stehen und somit einen bestimmten 
+Sachverhalt vollständig beschreiben sollen. Hier hat sich in der Praxis die Balanced Scorecard 
+(BSC) bewährt. Es handelt sich um ein Kennzahlensystem, bestehend aus finanziellen und 
+nichtfinanziellen Größen, das die verschiedenen Dimensionen (Kunden, Finanzen, interne Pro-
+zesse, Potenzial) eines Unternehmens gleichberechtigt nebeneinander darstellen kann. Die 
+BSC stellt eine Weiterentwicklung konventioneller Kennzahlensysteme dar (z.B. des DuPont- 
+oder ZVEI-Kennzahlensystems). Durch die BSC sollen alle Mitarbeiter und Manager motiviert 
+und in die Lage versetzt werden, die Unternehmensstrategie erfolgreich umzusetzen. Die BSC 
+wird deshalb oftmals mit einem Flugzeug-Cockpit verglichen, in dem der Pilot (Manager) einen 
+Überblick über die relevanten Informationen zur Steuerung des Flugzeugs (Unternehmen) an-
+gezeigt bekommt. 
+ 
+Es werden in der Regel vier  wesentliche Dimensionen für die Systematisierung der zentralen Erfolgs-
+faktoren und Kennzahlen eines Unternehmens bzw. einer Geschäftseinheit vorgeschlagen: 
+ 
+
+(cid:1)  Die finanzielle Perspektive enthält monetäre Kennzahlen, um den wirtschaftlichen Erfolg des 
+
+Unternehmens bzw. der Geschäftseinheit abzubilden. Im Mittelpunkt stehen finanz-
+wirtschaftliche Messgrößen, basierend auf vergangenheitsorientierten Daten, wie z.B. Rentabi-
+lität und Liquidität. Indirekt geben diese Daten Aufschluss darüber, ob die Unternehmensstra-
+tegie und die daraus abgeleiteten Maßnahmen erfolgreich waren oder nicht.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+(cid:1)  Die Markt-/Kundenperspektive identifiziert Kunden- und Marktsegmente, die für das Unter-
+nehmen bzw. die Geschäftseinheit wichtig sind. Entsprechend dieser Analyse können darauf 
+aufbauend Kennzahlen für die Kundenzufriedenheit, die Anzahl der Kundenakquisitionen, die 
+Kundenrentabilität sowie für Gewinn- und Marktanteile festgelegt werden. Dadurch soll sicher-
+gestellt werden, dass das Unternehmen die Möglichkeit hat, sich besser am Markt zu orientie-
+ren.  
+
+(cid:1)  Die Geschäftsprozessperspektive konzentriert sich auf Leistungsprozesse zur Erreichung 
+der in der Finanz- und Markt-/Kundenperspektive definierten Ziele. Zielsetzung in diesem Be-
+reich muss es sein, kritische Prozesse anhand zweier Einflussfaktoren zu identifizieren: Kun-
+denbedürfnisse und Erwartungen der Anteilseigner. Ausgehend von dieser Analyse müssen 
+auf diese Prozesse Verbesserungsschwerpunkte gelegt werden. Dies beinhaltet nicht nur die 
+existierenden Prozesse, vielmehr fördert die BSC auch die Entwicklung neuer Prozesse. Die 
+BSC erweitert außerdem den Begriff der Wertkette in der Hinsicht, dass auch der Innovations-
+prozess völlig neuer Produkte und Dienstleistungen integriert wird. Somit soll sichergestellt 
+werden, dass auch ein langfristiger Aspekt der Wertschöpfung berücksichtigt wird.  
+
+(cid:1)  Die Lern- und Entwicklungsperspektive identifiziert und schafft eine Infrastruktur im Unter-
+nehmen, die ein kontinuierliches Wachstum und Lernen ermöglicht. Diese Entwicklung betrifft 
+drei Bereiche im Unternehmen: Menschen, Systeme und Unternehmenskultur. Es muss darauf 
+geachtet werden, dass Wachstum und Lernen dieser drei Elemente aufeinander abgestimmt 
+sind. Mit der Balanced Scorecard wird versucht, jede Kennzahl auf der Basis einer Ursache-
+Wirkungskette mit monetären und nicht-monetären Zielgrössen zu verbinden. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 20 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+Die wichtigsten KPI´s sind in der KPI-Bibliothek (www.kpilibrary.com) zusammengefasst. Hierbei wer-
+den neben den wichtigsten IT-technischen Kennzahlen auch bankfachliche veröffentlicht.  
+ 
+Ziel 
+Für die Düsseldorfer Hypothekenbank AG ist zu prüfen, ob dieser Ansatz der vielschichtigen Umset-
+zung von Unternehmensstrategie in Prozesse und IT sinnvoll ist. Der Vorteil ist für alle Beteiligten evi-
+dent: es lässt sich die Umsetzung und (Neu-) Implementierung von Prozessen und Software nachhal-
+tig am Unternehmenserfolg messen, da der Wertschöpfungsmehrwert am gesamten Neuprozess fest-
+gemacht werden kann. Für die in eine Balanced Scorecard einbezogenen Fachabteilung (vom TOP-
+Management bis hin zur Sachbearbeitung) ist entsprechend hohe Disziplin beim Umgang mit den 
+Kennzahlen gefordert. 
+
+5.5  Service- und Produktkatalog 
+
+   
+Mittlerweile sind Service- und Produktkatalog Bestandteile von ITIL V3. Hier ist geregelt, wie der 
+Service- und Produktkatalog in einer IT-Organisationseinheit serviceorientiert für die Fachabtei-
+lungen (Kunden) zur Verfügung gestellt wird. 
+ 
+Der Service-Katalog beschreibt, "was" an Leistungen verfügbar ist. Das Service-Level-
+Agreement (SLA) beschreibt, "wie" die Leistung erbracht wird. Das Service Level Requirement 
+zeigt auf, "warum", in welchem Umfang und mit welcher Gewichtigkeit eine Leistung erbracht 
+werden soll. Damit wird die Transparenz und Tragweite komplexer IT-Prozesse vereinfacht so-
+wie Ihre Effizienz in den Vordergrund gestellt. Grundlagen für die Erstellung eines SLAs sind 
+deshalb neben einem Service-Katalog auch die Service Level Requirements. Intern wird der zu 
+erbringende Service im so genannten Service Quality Plan beschrieben. 
+ 
+Dem Service Level Manager obliegt neben der Verwaltung des Service-Katalogs die Aktualisie-
+rung, Anpassung sämtlicher Verträge und Überwachung der verabredeten Qualitätsparameter 
+(Key Performance Indicators). 
+ 
+Die IT der Düsseldorfer Hypothekenbank AG hat ein starkes Interesse an der Transparenz ihrer 
+Leistungserbringung, um Kritik hinsichtlich Kundenorientierung, Qualität, Flexibilität und Kosten 
+zu begegnen. Rigorose Standardisierung ist dabei unausweichlich, die aber mit dem Streben 
+nach Flexibilität und Kundenindividualität kollidiert. 
+Als wirkungsvolles Instrument zur Bewältigung dieses Konflikts hat sich der IT-Produktkatalog 
+bewährt, in dem die IT-Dienstleister ihr gesamtes standardisiertes Dienstleistungsangebot 
+mit festgelegten, messbaren Qualitätskennziffern und Verrechnungssätzen 
+(„Preisen“) publiziert. 
+ 
+Auf Abnehmerseite werden IT-Leistungen vorab kalkulierbar. Unterschiedliche Qualitätsstufen 
+lassen sich anhand der Preisunterschiede auch wirtschaftlich bewerten. Die kostenbewusste 
+Inanspruchnahme von IT-Services wird so gefördert. Standardisierung wird durchsetzbar, 
+weil die Mehrkosten individueller Abweichungen ausgewiesen werden. 
+ 
+Auf Seiten des IT-Dienstleisters wird eine klare Messlatte sowohl für die Kosten der 
+Produkterstellung als auch für die Servicequalität vorgegeben. Produktpreise machen über 
+einen längeren Zeitraum hinweg Kostenentwicklungen transparent. Sie bilden die Grundlage 
+für ein Benchmarking mit externen Anbietern, vergleichbare Qualität vorausgesetzt. 
+ 
+Produkte stellen auftragsunabhängige, standardisierte Leistungen dar, die für die Kunden 
+unmittelbar von Nutzen sind. Sie sind Bausteine für den Betrieb der IT-Infrastruktur sowie 
+der Fachanwendungen. Standardisiert sind sie hinsichtlich des Leistungsumfangs als auch der 
+angebotenen Service Level. Die Anforderungen der Abnehmer hingegen sind oftmals 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 21 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+individuell. Die Lösungen für die Kunden setzen sich daher in der Regel zusammen aus den 
+Produkten des Standardproduktkatalogs und individuellen Anpassungen und Erweiterungen. 
+Ziel muss sein, die individuellen Anteile möglichst gering zu halten.  
+ 
+Mit einem Produktkatalog kann der Auftrag gebenden Fachseite leichter der Mehraufwand für 
+individuelle Abweichungen transparent gemacht werden. Das Produktmanagement ist die stra-
+tegische Funktion, die das Produktportfolio in Richtung der sich wandelnden Kundenanforde-
+rungen, Standardisierung und Kostensenkung weiter entwickelt.  
+ 
+Für den Produktkatalog eine operative handhabbare Form zu finden, stellt für IT-Dienstleister 
+eine komplexe Aufgabe dar, die enge Verflechtungen zu anderen Vorhaben aufweist (Service 
+Management, Vertragsmanagement, Prozessorientierung). 
+ 
+Schon die Produktbildung selbst ist eine anspruchsvolle Aufgabe. Bisher separate Leistungen 
+einzelner Organisationseinheiten und externer Lieferanten sind zu einem Produkt zusammenzu-
+fassen, das als Ganzes eine vom Kunden benötigte Leistung umfasst. Produkte müssen auf-
+tragsunabhängig beschrieben sein und von Kundenspezifika abstrahieren. Funktionale Be-
+schreibungen sind gefragt, die die Anforderungen der Fachabteilungen treffen. Technische De-
+tails werden verborgen, um die Standardisierung zu unterstützen. 
+ 
+Einheitliche Service Level sind festzulegen, die sich an wesentlichen Prozessanforderungen der 
+Organisation orientieren. Die Einheitlichkeit der Service Level erleichtert die Steuerung der Be-
+triebsprozesse, die Abrechnung und ist Voraussetzung für die Kombination von Produkten. Mit 
+einem Kalkulationsmodell, das die Produktpreise je Service Level aus den Kenngrößen von 
+Planung und Kostenrechnung ableitet, gewinnt man ein Steuerungsinstrument sowohl für die 
+verursachergerechte Kostenverteilung wie den Soll-Ist-Abgleich in Produktion und Absatz. 
+ 
+Das Produktportfolio muss kontinuierlich weiterentwickelt werden, um die zunehmenden Anfor-
+derungen der Nutzer zu erfüllen, die Integration der Services zu verbessern, die Kosten zu sen-
+ken und der technischen Entwicklung zu folgen. 
+ 
+Ziel 
+Für die Düsseldorfer Hypothekenbank AG ist aufgrund des Leistungsportfolios des IT-
+Outsourcers und der Produktentwicklung der (wenigen) IT-Vendoren ein Leistungskatalog für 
+die Anwender abzuleiten. Damit wird das Bepreisen des Regelbetriebes und die Kostenschät-
+zung für (Neu-)Produktentwicklung für den Anwender transparent und planbar. 
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 22 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+IT-Anwendungsarchitektur 
+
+6 
+ 
+Aus den in Kapitel 3 aufgeführten unternehmerischen Zielen und der in Kapitel 5 beschriebenen 
+IT-Architektur lassen sich die hier vorgestellten strategischen Ziele für die IT-Anwendungen 
+ableiten. 
+
+6.1  Grundlegende Prinzipien 
+
+Die zukünftige Entwicklung und Gestaltung der IT-Produkte und -Systeme in der Düsseldorfer 
+Hypothekenbank AG unterliegen – neben allgemeinen unternehmerischen Vorgaben – den fol-
+genden Prinzipien bzw. Zielsetzungen: 
+
+(cid:1)  Aufbau einer möglichst umfassenden, einheitlichen IT-Plattform mit dem Leitbild der mi-
+
+nimum-Plattform-Strategie (SAP/PMS) 
+
+(cid:1)  Bevorzugter Einsatz von Standard-Software vor Eigenentwicklungen; Reduzierung der 
+
+Eigenentwicklungen durch Standard oder Cost-Sharing-Modelle 
+
+(cid:1)  Flexible Produktgestaltung und schnelle Anpassungsfähigkeit an sich ändernde Anforde-
+
+rungen des Marktes und der Neuausrichtung der Geschäftsstrategie. 
+
+(cid:1)  Angesichts der schlanken Aufstellung der alten und neuen Kernbank und der damit ver-
+bundenen niedrigen Mengengerüste ist zum Teil auch weiterhin der Verzicht auf techni-
+sche Lösungen in Betracht zu ziehen 
+
+ 
+
+6.2 
+
+IT-Bebauungsplan (siehe Anlage) 
+
+ 
+Im Bebauungsplan sind alle heute von der Düsseldorfer Hypothekenbank AG IT eingesetzten 
+Produkte und Systeme und deren Einordnung in die Kernprozesse der verschiedenen Bereiche 
+dargestellt. Die Vorstellung des Bebauungsplanes soll hier zum Verständnis der IT-
+Anwendungsstrategie beitragen und zeigen, in welchem Ausmaß die Systeme heute bereits 
+produktübergreifend im Einsatz sind.  
+
+6.3  SAP-Anwendungen 
+
+ 
+SAP hat mit seiner Release-Strategie zunehmend die technische und die (bank-)fachliche Ebe-
+ne getrennt. Das schlägt sich dahingehend für den Anwender nieder, dass die Releasewechsel 
+zwar immer noch mit den entsprechenden Qualitätssicherungsmaßnahmen beim Anwender 
+durchgeführt werden, aber bei weitem nicht mehr soviel Ressourcen binden. Das liegt daran, 
+dass SAP das Basis-System (ERP, Enterprise Ressource Planning) unabhängig von den funk-
+tionalen Erweiterungen (EHP, Enhancement Pack) ausliefert. Damit wird die SAP-Strategie die 
+eigene kontinuierliche Verbesserung und Aufnahme der Markt- und Kundenanforderungen in 
+der Software zu verankern, in der Düsseldorfer Hypothekenbank AG als Regelbetrieb aufge-
+nommen (SAP Continouus Improvements). 
+ 
+Durch diese Novellierung wurde die Düsseldorfer Hypothekenbank AG zudem zeitlich von den 
+Release-Zyklen des Herstellers entkoppelt: Da bei diesem Verfahren der technische Release-
+wechsel (z.B. Plattformerweiterungen) und der (Bank-)fachliche Releasewechsel getrennt 
+durchzuführen sind. Jede neue Funktionalität kann nun explizit freigeschaltet werden. Man kann 
+also nach einer Release-Freigabe durch die SAP, die funktionalen Erweiterungen mit den 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 23 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+Fachabteilungen der Düsseldorfer Hypothekenbank AG geordnet einführen. Insofern liefert die-
+ses Verfahren eine weitere Möglichkeit, Ressourcen im Betrieb schonend einzusetzen. 
+ 
+Darüber hinaus wird SAP in der Dimension Banking bei seiner Business Suite weiterhin stärker, 
+Basisfunktionalitäten anbieten. So konnte sukzessive auf Fremdsoftware der iBS verzichtet 
+werden, weil die SAP solche Module in Ihr Standardsystem übernommen hat (CYT, Stichwort: 
+Zinsabschlagsteuer) oder Teile von Funktionalitäten standardisiert hat (ACF, Rückzahlungs-
+funktion). Dieser Trend wird verstärkt anhalten, da sich in den nächsten Jahren SAP verstärkt in 
+den Bankenbereich durch jetzt schon absehbare Joint Ventures einbringt.  
+ 
+Ziel 
+Für die Verstärkung der Standardfunktionalität im SAP-Bankingumfeld lässt sich für die Düssel-
+dorfer Hypothekenbank AG eindeutig die Strategie postulieren, sich zukünftig von Nischenan-
+bietern im IT-Bankenumfeld zu lösen und auf ebendiese Standards zu setzen.  
+
+6.4  Business Warehouse 
+
+ 
+Eine zunehmend wichtigere Rolle in den einzelnen SAP Modulen nimmt für die Düsseldorfer 
+Hypothekenbank AG das Business Warehouse ein. Dieser Anwendungsteil bildet die integrative 
+Klammer über verschiedene Auswertungen aller zur Verfügung stehenden SAP aber auch 
+Fremdmodule. Damit wird es möglich, dem Anwender Auswertungen wie „aus einem Guss“ 
+über verschiedenste Applikationen zur Verfügung zustellen. Allerdings erfordert die Administra-
+tion eines Business Warehouse hohes Spezialwissen und führt aufgrund der begrenzten Per-
+sonalressourcen bei zunehmenden Anforderungen häufig zu einem Anwendungsstau.  Die 
+Düsseldorfer Hypothekenbank AG setzt noch eigene Datenhaushalte ein, prüft aber auch die 
+Möglichkeiten von Business Warehouse Systemen.  
+Der Hersteller SAP hat in den letzten drei Jahren seine sog. Business Suite in dem Bereich Wa-
+rehousing durch den Zukauf von Chrystal Reports und Business Objects um die Disziplin der 
+Business Intelligence (BI) erweitert. Hierbei ist nach wie vor das Zentrum der Abfragen das In-
+formation Business Warehouse. Die Möglichkeiten verschiedenster Aufbereitung von Daten (bis 
+hin zu mobilen Apps) werden hierbei anwenderorientierter.  
+ 
+Ziel 
+Das Thema Business Intelligence (BI) ist in der Düsseldorfer Hypothekenbank AG jedoch aktu-
+ell etwas zurückgestellt, da Themen systemtechnischer, regulatorischer und aufsichtsrechtlicher 
+Natur vorrangig zu behandeln sind. Darüber hinaus ist auch die Unternehmensgröße (insbe-
+sondere des IT-Bereiches) zu berücksichtigen. 
+ 
+
+6.5  SEPA-Fähigkeit 
+
+ 
+Mit SEPA (Single Euro Payments Area) wurde ein einheitlicher Euro-Zahlungsverkehrsraum 
+geschaffen, in dem nicht mehr wie bisher zwischen nationalen und grenzüberschreitenden Zah-
+lungen unterschieden wird.  Die SAP-Software ab Release 6.0 mit dem EHP 5.0 unterstützt die 
+speziellen SEPA-Funktionaliäten. Im ERP-System wurden folgende Anpassungen mit dem 
+neuen Release durchgeführt: 
+ 
+
+•  Anpassung von Geschäftsprozessen und Systemen an die Folgen der Einführung neuer 
+
+Zahlungsinstrumente und -methoden 
+
+•  Umsetzung der Konsequenzen aus der Umstellung nationaler Zahlungsmethoden auf 
+
+euroweit einheitliche Verfahren und Standards 
+
+•  Einrichtung neuer XML-basierter Zahlungsformate 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 24 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+•  Ersatz nationaler Bankkontonummern und -kennungen durch IBAN und BIC 
+•  Berücksichtigung neuer Methoden für den Datentransfer bei Massenzahlungen 
+
+ 
+Für die von SAP unterstützten Geschäftsprozesse wurden folgende Softwarefunktionen 
+verankert: 
+ 
+
+•  Bereitstellung von Support Packages für die Herstellung von SEPA-Konformität in SAP-
+
+Umgebungen 
+
+SAP-Systemen 
+
+•  Generierung von zahlungsrelevanten Informationen ohne Datenkonvertierung direkt aus 
+
+•  Unterstützung der ISO 20022-Zahlungsstandards für die Automatisierung grenzüber-
+
+schreitender Zahlungsprozesse 
+
+•  Verwaltung und Pflege der Mandate für Einzugsermächtigungen 
+•  Verbesserung der Bankenkommunikation und die revisionssichere Überwachung des 
+
+ausgehenden Zahlungsverkehrs 
+
+•  Unterstützung der Einrichtung von In-House-Cash-Centern für das Management kon-
+
+zerninterner und -externer Zahlungsströme 
+
+•  Nahtlose Anbindung von SAP-Systemen an SWIFTNet über eine einzige Verbindung  
+
+ 
+Ziel 
+Die Düsseldorfer Hypothekenbank AG setzt aufgrund der geringen Anzahl von Zahlungen nach 
+wie vor Systeme externer Provider (van den Berg und EFIS) ein. Eine Konsolidierung auf einen 
+Providers ist in Arbeit. Die SAP-Funktionalitäten werden im Rahmen der nächsten Release-
+Umstellung mindestens teilweise mit genutzt.  
+
+6.6  PMS 
+
+ 
+Die über SAP hinausgehenden Anwendungen sind für die Düsseldorfer Hypothekenbank AG 
+notwendig, da SAP nicht alle Funktionalitäten hinreichend abdeckt. Die wichtigste Plattform ne-
+ben SAP ist in jedem Fall PMS, da durch den Einsatz dieser Umgebung bankfachliche Anforde-
+rungen im Handelsgeschäft und in dem damit verbundenen Risikobereich abgedeckt werden. 
+Daher bezieht sich die Aussage zu der „minimum-Vendor“ Strategie in erster Linie auf die bank-
+fachlichen Schwerpunkte SAP als Buchungsmaschine und PMS als Handels- und Risikosteue-
+rungsmaschine. 
+ 
+PMS ist ein Produkt von much-net und zur Risiko- und Ergebnissteuerung im Finanzdienstleis-
+tungsumfeld in unterschiedlichen Ausprägungen im In- und Ausland im Einsatz. Es existiert eine 
+gute Basis qualifizierter Berater.  
+PMS ist seit vielen Jahren im Einsatz und die Betreuung seitens der Firma much-net ist gut.  
+Die Architektur von PMS ermöglicht eine flexible Anpassung an Kundenbedürfnisse. Eine mo-
+derne objektorientierte Sprache ermöglicht Anpassungen sowie kundeneigene Applikationen. 
+PMS stellt alle gängigen Methoden zur Bewertung von Finanzinstrumenten zur Verfügung. Min-
+destens halbjährliche Updates stellen sicher, dass neue Methoden der Finanzmathematik 
+pünktlich zur Verfügung stehen. PMS steht für Betriebs- und Datenbanksysteme zur Verfügung, 
+ist im Coresystem vorgesehen und ermöglicht eine flexible Skalierbarkeit.  
+ 
+In der Düsseldorfer Hypothekenbank AG wird PMS in folgenden Bereichen eingesetzt: 
+ 
+Treasury 
+ 
+
+•  PMS wird in Treasury als Handelssystem eingesetzt.  
+•  PMS hat eine Datafeedanbindung mit Reuters.  
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 25 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+•  Darüber hinaus dient PMS in Treasury als Bestandssystem für Handelsgeschäfte. Mit-
+tels Queries können Auswertungen der Bestände nach individuell definierten Kriterien 
+durchgeführt werden.  
+
+•  Durch die Erstellung von Tradefilters können einzelne Geschäfte individuell zusammen-
+
+geführt und ausgewertet werden.  
+
+•  PMS wird in Treasury auch für die Positionsführung von Handelsgeschäften eingesetzt.  
+• 
+
+In PMS können auch P&L-Analysen (Barwert, Carry etc.) durchgeführt werden.  
+
+ 
+Marktrisiko 
+ 
+
+•  Bewertung der Geschäfte für das Collateral Management  
+•  Bewertung von Derivaten zur Verwendung im Rechnungswesen  
+•  Historisierung von Zinskurven und Volatilitäts-Flächen  
+•  Zukünftig: VaR-Berechnung (historisch und parametrisch) für die Gesamtbanksteuerung 
+
+(s.u) 
+
+ 
+Vertrieb Central (Optional) 
+ 
+
+•  Angebotskalkulation Kundenderivate  
+•  Berechnung des BPV als Grundlage der Limitberechnung für Kundenderivate  
+•  Berechnung der barwertigen Erträge aus Kundenderivaten  
+•  Auswertung von Marktwerten für Kundenderivate In Zukunft PVAR für die Kundenge-
+
+schäfte zur Limitermittlung der geplanten Geschäfte  
+
+ 
+Treasury Operations 
+ 
+
+•  Collateral Management  
+•  Teil-automatische Marktgerechtigkeitsprüfung  
+
+ 
+
+Risikosteuerung 
+ 
+Die Düsseldorfer Hypothekenbank AG  errechnet den Value at Risk auf der Basis des beste-
+henden PMS-Systems. Die Berechnung des VaR findet an jedem Tag statt und läuft weitestge-
+hend in der Nacht. Die Berechnung der VaR-Basisdaten (theoretische Bewertungen, Szenarien) 
+erfolgt in PMS (siehe Beschreibungen zur Kreditrisikostrategie). 
+ 
+Die Speicherung der VaR-Zahlen erfolgt in PMS, wo die Daten zur detaillieren Analyse vorge-
+halten werden. Die in PMS zurzeit bereits eingeführten Bewertungseinstellungen decken den 
+Bedarf ab. 
+Um eine vollständige VaR-Berechnung zu ermöglichen, ist auch der Darlehensbestand in der 
+PMS Datenbank. 
+ 
+Es ist weiterhin Ziel von Düsseldorfer Hypothekenbank  AG, die VaR-Lösung im täglichen Ge-
+schäft zuverlässig ohne externe Unterstützung betreiben zu können. Düsseldorfer Hypotheken-
+bank AG betreibt das PMS-System sowohl in der Produktions- als auch in der Testumgebung 
+(inkl. Qualitätssicherung).  
+ 
+Ziel 
+Es wird in dem Zeitraum für den dieses Strategiepapier hinterlegt ist, angestrebt, PMS weiterhin 
+für Themen der Gesamtbank- / Risikosteuerungsteuerungssystem beizubehalten bzw. auszu-
+bauen (wie Weiterentwicklungen im Limitsystem).  Anforderungen aus Basel III werden eben-
+falls in PMS eingebaut. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 26 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+6.7  Marktdatenversorgung 
+
+ 
+Die Düsseldorfer Hypothekenbank AG wird von den Marktdaten-Anbietern Reuters und Bloom-
+berg versorgt. Die Marktdatenversorgung dieser beiden Anbieter ist disjunkt, d.h. überschnei-
+dungsfrei, so dass durch Verzicht auf einen Anbieter grundsätzlich keine Kosten eingespart 
+werden können, da der Leistungsverlust anderweitig kompensiert werden müsste. 
+
+6.7.1  Reuters 
+ 
+Die Anbindung an Reuters dient dem Bezug von Marktdaten und Informationen. Folgende In-
+formationsströme werden genutzt:  
+ 
+
+•  Reuters Informationsplätze im Bereich Treasury  
+•  Marktdatenversorgung für PMS  
+•  Marktdatenversorgung für SAP (Update täglich) über PMS 
+•  Marktdatenversorgung für BAIS über SAP 
+
+6.7.2  Bloomberg 
+ 
+Die Düsseldorfer Hypothekenbank AG hat aus dem Bloomberg Professional Service Bloomberg 
+Terminals im Einsatz. Es handelt sich hierbei um ein eigenständiges Informationssystem, wel-
+ches unter einer Windows-Oberfläche läuft. Hierbei werden auf zwei Bildschirmen Marktdaten in 
+Echtzeit aufbereitet. Es erfolgt keine Datenversorgung von Systemen.  
+ 
+
+6.8  Workflow 
+
+Workflows bilden Geschäftsprozesse ab und steuern deren Ablauf, indem sie einzelne Prozess-
+schritte nach zeitlichen und logischen Vorgaben bestimmten Sachbearbeitern zuordnen. 
+ 
+
+6.8.1  SAP Workflow  
+ 
+Auf Grund der wachsenden Durchdringung der bei der Düsseldorfer Hypothekenbank AG ab-
+laufenden Hauptprozesse mit SAP-Anwendungen und -Komponenten soll als Workflow-
+Instrument der SAP-Workflow weiter ausgebaut werden. 
+ 
+ 
+
+6.9  Textverarbeitung 
+
+ 
+Derzeit sind innerhalb der Düsseldorfer Hypothekenbank AG auf Grund technischer Entwick-
+lungen zwei verschiedene Technologien für die Korrespondenzerstellung und das Output-
+Management im Einsatz: Word und SAPScript bzw. Smartforms  
+ 
+Ziel 
+Konsolidierung der Entwicklungen und des Outputmanagements durch Beschränkung der Text-
+verarbeitung auf MS Word und ein zentrales SAP basiertes Textverarbeitungssystem . 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 27 von 50 
+
+ 
+
+ 
+
+6.10  Weitere Konsolidierung 
+
+ 
+
+IT -Strategie                                 
+
+6.10.1  Ablösung Lotus Notes nach Aufbewahrungsfristen von COR-PARIS 
+ 
+Die Software Lotus Notes wird im der Düsseldorfer Hypothekenbank AG nur für die Auswertun-
+gen aus dem vorherigen COR-PARIS-System genutzt.   
+ 
+Ziel 
+Es sollen keine neuen Anwendungen unter Lotus Notes entstehen. 
+ 
+
+6.10.2  ACCESS 
+ 
+Für die Düsseldorfer Hypothekenbank AG ergeben sich zur Durchsetzung der „minimum 
+Vendor“ Strategie weitere Fragestellungen zur Ablösung von bestehenden Plattformen und de-
+ren Überführung in den Standard von SAP oder PMS oder einem Standard Business Wa-
+rehouse-System In dem Betrachtungszeitraum dieses Strategiepapiers müssen die bestehen-
+den Anwendungen unter ACCESS betrachtet werden, ob eine Ablösung bzw. Migration sinnvoll 
+erscheint. Da ACCESS mittlerweile zum Microsoft Office Professional Paket gehört, ist der Nut-
+zen dem Aufwand kritisch gegenüberzustellen, da es sich um ein leicht zu erlernendes „Power 
+User“-Werkzeug handelt. Aus diesem Grunde ist jede Anwendung unter ACCESS kritisch zu 
+betrachten und den Standard der Software-Vendoren gegenüberzustellen. Es ist jedoch nicht 
+absehbar, dass ein Instrument wie ACCESS (ähnlich wie Excel) in einem Unternehmen aufge-
+geben werden kann. 
+ 
+
+7  Prozessmanagement der IT-Anwendungen 
+ 
+Das Prozessmanagement innerhalb der IT zeichnet sich in der Serviceorganisation aus, eine 
+sichere und reibungslose Tagesverarbeitung für die Fachbereiche bereitzustellen, Änderungen 
+gesetzlicher, aufsichtsrechtlicher oder geschäftspolitischer Natur zeitgerecht umzusetzen und 
+für das Haus aufgrund technischen Fortschritts und den damit verbunden Einsatzmöglichkeiten 
+als Enabler zu dienen. Für die Düsseldorfer Hypothekenbank AG bedeutet dies, dass aufgrund 
+der Personalstruktur, der Geschäftsfelder der Bank und der strategischen Ausrichtung der 
+Rahmen für die Einsatzmöglichkeiten einer Serviceorganisation eng gesteckt sind. Daher wird 
+angestrebt in dem Servicegeschäft der IT einen unter Kosten-/Nutzengesichtspunkten hohen 
+Automationsgrad anzustreben, um Freiräume für das Enabling zu schaffen.   
+
+7.1  Steuerung und Überwachung der operativen IT-Prozesse  
+
+ 
+ 
+Die Jobketten teilen sich in grober Sicht folgendermaßen auf: 
+ 
+
+tägliche Verarbeitung  
+tägliche Verarbeitung Tagesend-Verarbeitung  (Nachtverarbeitung) 
+tägliche Verarbeitung Zahlungsverkehr 
+tägliche Verarbeitung PMS 
+
+• 
+• 
+• 
+• 
+•  Verarbeitung an einem Nicht-Werktag, an dem die int. Börsen geöffnet sind 
+•  wöchentliche Verarbeitung 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 28 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+•  monatliche Verarbeitung (Ultimo) 
+•  monatliche Verarbeitung (Ultimo) an einem Nicht-Werktag 
+•  Besonderheiten bei der Ultimo-Verarbeitung (  
+•  Jahresendverarbeitung   
+
+ 
+Das tägliche Reporting für die Düsseldorfer Hypothekenbank AG wird aus ControlM generiert 
+und seitens der IMS werktäglich um 8:00 Uhr zur Verfügung gestellt. Hierbei sind die Fehlerfälle 
+auf einem hohen semantischen Niveau dokumentiert, so dass zwar ein Anhaltspunkt für den 
+Fehlerfall gegeben ist, jedoch eine vermeidbare Ressourcenbindung zur Lösung des Fehlerfalls 
+eingesetzt wird. 
+ 
+Ziel 
+Die schlanke Lösung: Fehlersichtung durch die Düsseldorfer Hypothekenbank AG und Fehler-
+bereinigung durch die Die Notfallplanung ist in einem Dokument „Notfallplanung“ beschrieben. 
+Dieses wurde im Auftrag der Bank von der IKB-Data erstellt und wird durch diese laufend aktua-
+lisiert. Es ist auf Anforderung in der Abteilung  ITB einzusehen. 
+LCREDITBANK AG bzw. mit Weiterleitung an die IMS soll vorerst nicht verändert werden. Auf-
+grund des Verkaufs der COREALCREDITBANK AG sind allerdings Alternativen zu erarbeiten.  
+ 
+
+7.2  Testmanagement (Dokumentation, Verzahnung, Testfälle) 
+
+ 
+Das Testmanagement in der Düsseldorfer Hypothekenbank AG ist eng verknüpft mit den Tätig-
+keiten und Aufgabenfelder der einzelnen IT-Koordinatoren der COREALCREDITBANK AG. Die 
+COREALCREDITBANK AG übernimmt die Rolle der IT-Koordination für die Düsseldorfer Hypo-
+thekenbank AG (siehe Service-Vertrag). Darüber hinaus testen ausgiebig alle Fachbereiche der 
+Düsseldorfer Hypothekenbank AG neue Einführungen. Größere Abteilungen (wie Immobilienfi-
+nanzierung-Kreditrisiko) stellen für die Umstellungszeit zusätzlich Unterstützung zur Verfügung.   
+ 
+Bei der COREALCREDITBANK AG verwaltet (ändern, löschen, anlegen, dokumentieren) jeder 
+IT-Koordinator „seinen“ Anwendungsbereich auch im Hinblick auf Testfälle und dem entspre-
+chenden Testfallmanagement. In der Regel führt jeder IT-Koordinator in Form von Excel-Sheets 
+seine Testfall-Dokumentation, die er dann situationsbezogen bei einem Change dem Fachbe-
+reich der Düsseldorfer Hypothekenbank AG zur Verfügung stellt. Für den Abschluss eines Vor-
+habens wird dann mit dem Transport-Auftrag (Going-Live) der geänderten oder neuen Applika-
+tion die relevante Dokumentation (dazu gehören auch die Testfälle) im Activity Manager hinter-
+legt. Es handelt sich hier um ein in Praxis bewährtes und für Prüfung und Kontrolle nachvoll-
+ziehbares Verfahren.  
+ 
+Der Solution Manager ermöglicht bei zielgerichtetem Einsatz in einem Unternehmen einen inte-
+grierten Blick auf die Geschäftsprozesse (bankfachliche Anwendungen) in ihrer Gesamtheit. 
+Dadurch wird es ermöglicht, die Prozessstrukturen durch Testfallbeschreibungen, Testpläne 
+oder Schulungsunterlagen anzureichern. SAP liefert für seine Standard-Prozesse mit der Busi-
+ness Process Library bereits Testfallbeschreibungen. Damit wird eine Vollständigkeit der für 
+einen IT-Betrieb notwendigen Unterlagen in direktem Bezug zu den Geschäftsprozessen er-
+reicht. Darüber hinaus ist für die Düsseldorfer Hypothekenbank AG dann die Verwaltung und 
+Steuerung der Testfälle unabhängig von den involvierten Personen. Für Integrationstests wird 
+es möglich alle für eine Prozesskette relevanten Testfälle aus dem System heraus (Business 
+Blueprint) zur Verfügung zu stellen, um größtmögliche Sicherheit für ein erfolgreiches Going-
+Live zu erlangen. 
+ 
+Mit Hilfe von administrative Verfahren, die z.T. automatisiert ablaufen, die Testplanung, Test-
+durchführung und Testauswertung höher zu automatisieren.   
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 29 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+7.3 
+
+ITIL (Change, Incident, Configuration) 
+
+ 
+Mit der Einführung des Solution Managers bei der COREALCREDITBANK AG ergeben sich 
+weitere Möglichkeiten zur verbesserten Steuerung der IT-Management-Disziplinen „Change“, 
+„Incident“ und „Configuration“.  
+ 
+Das im Testmanagement beschriebene Vorgehen stellt einen Teilbereich des Change-
+Managements dar. Grundsätzlich werden Änderungen an der Software-Landschaft durch 
+Vendoren oder durch Anwender initiiert. Durch die Schritte Konzeption, Realisierung, Test, Pro-
+duktivnahme wird ein die IT betreffender Change umgesetzt.  
+ 
+Durch die enge Verzahnung der Geschäftsprozesse mit den erforderlichen Dokumentationen 
+lassen sich im Solution Manager die Dokumente für den Change anhand der Prozesskette ver-
+ankern. Der Solution Manager ermöglicht so eine Sicht auf die verschiedenen Fragestellungen 
+des IT Betriebes an den Prozess. Die Änderungsdokumentation lässt sich im Solution Manager 
+verwalten, so dass jedweder Change im System festgehalten wird. Die Verwaltung von Ände-
+rungsanträgen unterstützt Prozesse wie z. B. dringende Korrekturen bei der Implementierung 
+von schnellen und direkten Änderungen in der Produktivumgebung sowie Aktivitäten bei den 
+Wartungszyklen, wie z. B. regelmäßige Releases sowie Einführungs-, Upgrade- oder Template-
+Projekte. System- und komponentenübergreifende Änderungen werden ebenfalls unterstützt. 
+ 
+  
+ 
+8 
+
+IT-Technologie-Strategie 
+
+8.1  Grundlegende Prinzipien 
+
+Grundlage für den Großteil der strategischen Entscheidungen in der Düsseldorfer Hypotheken-
+bank AG IT-Technologie-Strategie sind unternehmerische Ziele und Kundenbedürfnisse wie 
+Wirtschaftlichkeit, Stabilität, Verfügbarkeit, Sicherheit und Zukunftsorientierung. 
+
+Die folgenden strategischen Grundsätze nehmen Einfluss auf verschiedenste Themenbereiche 
+der IT-Technologie und werden daher hier separat vorgestellt: 
+
+(cid:1)  Zukunftsorientierung 
+
+Prinzipiell wird angestrebt, zwar aktuelle aber bewährte Technik einzusetzen, solange sich 
+für die Düsseldorfer Hypothekenbank AG daraus wirtschaftliche Vorteile ergeben, jedoch 
+den Markt zu beobachten und für die Bank sinnvolle und vorteilhafte Innovationen zeitnah 
+einzusetzen. 
+
+(cid:1)  Mehr-Lieferanten-Prinzip 
+
+Für Produkte und Services, die extern beschafft werden, werden – wenn wirtschaftlich ver-
+tretbar – zwei oder mehr Lieferanten beauftragt, um eine zu starke Abhängigkeit von einem 
+Lieferanten zu vermeiden. 
+
+(cid:1)  Hardware-Erneuerungszyklus  
+
+Der Erneuerungszyklus für die eingesetzte Hardware hängt vornehmlich von den Kriterien 
+Stabilität und Wirtschaftlichkeit ab und liegt im Allgemeinen zwischen 3 und 5 Jahren. 
+
+(cid:1)  Konzentration in der Zentrale 
+
+Die Infrastruktur zum Betrieb der Düsseldorfer Hypothekenbank AG wird ausschließlich in 
+den zentralen Rechenzentren des jeweiligen Servicer betrieben. Ein Betrieb von dezentra-
+len Systemeinheiten in der  Düsseldorfer Hypothekenbank AG oder in externen Standorten 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 30 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+ist strategisch nicht vorgesehen. Spezialanwendungen können im Wege des Service-
+Outtasking auch von dezentralen Systemen (dedizierten oder Shared Systemen, Cloud) 
+bezogen werden. 
+
+(cid:1)  Outsourcing 
+
+Grundsätzlich erfolgt der IT-Betrieb aus Kostengründen und aus operationalen Gründen im 
+Wege des Outsourcing. Soweit sinnvoll sind der Rechenzentrumsbetrieb und die Basisad-
+ministration der IT-Systeme in eine Hand zu geben.   
+ 
+Aktuell sind  folgende Aufgaben an die strategischen Servicepartner ausgelagert: 
+
+•  Rechenzentrumsbetrieb 
+•  Applikationsbetrieb und Basisadministration im SAP und teilweise im PMS Umfeld 
+•  Applikationsbetrieb und Administration der Microsoft Umgebung 
+•  Benutzerservice (zentraler telefonsicher Service und vor Ort Betreuung) 
+•  Betrieb, Wartung und Administration der IT-Arbeitsplatzausstattung und Telefo-
+
+nendgeräte 
+
+ 
+Rechtzeitig vor Ablauf der Vertragslaufzeit ist das Outsourcing neu auszuschreiben. Die 
+nachfolgend aufgeführten Produktions- und Technologie-Prinzipien sind an den neuen Ser-
+vicer zu übertragen bzw. mit diesem auszuhandeln. 
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 31 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+ 
+Service-Outtasking 
+Wo sinnvoll und mit wirtschaftlichen Vorteilen verbunden, werden bestimmte Services nicht 
+von den zentralen Outsourcern (IMS und IKB-Data) betrieben sondern zu speziellen Ser-
+vice-Providern outgesourced (Service–Outtasking). Folgende Services werden von Service-
+Providern  im Wege des Service-Outtaskings betrieben: 
+•  Zahlungsverkehr (Van den Berg AG und EFIS) 
+•  Betrieb des WAN Netzes (Telekom)   
+•  PD-Rating Anwendung CredaRate 
+
+Die Gesamtinfrastruktur des outgesourcten IT-Betriebes ist geprägt durch anhaltende Stan-
+dardisierung und Konsolidierung bei gleichzeitiger hoher Redundanz. In den vergangenen 
+Jahren wurde hierbei durch Verlagerung des RZ Betriebes in die Hochsicherheitsrechen-
+zentren der IBM und IKB-Data und Konsolidierung der Anwendungen auf wenige physikali-
+sche Server unter Nutzung von Virtualisierungstechniken und SAN Infrastrukturen ein we-
+sentlicher Erfolg erzielt. 
+
+Basierend auf der heutigen technischen Infrastruktur, den zukünftigen Herausforderungen des 
+IT-Betriebes und der weiteren Kostenoptimierung ergeben sich folgende grundsätzliche Überle-
+gungen, die zur zukünftigen technischen Infrastruktur und den IT-Betrieb-Prinzipien führen. 
+
+Infrastrukturwandel im SAN Speicherumfeld 
+
+8.1.1 
+ 
+ 
+Nachdem die Konsolidierung der Serversysteme durch Virtualisierung weitgehend erreicht wird 
+und damit Kosteneinsparpotentiale gehoben werden konnten, richtet sich der Fokus in diesem 
+Umfeld auf die Speichersysteme. 
+ 
+Die Kosten für die Nutzung von Festplattenspeichern im IT-Outsourcing nehmen einen hohen 
+Anteil der Gesamtkosten in Anspruch. 
+ 
+Festplattenspeicher sind aufgrund der mechanischen Komponenten und der hohen physikali-
+schen Belastung anfällig für mechanische Störungen, die zum Verlust von Nutzdaten führen 
+können. Es sind daher umfangreiche Vorsorgemaßnahmen (redundante Datenhaltung, Nutzda-
+tenverteilung auf mehreren Platten, regelmäßige Bandsicherungen pp.) notwendig, was dazu 
+führt, dass die Kosten der Speichersysteme für die sichere und rechtskonforme Datenhaltung 
+nicht im gleichen Maß wie die Kosten der im privaten Umfeld eingesetzten Einzelfestplatten 
+sinken. Dies ist auch bedingt dadurch, dass in professionellen SAN Speichersystemen weiterhin 
+kleine Platten genutzt werden um die Zugriffszeiten auf die Daten und die Wiederherstellzeiten 
+für ausgefallene Einzelplatten gering zu halten. Wo zum Beispiel im privaten Umfeld 640 GB 
+Speicher auf einer einzigen Festplatte untergebracht ist werden in einem SAN System 10 Plat-
+ten zu jeweils 64 GB eingesetzt. 
+ 
+Durch die Nutzung der SAN Systeme in den Rechenzentren der IBM konnte die Datenhaltung 
+von den lokalen Servern auf die zentralen Storagesysteme zentralisiert werden. Durch die Zent-
+ralisierung ist es möglich benötigten Speicher kurzfristig zuzuteilen oder zurückzugeben. Hierbei 
+ist jedoch anzumerken, dass die aktuellen SAN Architekturen so ausgelegt sind, dass Syste-
+men und Anwendungen stets nur ein bestimmter Speicherbereich bestehend aus einer Anzahl 
+an Festplatten zu jeweils 64 GB und nicht dediziert eine bestimmte Menge an Speicher flexibel 
+zugeteilt werden kann. Einzelne Systeme wie SAP-Systeme  benötigen mehrere Speicherberei-
+che (z.B. getrennt für Anwendung, Nutzdaten, Programme und Datenbank), die wieder aus ei-
+ner Anzahl zugewiesener Festplatten aus dem SAN  bestehen. 
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 32 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+Unabhängig von der Anzahl der betriebenen physikalischen Server führt die aktuelle SAN 
+Technologie aufgrund der Vielzahl der Systeme auf den virtuellen Servern dazu, dass ein gro-
+ßer Teil der zugewiesenen SAN Festplatten nur teilweise mit Daten belegt ist, wodurch eine 
+nicht unerhebliche Speichermenge berechnet werden muss, ohne dass diese Speichermenge 
+jedoch tatsächlich nutzbar ist. 
+ 
+Neben der Reduzierung der benötigten Speicherbereiche durch Reorganisation und Archivie-
+rung ist das Ziel die Optimierung der Nutzung der aus dem SAN bereitgestellten Festplatten. 
+ 
+Neue Techniken ermögliche es die SAN Technologie durch Virtualisierung zu ergänzen und zu 
+optimieren. Festplatten und Daten werden mittels einer Abstraktionsschicht voneinander ent-
+koppelt und die physischen Realitäten werden maskiert. Hierdurch können Speicherbereiche 
+nicht mehr aus einer Anzahl von zugewiesenen Festplatten bestehen, vielmehr kann dem Spei-
+cherbereich die tatsächlich benötigte Speichermenge zugewiesen werden. 
+ 
+
+8.1.2  Produktionsprinzipien 
+
+ 
+
+(cid:1) 
+
+Automation: 
+
+Rechenkapazität wird den laufenden Diensten so zur Verfügung gestellt, dass alle Ge-
+schäftsprozesse bestmöglich bedient werden 
+
+o  dynamisch 
+o  zuverlässig 
+o  automatisiert 
+
+(cid:1) 
+
+Virtualisierung:  
+
+Die physische Struktur der Hardware wird vor der Software verborgen.  
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 33 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+o  Viele kleine Systeme erscheinen als ein Großes 
+o  Große Systeme können in kleine Einheiten aufgeteilt werden 
+
+(cid:1) 
+
+Integration: 
+
+ Die Komplexität wird durch Integration der Infrastruktur bewältigt 
+
+o 
+o 
+o 
+
+ Architekturplanung 
+ Qualitätssicherung 
+ Tests 
+
+8.2 
+
+IT-Betrieb 
+
+8.2.1  7 x 24 Stunden-Betrieb  
+
+Die IT-Strategie sieht vor, die Verfügbarkeit bzw. Nutzbarkeit aller Systeme den jeweiligen An-
+forderungen der Kunden entsprechend zu gewährleisten, wobei jedoch die Aspekte der Wirt-
+schaftlichkeit zu beachten sind. 
+
+Alle Systeme und Anwendungen stehen grundsätzlich im 7 x 24-Betrieb zur Verfügung (Aus-
+nahmen hierzu sind die definierten Wartungszeiträume und Offlinesicherungen bei einigen Sys-
+temen). 
+
+Hierbei wird zwischen dem überwachten Betrieb mit Rufbereitschaft und den Servicezeiten un-
+terschieden.  
+
+In den Servicezeiten Montag bis Freitag von 8 bis 18 Uhr erfolgt ein bedienter Betrieb durch 
+Systemspezialisten. Dieses gilt auch für Services im Outsourcing. 
+
+Außerhalb der Servicezeiten werden die Systeme im überwachten Betrieb mit Rufbereitschaft 
+betrieben. Während des überwachten Betriebes mit Rufbereitschaft werden die Systeme auto-
+matisch bzw. durch Mitarbeiter des Outsourcers mit allgemeinem IT-Skill überwacht. Telefoni-
+sche Erreichbarkeit ist grundsätzlich nicht verfügbar. Lediglich für dringende, produktionsver-
+hindernde Problem- oder Störungsfällen steht während des überwachten Betriebes mit Rufbe-
+reitschaft eine Hotline-Telefonnummer zur Verfügung, die bei dringenden Problemen mit den 
+Produktionssystemen in Anspruch genommen werden kann. 
+
+8.2.2  Steuerung und Überwachung 
+
+Alle produktionsrelevanten Systeme, Jobs und Prozesse werden über ein zentrales Scheduling-
+System gesteuert und unter Einsatz eines geeigneten Monitoring-Werkzeugs überwacht. 
+
+Eine Reaktion auf Ereignisse während der automatisierten Abläufe erfolgt soweit möglich auto-
+matisiert. Sonder- und Störfälle werden während der Servicezeiten sofort, während des über-
+wachten Betriebes mit Rufbereitschaft am nächsten Arbeitstag behandelt. 
+
+Maßnahmen: 
+
+Ein langfristiges Ziel besteht darin, nicht nur ein service-orientiertes Monitoring sondern ein ge-
+schäftsprozessübergreifendes Monitoring zu etablieren. Im Rahmen der internen Kostenver-
+rechnung ist ein zentrales, automatisches SLA-Monitoring bzw. -Reporting vorzusehen. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 34 von 50 
+
+ 
+
+Kurz- bis mittelfristig sollen folgende Ziele erreicht werden: 
+
+ 
+
+IT -Strategie                                 
+
+(cid:1)  Überführung des automatischen Betriebs in einen überwachten 7 x 24 Stunden 
+
+Betrieb, 
+
+(cid:1)  7 x 24 Stunden Erreichbarkeit nicht nur für produktionsverhindernde sondern 
+
+auch für produktionsbehindernde  Störungen und Probleme, 
+
+(cid:1)  Flexibilisierung der Servicezeiten sofern Fachbereichsanforderungen dies not-
+
+wendig machen. 
+
+(cid:1)  Einbindung der bisher nicht erfassten Prozesse in das zentrale Scheduling-
+
+System. 
+
+8.2.3  Schicht-Betrieb 
+
+Da die Funktionen des Operating und des UHD ausgelagert sind, ist ein Schicht-Betrieb im IT-
+Bereich nicht erforderlich. 
+
+8.2.4  Daten- und Middlewaresysteme 
+
+Für den Online- und Batchbetrieb erforderliche Applicationserver, Web-Applicationserver, Da-
+tenbankserver und Middleware-Systeme werden gemeinsam mit dem Servicer geplant. Die Ein-
+richtung und Überwachung erfolgt durch den Servicer. 
+
+Die für den Test- und Produktionsbetrieb notwendigen Datenbanken werden auf logischer und 
+physikalischer Ebene eingerichtet und für den jeweiligen Betrieb zur Verfügung gestellt. Dazu 
+gehört die Konzipierung und Sicherstellung von Backup und Recovery-Strategien und die Fest-
+legung und Überwachung von Richtlinien zur Datensicherung. 
+
+Die Betreuung und Beratung der Anwendungsentwicklung im o.g. Umfeld sowie der Einsatz von 
+entsprechenden Tools, die Durchführung von Fehleranalyse und -behebung sind weitere durch-
+zuführende Aktivitäten des Outsourcers. 
+
+8.2.5  SAP-Basisbetreuung und Releasemanagement 
+
+Die für den Betrieb von SAP-Anwendungen benötigten Systeme werden installiert, parametri-
+siert und überwacht. Der Produktionseinsatz aller Anwendungen (SAP und Non-SAP) wird ge-
+plant, vorbereitet und in Abstimmung mit allen anderen betroffenen Einheiten eingesetzt. Die 
+Veränderungen der Anwendungen werden durch geeignete Mittel dokumentiert. 
+
+Ziel ist es, mittelfristig zu einem release-orientierten Einsatz von Anwendungen zu kommen. 
+
+8.2.6  Outsourcing Strategie 
+
+Der technische Betrieb sämtlicher Düsseldorfer Hypothekenbank AG-Systeme erfolgt komplett 
+im Outsourcing und ist derzeit an die IBM Mittelstand Services und die IKB-Data ausgelagert. 
+Das Outsourcing umfasst dabei auch den Betrieb einer Serviceline zur Problemannahme und 
+den Vor-Ort-Service für die Arbeitsplatzausstattung. 
+
+Alle Plattformen werden redundant in zwei Hochsicherheitsrechenzentren der IBM bzw. der IKB 
+Data betrieben, alle Systeme und Anwendungen können jeweils aus beiden Rechenzentren zur 
+Verfügung gestellt werden. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 35 von 50 
+
+ 
+
+IT -Strategie                                 
+
+ 
+
+8.3  Systemplattformen  
+
+Alle Systemplattformen der Düsseldorfer Hypothekenbank AG werden zentral vom Outsourcer 
+aufgebaut und betrieben. Die Planung der Kapazitäten erfolgt gemeinsam mit dem Outsourcing 
+Management der Düsseldorfer Hypothekenbank AG. 
+ 
+ 
+Maßnahmen: 
+(cid:1)  Mittelfristig: Einsatz und Ausbau von Open Source Produkten 
+(cid:1)  Mittelfristig: Verlagerung eigenentwickelter Anwendungen auf SAP. Langfristig: Nutzung 
+von Cloud Services zur Reduzierung von Systemen und Anwendungen (z.B. E-Mail Ser-
+vices, unkritische Datenhaltung, Collaboration) 
+
+(cid:1)  Generelle Unterscheidung in der Skalierung von CPU Ressourcen: 
+
+o  Horizontal (Quantität): Aufteilung von Anwendungen auf beliebig viele CPUs 
+
+durch Load-Balancing (z.B. dynamische Aufteilung der virtuellen Server auf die 
+beiden x3950 Server) 
+
+o  Vertikal (Qualität): Für Anwendungen, die High Performance CPUs benötigen 
+
+(z.B. SAP und Datenbankenserver auf AIX) 
+
+8.3.1  Betriebssysteme 
+
+Tendenzen: 
+
+(cid:1) 
+
+(cid:1) 
+
+IBM AIX: Betriebssystem für DB Instanzen und Anwendungen, wird langfristig gesehen als 
+zentrale DB Instanz etabliert. 
+
+Linux: Betriebsystem für das Massen-Applikationsgeschäft, wird langfristig gesehen wach-
+sen und Anwendungen von Windows übernehmen. 
+
+(cid:1)  Windows: Betriebssystem für Infrastruktur-Themen (File-, Print-, Logon-Service), Daten-
+
+banken 
+
+Folgende Datenbanksysteme kommen zum Einsatz: 
+
+(cid:1)  DB2 für SAP; Oracle für PMS 
+(cid:1)  Microsoft SQL und Open Source für andere Systeme 
+
+ 
+Düsseldorfer Hypothekenbank AG betreibt keine Datenbankentwicklung. Soweit für Drittanwen-
+dungen nicht andere Datenbanken zwingend eingesetzt werden müssen kommt grundsätzlich 
+das führende Datenbanksystem zum Einsatz.  
+ 
+
+8.4  Datenhaltung und -archivierung 
+
+8.4.1  Normalbetrieb 
+
+Als Massenspeicher-System kommt für alle Systemplattformen und alle Lieferanten SAN-
+Speicher zum Einsatz. Der SAN Speicher wird dynamisch nach Bedarf vom IT Dienstleister 
+bereitgestellt und ist redundant in den Rechenzentren verfügbar. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 36 von 50 
+
+ 
+
+IT -Strategie                                 
+
+ 
+
+8.4.2  Archivierungssystem 
+
+Alle relevanten Systeme der Bank sind bei externen Dienstleistern (SAP: IBM/IMS Andere Sys-
+teme: IKB-Data). Die Sicherungen und Archivierungen finden dort statt. Archivierungen der 
+Vergangenheit (wie KEA oder PARIS oder PMS)   liegen auf  Datenträgern vor (PARIS z. B.: 
+Fuji Film) und werden entsprechend der aufsichtsrechtlichen Anforderungen aufbewahrt. 
+
+ 
+
+ 
+Maßnahmen: 
+(cid:1)  Mittelfristig: Für die SAP-Systeme ist die Archivierung entsprechend aufzubauen 
+
+8.5  Netzwerke 
+
+8.5.1  Daten-Netzwerk 
+
+Die Strategie im Daten-Netzwerk wird durch folgende Punkte bestimmt: 
+
+(cid:1)  Ausfallsicherheit durch doppelte Leitungsauslegung (getrennte Wegeführung) im WAN 
+
+und LAN-Backbone. 
+
+(cid:1)  Sicherstellung eines 7 x 24 Stunden Betriebs. 
+
+(cid:1)  Endgeräte „always online“, d.h. der Zugriff auf das Rechenzentrum ist von jedem be-
+
+liebigen Punkt aus mit flexiblen Bandbreiten (on demand) möglich. 
+
+(cid:1)  Einführung neuer Technologien zur Anbindung externer Stellen IP-VPN über DSL, 
+
+UMTS etc. 
+
+(cid:1)  Strategischer Hersteller für die Netzwerk-Infrastruktur ist Cisco Systems. 
+
+(cid:1)  Ein Netz für die Daten- und Sprachanbindung mit Stromversorgung von Endgeräten 
+
+(Power over Ethernet) 
+
+(cid:1) 
+
+Zur Bandbreitenoptimierung und zur Trennung von Sprach- und Datenanbindung 
+kommen VLAN’s und Quality of Service zum Einsatz. 
+
+ 
+Es wird zwischen folgende Netzwerkklassifizierungen hinsichtlich Bandbreiten und Sicherheits-
+anforderungen unterschieden: 
+
+8.5.1.1  Hausnetz (LAN) 
+ 
+Das Hausnetz ist das interne Netzwerk im Düsseldorfer Hypothekenbank AG Haus. Es werden 
+zwei Backbone-Switche und vier Etagenswitchstapel (Ethernet) betrieben. Die Verbindung der 
+Backbone und Etagenswitche ist redundant über Glasfaserverbindungen realisiert. 
+ 
+Folgende Anforderungen wurden umgesetzt: 
+
+(cid:1)  Geswitchtes Netzwerk in der Düsseldorfer Hypothekenbank AG für Daten und Spra-
+
+che. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 37 von 50 
+
+ 
+
+IT -Strategie                                 
+
+ 
+
+ 
+
+(cid:1)  Hohe Bandbreiten im Serverbackbone flexible Bandbreite und Portdichte zu den End-
+
+geräten.  
+
+(cid:1) 
+
+Zugriffssicherheit auf das Netzwerk, Quality of Service, Priorisierung und Trennung 
+von Sprache und Daten wird über VLAN’s bereits auf Portebene gewährleistet. 
+
+8.5.1.2  Extranetz (WAN) 
+
+Externen Partner der Düsseldorfer Hypothekenbank AG werden über das Extranet angebun-
+den. Dies erfolgt über Standleitungen und über das Internet. 
+
+8.5.1.3 
+
+Internet 
+
+Der Internetzugang der Düsseldorfer Hypothekenbank AG verfügt bereits heute über einen sehr 
+hohen Sicherheitsstandard (hochverfügbare Proxy und Firewall-Systeme, Intrusion Detection, 
+Virus-Wall, Content-Filter, etc.).  
+
+Über eine abgesicherte CITRIX Plattform in den Rechenzentren können interne Anwendungen 
+auch über Internet aufgerufen werden (SSL VPN Verbindung über DMZ, CITRIX Sicherheits 
+Gateway und IP Adressfiltering) 
+
+ 
+Maßnahmen: 
+ 
+Fortlaufend: Sukzessive Anpassung der Plattform an die stetig steigenden Sicherheitsanforde-
+rungen.  
+
+8.5.1.4  Anbindungen von Fernarbeitsplätzen 
+
+Fernarbeitsplätze werden über VPN mit CITRIX realisiert. 
+
+8.6  End- und Peripherie-Geräte 
+
+ 
+Strategie und Maßnahmen: 
+
+(cid:1)  Die heutigen Arbeitsplatz-PCs wurden Anfang  2014 vom Dienstleister IKB-Data ge-
+gen aktuelle Geräte getauscht. Im Druckerumfeld werden Multifunktionsgeräte (dru-
+cken, kopieren, faxen, scannen) eingesetzt. Alle Geräte sind im Full Service Modell 
+gemietet.  
+
+(cid:1)  Die Telefonanlage wird als VoIP-Anlage durch Software der Firma NetPhone betrie-
+ben. Im Handheldumfeld werden überwiegend Blackberry Geräte in Verbindung mit 
+dem Blackberry Enterprise Server eingesetzt. 
+
+Fax liegt u. a. auch als Softwarelösung vor. 
+
+(cid:1) 
+
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 38 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+8.7 
+
+IT-Arbeitsplatz, Authentifizierung und Berechtigungen 
+
+8.7.1 
+
+IT-Arbeitsplatz 
+
+Heute ist die Steuerungsinformation, welche Anwendungen ein Benutzer aufrufen darf, in der 
+Zugriffsdatenbank hinterlegt. Die Einrichtung der entsprechenden Berechtigungen erfolgt im 
+jeweiligen IT-System. 
+
+Die jeweiligen Anwendungen werden, abhängig vom Profil des Anwenders, über den PC Ar-
+beitsplatz des Düsseldorfer Hypothekenbank AG Users aufgerufen. 
+
+8.7.2  Benutzer-Authentifizierung 
+
+Bei der Authentifizierung wird die Identität eines Benutzers anhand bestimmter Merkmale über-
+prüft. Zurzeit erfolgt die Authentifizierung eines Benutzers je Anwendung über die Eingabe ei-
+nes eigenen Passworts. 
+
+Ziel ist eine einheitliche Benutzer-Authentifizierung auf Basis des Microsoft Active Directory. 
+
+Langfristig wird der Einsatz einer Single Sign On Lösung angestrebt. 
+
+8.7.3  Verwaltung von Berechtigungen  
+
+Die Vergabe von Berechtigungen wird bei der Düsseldorfer Hypothekenbank AG weitgehend 
+zentral von den Mitarbeitern des IT Servicedienstleisters wahrgenommen.  
+
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 39 von 50 
+
+ 
+
+IT -Strategie                                 
+
+ 
+
+9 
+
+IT-Sicherheit 
+
+Um die IT-Sicherheit bei Düsseldorfer Hypothekenbank AG zu gewährleisten, müssen sowohl 
+technische als auch organisatorische Vorkehrungen auf verschiedensten Ebenen getroffen 
+werden. Die im Zusammenhang mit der IT-Sicherheit definierten Maßnahmen und Regelungen 
+sind in einer IT-Security Richtlinie definiert und werden bei Bedarf (Änderung gesetzlicher Vor-
+schriften) jedoch mindestens einmal jährlich auf Anpassungsbedarf überprüft. Innerhalb des 
+Bereiches IT ist die IT-Sicherheit dem Outsourcing Management zugeordnet. 
+
+Regelmäßig findet eine Abstimmung der IT-Sicherheitslage, zwischen dem Leiter ITB und den 
+Outsourcer  statt. Erkannte Sicherheitsrisiken werden stets zeitnah analysiert und kurzfristig 
+behoben. 
+
+Die wichtigsten Aspekte der IT-Sicherheit sind Zugriffs-, Ausfall- und Gebäudesicherheit sowie 
+Sicherheit bei der elektronischen Kommunikation. 
+
+9.1  Zugriffssicherheit  
+
+ 
+Jeder Zugriff auf sensible Informationen, Daten, IT-Systeme und IT-Ressourcen der Düsseldor-
+fer Hypothekenbank AG erfolgt ausschließlich durch dazu berechtigte Mitarbeiter über die zent-
+ral vergebenen und dokumentierten Benutzerkennungen. 
+ 
+Der Zugriff begründet sich ausschließlich aus den betrieblichen Erfordernissen der jeweiligen 
+Funktion innerhalb der Düsseldorfer Hypothekenbank AG. 
+ 
+Die Beantragung und Vergabe von Benutzerkennungen erfolgt über ein standardisiertes Verfah-
+ren. 
+ 
+Systemadministrative Tätigkeiten werden ausschließlich in den Rahmen des outgesourcten RZ-
+Betriebes durch Mitarbeiter des IT Dienstleisters durchgeführt.  
+ 
+Der Zugriff auf die Systeme der Bank von Lokationen außerhalb des Düsseldorfer Hypotheken-
+bank AG Hauses erfolgt kontrolliert über zentrale, gesicherte Wege (VPN mit CITRIX WEB Cli-
+ent) über Internet für explizit eingerichtete Personen. 
+ 
+Ziele: 
+
+(cid:1)  Es ist zu prüfen, ob Verschlüsselungsmöglichkeiten eingeführt werden können, mit 
+denen die unberechtigte, zufällige oder beabsichtigte Kenntnisnahme des Inhaltes 
+von gespeicherten Daten (Office Daten und E-Mails) durch Mitarbeiter des IT Dienst-
+leisters verhindert werden kann. 
+
+9.2  Ausfallsicherheit 
+
+Grundlage für die Ausfallsicherheit ist folgendes Sicherheitskonzept: 
+
+(cid:1)  Systembereitstellung aus und Datenhaltung in zwei redundanten Hochsicherheitsre-
+
+chenzentren 
+
+(cid:1)  Datensicherung auf SAN-Platten und Bändern 
+(cid:1)  Redundante Netzwerkanbindung im LAN und WAN Bereich, doppelte Auslegung der 
+
+Backbone Router und Switche 
+
+(cid:1)  Vereinbarung zur Bereitstellung von Notfallarbeitsplätzen durch den IT Dienstleister 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 40 von 50 
+
+ 
+
+IT -Strategie                                 
+
+ 
+
+ 
+
+(cid:1)  Regelmäßige (mind. Jährliche) K-Fall Übungen und Tests 
+
+9.3  Gebäudesicherheit 
+
+ 
+Für die Gebäudesicherheit wurden folgende Maßnahmen ergriffen: 
+ 
+
+• 
+
+Im Düsseldorfer Hypothekenbank AG Haus werden zukünftig keine produktiven Server 
+oder Systeme betrieben. 
+
+•  Backbone Switche, Router und Kommunikationssysteme werden in einem verschlosse-
+
+nen und besonders gesicherten Bereich betrieben. 
+
+•  Alle Etagen sind doppelt durch Glasfaserleitungen miteinander vernetzt. 
+•  Alle Netzwerkkomponenten und IT Arbeitsplätze werden über eine zentrale USV Anlage 
+
+mit elektrischer Energie versorgt. 
+
+•  Die Düsseldorfer Hypothekenbank AG wird über zwei getrennte Stromversorgungen, die 
+
+an unterschiedlichen Umspannwerken angeschlossen sind, mit Energie versorgt. 
+
+•  Etagen und Bereiche innerhalb der Etagen sind durch elektronische, zeitabhängige 
+
+Schließmechanismen gesichert, die einzelnen von Düsseldorfer Hypothekenbank AG 
+genutzten Etagen sind nur Inhabern des elektronischen Schlüssels möglich. 
+
+•  Von Düsseldorfer Hypothekenbank AG genutzte Etagen werden außerhalb der norma-
+
+len Arbeitszeiten elektronisch durch Alarm- und Videosysteme überwacht. 
+
+ 
+
+9.4  Kommunikationssicherheit  
+
+  
+Für den Geschäftsverkehr der Bank gewinnt das Kommunikationsmittel E-Mail eine immer stär-
+kere Bedeutung. Aufgrund der fehlenden Sicherheit im normalen E-Mail Verkehr ergeben sich 
+hieraus vier wesentliche Herausforderungen: 
+
+•  E-Mails und Mail-Systeme müssen vor Bedrohungen von außen geschützt werden; 
+•  die Integrität der per Mail versandten Informationen ist sicherzustellen; 
+•  Datenlecks, die für den ungewollten Abfluss vertraulicher Informationen verantwortlich 
+
+sind, sollten ausgeschlossen werden können; 
+
+•  die Kommunikation muss nachvollziehbar sein, damit das Unternehmen den gesetzli-
+
+chen Vorgaben entspricht. 
+
+ 
+
+In diesem Zusammenhang wurden folgende Punkte bereits umgesetzt: 
+•  Alle ein- und ausgehende E-Mails werden rechtssicher gesichert. 
+•  Aus- und eingehende E-Mails können mit S/MIME oder PGP Technologien verschlüsselt 
+
+werden. 
+
+•  Eingehende E-Mails werden auf Schadprogramme überprüft. 
+•  Ein mehrstufiger SPAM-Filter ist im Einsatz. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 41 von 50 
+
+ 
+
+IT -Strategie                                 
+
+•  Die im Geschäftsverkehr vorgeschriebenen Informationen werden jeder ausgehenden E-
+
+Mail automatisch beigefügt. 
+
+ 
+
+ 
+
+Maßnahmen:  
+Mittelfristig: Einführung eines Webportals zur Sicherstellung der verschlüsselten E-Mail Kom-
+munikation mit Partnern, die nicht selbst Verschlüsselungsverfahren einsetzen. 
+Mittelfristig: weitgehende Automatisierung der Verschlüsselungsverfahren (automatischer 
+Schlüsselabruf, Beschränkung der Userinteraktion auf die Hinterlegung des eigenen S/MIME 
+Zertifikates). 
+Mittelfristig: Einführung der sicheren Server to Server Kommunikation mit ausgewählten Part-
+nerunternehmen per TLS (Transport Layer Security) Verschlüsselung. 
+Optional: (Teil)automatisiere Zuordnung von E-Mails zu Geschäftsvorfällen. 
+Optional: Teilnahme am E-Post und / oder D-Mail Verfahren sofern sich aus dem Geschäftsbe-
+trieb der Bank hier eine Notwendigkeit ergibt.  
+ 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 42 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+10  Umweltstrategie (Green IT) 
+ 
+Unter dem Stichwort Green IT versteht man Bestrebungen, die Nutzung von Informationstech-
+nik (IT) oder weiter gefasst aller Informations- und Kommunikationstechnologie über deren ge-
+samten Lebenszyklus hinweg – vom Design der Systeme und der Produktion der Komponenten 
+über deren Verwendung bis zur Entsorgung oder dem Recycling der Geräte umwelt- und res-
+sourcenschonend zu gestalten. 
+Dabei stehen zwei Themen im Vordergrund: zum einen der Energieeinsatz bei der Produktion 
+und der Nutzung von Hardware, beispielsweise Computer, Monitore, Drucker, aber auch (Mobil) 
+Telefone, und zum anderen die verwendeten Materialien und Produktionsmittel. Letzteres 
+schließt insbesondere die Schadstoffthematik mit ein: also ob schädliche Stoffe in der Produkti-
+on anfallen oder ob Gifte wie Blei oder Brom im Endprodukt enthalten sind und bei dessen Be-
+trieb oder Entsorgung freigesetzt werden. Näheres wird in der RoHS-Richtlinie der EU festge-
+legt. Die Düsseldorfer Hypothekenbank AG IT hat hier insbesondere die Einsparung von Pri-
+märenergie und damit die Verminderung der CO2 Emissionen im Fokus. 
+
+10.1  Zentraler Serverbetrieb 
+
+In den Räumen des Düsseldorfer Hypothekenbank AG Hauses werden zukünftig keine Server 
+mehr betrieben. Der Serverbetrieb erfolgt ausschließlich in den zentralen Rechenzentren der 
+IBM bzw. IKB-Data. Hierdurch entfällt der Betrieb einer energieintensiven Kühlung der Server-
+räume im Düsseldorfer Hypothekenbank AG Haus. Die notwendige Kühlung des Kommunikati-
+onsraumes erfolgt über eine doppelt ausgelegten Klimaanlage mit Splitgeräten. 
+Weiterhin kann auf den Betrieb einer mit umweltbelastenden Stoffen betriebenen Feuerlöschan-
+lage verzichtet werden. 
+Server sind soweit als möglich virtualisiert, es werden nur die unbedingt notwendigen physikali-
+schen Server betrieben. 
+Hierdurch wird eine effiziente, sparsame Nutzung von Primärenergie erreicht. 
+
+10.2  Energieeffizienz am Arbeitsplatz 
+
+Alle Arbeitsplatz-Geräte werden durch neue, besonders energiesparende Geräte ersetzt. Im 
+Düsseldorfer Hypothekenbank AG Haus kommen ausschließlich energieeffiziente Technik zum 
+Einsatz. 
+Veraltete und nicht mehr genutzte Arbeitsplatz PC und Laptops werden zur weiteren Verwer-
+tung an die Hersteller zurück gegeben, andere Geräte werden zur umweltschonenden Entsor-
+gung und zur Nutzung von Sekundärrohstoffen über ein Recycling Center entsorgt. 
+Als Druck- und Kopiergeräte werden ausschließlich standardisierte, energieeffiziente Geräte 
+eines Herstellers eingesetzt. Die Energiesparfunktionen der Geräte sind gesetzt. Restmateria-
+lien wie leere Tonerbehälter werden zum Recycling gesammelt an den Lieferanten zurückgege-
+ben. 
+
+Ziele:  
+
+•  Weitere Konsolidierung der Server. 
+•  Weitere Analyse des gesamten Energieverbrauchs im Düsseldorfer Hypothekenbank 
+
+AG Haus mit dem Ziel mögliche Energieeinsparpotentiale zu nutzen  
+
+•  Transparenz in den anteiligen Energieverbrauchskosten am Gesamtenergiebedarf im 
+
+Düsseldorfer Hypothekenbank AG Haus. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 43 von 50 
+
+ 
+
+IT -Strategie                                 
+
+ 
+
+11  Organisationsstrategie 
+
+11.1  Aktueller Stand der Organisation 
+
+11.1.1  Aufgaben 
+ 
+Aufgaben des Bereichs Organisation der Bank: 
+
+•  Analyse von organisatorischen Fragestellungen, 
+
+Erarbeiten von Lösungen und Beraten von Fachbereichen 
+
+•  Erarbeiten von Vorschlägen und Entscheidungsvorlagen zur Optimierung der Aufbau- u. 
+
+Ablauforganisation (z.B. Kompetenzen, Vertretungsregelungen) 
+
+•  Weiterentwickeln und Pflegen des OHBs (z.B. Dokumentieren von Richtlinien) 
+•  Unterstützen bei der Umsetzung gesetzlicher Änderungen (z.B. MaRisk, IAS) 
+
+11.1.2  Instrumente (Dokumentation) 
+ 
+ 
+Organisationshandbuch (OHB) 
+ 
+Mit dem OHB kommt die Bank den Regelungen der MaRisk nach, die fordern, „… ein Institut 
+sicherzustellen hat, dass die Geschäftsaktivitäten auf der Grundlage von Organisationsrichtli-
+nien betrieben werden. Die Organisationsrichtlinien müssen schriftlich fixiert und den betroffe-
+nen Mitarbeitern in geeigneter Weise bekannt gemacht werden. Es ist sicherzustellen, dass sie 
+den Mitarbeitern in der jeweils aktuellen Fassung zur Verfügung stehen. Die Richtlinien sind bei 
+Veränderungen der Aktivitäten und Prozesse zeitnah anzupassen“. 
+ 
+
+•  Die schriftlich fixierte Ordnung der Bank wird durch die Organisation in dem File Server 
+
+System gepflegt. Dies beinhaltet die Neueinstellung und Einholung von Vorstandsge-
+nehmigungen bei neuen Dokumenten, sowie die Veröffentlichung geänderter Dokumen-
+te bzw. die ordnungsgemäße Archivierung.  
+Die Publizierung der veränderten OHB-Dokumente an die Mitarbeiter erfolgt nach Bedarf 
+mittels Online-Information.  
+In dieser werden alle geänderten Dokumente aufgeführt. 
+
+Die Einstellung der Dokumente erfolgt über eine separate Datenbank (Schattendatenbank) des 
+OHBs. Zusammen mit der Veröffentlichung werden die ersetzten Dokumente automatisch in 
+eine Archivdatenbank verschoben. 
+Die inhaltliche Verantwortung für die einzelnen Dokumente obliegt den jeweils verantwortlichen 
+Fachbereichen, die auch für die Neuerstellung und Aktualisierung zuständig sind. Durch die 
+Organisation wird regelmäßig, alle 2 Jahre, die Aktualität der Dokumente abgefragt und nach-
+gehalten. 
+ 
+Im OHB werden die folgenden Dokumente hinterlegt: 
+•  Richtlinien als Word-Dokument zzgl. Anlagen 
+•  Bankeigene Formulare als Word- oder Excel-Dokument 
+•  Formulare von Fremdanbietern im PDF-Format 
+•  Prozesse im PDF-Format 
+ 
+
+Separat werden in der Wissensdatenbank (Intranet) die Anwenderhandbücher und Anleitungen 
+sowie weitere Informationen im Wikipedia (Intranet) veröffentlicht. Die Zuständigkeit hierbei liegt 
+bei den jeweils inhaltlich verantwortlichen Fachbereichen. In den OHB Dokumenten wird auf 
+jeweils ergänzende Dokumente im Intranet verwiesen. 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 44 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+ 
+ 
+ 
+Organisatorische Fragestellung 
+ 
+Eine weitere Aufgabe der Organisation beinhaltet die Analyse und das Erarbeiten von Lösun-
+gen in Bezug auf organisatorische Fragestellungen in der Bank zum z.B. Festlegung der Zu-
+ständigkeiten und Schnittstellen bei neuen oder geänderten Geschäftsprozessen. 
+ 
+Eine Analyse erfolgt i.d.R. zusammen mit den Fachbereichen.   
+ 
+ 
+Optimierung Aufbau- u. Ablauforganisation 
+ 
+Auch ist die Organisation für das Erarbeiten von Vorschlägen und Entscheidungsvorlagen zur 
+Optimierung der Aufbau- u. Ablauforganisation zuständig. 
+ 
+Unter Aufbauorganisation fallen u.a.: 
+
+•  Organigramme 
+•  Vertretungsregelung 
+•  Kompetenzen 
+•  Stellenprofile 
+
+ 
+Unter Ablauforganisation werden alle Richtlinien, Formulare und Prozesse subsumiert, die zur 
+Dokumentation der Arbeitsprozesse dienen. 
+ 
+ 
+Arbeitsabläufe 
+ 
+Eine Optimierung der Arbeitsabläufe, im Sinne einer Arbeitsplatzuntersuchung inklusive Erhe-
+bung von Zeiten, Mengen und Kosten erfolgt nur in Ausnahmefällen. 
+Üblicherweise erfolgt eine Dokumentierung der Tätigkeiten und Schnittstellen im Rahmen der 
+Erstellung von Richtlinien, wobei hierbei auch Zusammenhänge durch die Organisation kritisch 
+hinterfragt werden. 
+ 
+Organisatorische/gesetzliche Veränderung 
+ 
+Änderungen in den Arbeitsabläufen durch Veränderungen in der Aufbaustruktur und in den Pro-
+zessabläufen, bedingt durch: 
+•  gesetzliche Anforderungen,  
+• 
+• 
+werden durch die Fachbereiche oder Entscheidungen der Gesamtbank, ohne Einbindung der 
+Organisation initiiert und dokumentiert.  
+ 
+
+internen Umstrukturierungen oder  
+in den IT-Systemen,  
+
+11.1.3  Fazit 
+ 
+Dokumentation 
+ 
+Die aktuelle Struktur zur Dokumentierung (OHB und Anwenderhandbücher) innerhalb der Bank 
+ist heterogen gewachsen und besteht aus verschiedenen Systemen, die sich nicht dynamisch 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 45 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+miteinander verbinden lassen. Auch werden unterschiedliche, nicht miteinander kompatible, 
+Programme und Dokumentarten (Word, Excel, PDF) verwendet. 
+ 
+Durch die Vorhaltung der Informationen in verschiedenen Systemen und Dokumentarten kann 
+sich der Mitarbeiter keinen schnellen Gesamtüberblick verschaffen sondern muss an verschie-
+denen Stellen recherchieren. Zusätzlich kann innerhalb der Dokumente nur auf ergänzende 
+Stellen verwiesen werden, eine Verknüpfung besteht nicht.  
+ 
+
+11.2  Handlungsbedarf im Bereich der Bankorganisation 
+
+11.2.1  Optimierung Ablauforganisation 
+Eine Optimierung der Ablauforganisation kann durch die Ablösung aller Verwaltungsprozesse 
+durch ein elektronisches Workflowsystem erreicht werden. Das Workflowsystem ersetzt die bis-
+lang papierhaft ausgeführten Prozesse, sowie die in anderen Systemen elektronisch vorhande-
+ne Prozesse. 
+ 
+Die Vorteile aus betriebswirtschaftlicher Sicht sind wie folgt: 
+
+•  Optimierung bestehender Prozesse 
+•  Schaffung papierloser Arbeitsplätze 
+•  Erleichterung in der Abwicklung des Tagesgeschäfts  
+•  Festlegung eindeutiger Bearbeitungszuständigkeiten 
+•  Definition von Eskalationsstufen 
+•  Beschleunigung der Durchlaufzeiten 
+•  Lieferung relevanter Informationen über Quantitäten und Status von Workflows 
+•  Schaffung von Transparenz  
+•  Erhöhung Revisionssicherheit 
+•  Reduktion von Nachfragen und Fehlerfassungen 
+•  Steigerung der Auskunftsfähigkeit 
+•  Verbesserung der internen Kommunikation 
+
+ 
+
+11.2.2  Weiterentwicklung OHB 
+Die Anwenderfreundlichkeit des OHBs soll erhöht werden, in dem die Dokumente (Richtlinien, 
+Prozesse, Workflows, Handbücher, usw.) dynamisch miteinander verbunden werden. Ziel ist die 
+Bereitstellung aller benötigten Informationen für das Tagesgeschäft der Mitarbeiter in schneller, 
+aktueller, übersichtlicher, verständlicher Form zu gewährleisten. 
+ 
+Dies kann erreicht werden durch: 
+
+•  Ein Portal für alle Dokumente (OHB, Handbücher, Workflows, Prozesse) 
+•  Ergänzende Verweise auf andere Richtlinien, Prozesse, Formulare, Handbücher, Ge-
+
+setzestexte sind durch Links miteinander verbunden 
+
+•  Persönliche Anmerkungen können ergänzt werden z.B. auf der Portalseite oder in Do-
+
+kumenten (Heftnotiz) 
+
+•  Ein Newsletter informiert die Mitarbeiter regelmäßig über generelle Änderungen im e-
+
+• 
+
+OHB/Portal 
+Individuelle Anzeige von Änderungen (ein-/ausschaltbar) zum vorherigen Stand in Favo-
+riten oder aufgerufen Dokumenten 
+
+•  Direkte Einpflege von Änderungen ist von mehreren Fachbereichen parallel möglich, 
+
+übersichtliche Anzeige/Nachverfolgung der Änderungen 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 46 von 50 
+
+ 
+
+IT -Strategie                                 
+
+ 
+
+ 
+
+•  Papierlose Abnahme von Änderungen und Versionsdokumentierung 
+•  Automatische Wiedervorlage- und Überwachungsworkflow für die Dokumentenaktuali-
+
+sierung 
+
+11.2.3  Optimierung Aufbauorganisation 
+Eine Optimierung der Aufbauorganisation und Reduzierung des zeitlichen Aufwands bei Verän-
+derungen kann durch eine frühzeitige Einbindung der Organisation erreicht werden. Dies ist 
+grundsätzlich bei der Schaffung neuer Stellen sowie bei Veränderungen an der Aufbaustruktur 
+relevant. 
+
+11.2.4  Mitwirken bei der Umsetzung gesetzlicher Änderungen 
+Durch eine frühzeitige Einbindung der Organisation durch die Fachbereiche bei der Umsetzung 
+von Veränderungen können vorab Auswirkungen auf bestehende Prozesse, Dokumentationen 
+und Schnittstellen erkannt und berücksichtigt sowie die Erstellung notwendiger Dokumentatio-
+nen beschleunigt werden. 
+ 
+ 
+12 
+Die IT/Bankorganisation behandelt die Themen Aufbauorganisation, die Vorgehensweise bei 
+Personalbeschaffung (Sourcing) und –einsatz. 
+Ziele der IT-Personalstrategie sind: 
+
+IT/Bankorganisation   
+
+(cid:1)  angemessene Personalausstattung 
+(cid:1)  adäquate Qualifikation der Mitarbeiter 
+(cid:1)  gezielte, quantitativ ausgewogene Mitarbeiterförderung 
+(cid:1)  Entwicklungschancen und Perspektiven für die Mitarbeiter. 
+
+12.1  Organisationsstruktur  
+
+Die derzeitige Ausrichtung der Aufbauorganisation der IT/Bankorganisation sorgt für eine effizi-
+ente Struktur und unterstützt dabei folgende Zielsetzungen: 
+1. 
+2.  Outsourcing von wettbewerbsunkritischen Funktionen und Konzentration auf die Steue-
+
+Konzentration auf das Inhouse Consulting für die Kernanwendungen der Kernbank 
+
+3. 
+
+rungsaufgaben 
+Angemessene Bereichsgröße für eine effiziente Wahrnehmung der Aufgaben und Ver-
+antwortlichkeiten der IT/Bankorganisation 
+
+ 
+Voraussetzung für eine erfolgreiche Beibehaltung dieser Organisationsstruktur ist die Qualifizie-
+rung der Anwender zur Optimierung des Aufwandes im Bereich der Anwendungsbetreuung, die 
+durch das Inhouse Consulting ausgeführt werden. Ansonsten droht bei der skizzierten schlan-
+ken Aufstellung die Gefahr, dass dauerhaft Grundlast durch externe Berater abgedeckt wird. 
+Die gleiche Gefahr gilt auch bei einer eventuell erhöhten Fluktuation. 
+
+12.2  Sourcing 
+
+Ziele der Düsseldorfer Hypothekenbank AG IT/Bankorganisation Sourcing-Strategie und ent-
+sprechende Konzepte: 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 47 von 50 
+
+ 
+
+IT -Strategie                                 
+
+(cid:1)  Begrenzter Einsatz von eigenem Personal für die Softwareentwicklung 
+
+o  Bevorzugte Nutzung von geeigneter Standard-Software vor Eigenentwicklung 
+o 
+
+Individualentwicklung nicht nur in Eigenleistung, sondern auch über fremd bezo-
+gene Dienstleistungen und Werkstücke 
+
+(cid:1)  Selektives Outtasking, wenn Leistungen nachhaltig nutzbringender zugekauft werden 
+
+können 
+
+o  Regelmäßiges Benchmarking der Services und Entscheidung über deren Erbrin-
+
+gung in Eigen- bzw. Fremdleistung anhand der Benchmark-Ergebnisse 
+
+o  Bei Fremdbezug wird das langfristige Standing der Lieferanten kontinuierlich be-
+obachtet. Ggf. Insourcing oder Verlagerung auf andere Lieferanten bei erkennba-
+ren Problemen. 
+
+(cid:1)  Temporärer Aufbau von zusätzlicher Personalkapazität bei Bedarf möglich und längerfris-
+
+tig benötigtes Know-how ist intern verfügbar 
+
+o  Der Einsatz von externen Beratern bzw. Entwicklern ist nur vorgesehen  
+
+(cid:1)  bei kurzeitig erforderlichem Spezialwissen, 
+(cid:1) 
+
+zur Vermittlung von Kenntnissen und Fähigkeiten an interne Mitarbeiter 
+oder 
+zur Deckung von erhöhtem temporären Personalbedarf, wobei alternativ 
+die Vergabe von Zeitarbeitsverträgen bei der Düsseldorfer Hypotheken-
+bank AG geprüft werden muss. 
+
+(cid:1) 
+
+o  Der Einsatz von Praktikanten ist nur vorgesehen  
+
+(cid:1)  bei standardisierten Vorhaben 
+(cid:1) 
+
+zur Deckung von erhöhtem temporären Personalbedarf, wobei alternativ 
+die Vergabe von Zeitarbeitsverträgen bei der Düsseldorfer Hypotheken-
+bank AG geprüft werden muss. 
+
+(cid:1)  Anbietung von Leistungen für Dritte 
+
+o  Generell werden keine Leistungen für Dritte angeboten 
+o  Sollten Anfragen hinsichtlich einer Dienstleistung bestehen, ist die Zustimmung 
+
+der Geschäftsleitung erforderlich. 
+
+ 
+
+ 
+
+ 
+
+12.3  Personalentwicklung 
+
+Die Positionierung der IT/Bankorganisation und die Auswirkungen auf die zukünftigen Anforde-
+rungsprofile der IT-Mitarbeiter erfordern grundsätzlich umfassende Ausbildungsmaßnahmen: 
+
+(cid:1)  um die Mitarbeiter für neue Technologien und Standards zu qualifizieren  
+
+(cid:1)  um Aufgaben aus anstehenden Projekten von Externen und Zeitarbeitsvertrags-
+
+Mitarbeitern auf dauerbeschäftigte Mitarbeiter zu verlagern 
+
+(cid:1)  um die notwendige Steigerung der Innovationsfähigkeit zu erreichen 
+
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+  
+
+ 
+
+ 
+
+ 
+Seite 48 von 50 
+
+ 
+
+13 
+
+IT-Kosten 
+
+ 
+
+IT -Strategie                                 
+
+13.1  Entwicklung der IT-Kosten 
+
+Die Entwicklung der IT-Kosten ist geprägt von der Geschäftsstrategie der Bank. Der Ausbau der 
+gewerblichen großvolumigen Immobilienfinanzierung und die Maßnahmen zur Verbesserung 
+der Ergebnis- und Risikosteuerung der Bank werden mit IT-technischer Unterstützung effektiv 
+und effizient begleitet.   
+Ferner ist die Flexibilisierung (service on demand) auch bei der IT-Kostenstruktur voranzutrei-
+ben, damit Marktveränderungen bzw. –schwankungen besser Rechnung getragen werden 
+kann.  
+Wesentliche Kostentreiber in den Betriebskosten (Kosten IT-Technik) sind dabei die Outsour-
+cingkosten des RZ-Betriebes und die Betriebskosten der zentralen Anwendungen im SAP-
+Umfeld sowie der Betrieb von PMS. 
+Nach dem geplanten Ende des Outsourcing-Vertrages mit IBM / IMS im nächsten Jahr ist das 
+Outsourcing neu zu definieren bzw. zu verhandeln.   
+ 
+
+13.2  Kostensteuerung 
+
+ 
+Die IT Kosten werden jeweils für das nächste Jahr budgetiert, über 3 Jahre geplant  und monat-
+lich seitens der Geschäftsführung überprüft. Darüber hinaus steuert und kontrolliert die IT-
+Leitung die Kosten und Leistungen operativ. 
+Im Rahmen der Definition der neuen IT-Strategie wird eine weitere Optimierung der Kosten-
+steuerung der IT angestrebt. Eine wesentliche Zielsetzung ist dabei die kontinuierliche Erhö-
+hung der Kostentransparenz durch eine angemessene Verbesserung der Kostenrechnungssys-
+tematik. 
+In diesem Zusammenhang sind eine Reihe von Maßnahmen bereits geplant oder zur Diskussi-
+on gestellt: 
+
+•  Die IT-Kosten werden dahingehend qualifiziert, dass erkennbar ist, welche IT-Kosten für 
+
+den laufenden Betrieb erforderlich sind und welche zur Weiterentwicklung der Ge-
+schäftsbereiche eingesetzt werden können. Damit kann ein unmittelbarer Anteil der IT 
+zur Wertschöpfung des Unternehmens gemessen werden. 
+
+•  Um eine fundierte Kosten/Nutzen-Betrachtung von zukünftigen IT-Anforderungen vor-
+nehmen zu können, ist eine Transparenz über damit verbundene Prozesskosten erfor-
+derlich. 
+
+•  Es ist zu prüfen, inwiefern eine Leistungsverrechnung von Standardstückkosten für IT-
+Leistungen, die in den Outsourcing-Abkommen relativ transparent vorliegen, mit den 
+Fachbereichen erfolgen kann. Im ersten Schritt ist dies für die allgemeine Arbeitsplatz-
+ausstattung (Standard-Arbeitsplatz, mobiler Arbeitsplatz) zu prüfen und ggf. auf Hand-
+helds und Mobiltelefon erweiterbar.  
+
+Mittelfristig ist aber zu prüfen, inwieweit eine weitere Kostenaufteilung und -zuordnung möglich 
+und sinnvoll ist. In diesem Zusammenhang sind alle Kosten auf dem Prüfstand und diesbezüg-
+lich zu hinterfragen. 
+Die genannten Maßnahmen zur Optimierung der Kostensteuerung erhöhen die Transparenz 
+über die IT-Kosten und bilden zugleich eine Grundlage für die Vergleichbarkeit von IT-Kosten 
+und ein Benchmarking der Kostenstruktur am Markt.   
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 49 von 50 
+
+ 
+
+ 
+
+IT -Strategie                                 
+
+ 
+Aufgrund der Umstellung auf die Standardsoftware SAP als auch der Auslagerung zur IBM / 
+IMS und IKB Data konnten sowohl die Kosten deutlich gesenkt werden als auch die Qualität 
+und Zukunftssicherheit deutlich erhöht werden. 
+ 
+
+ 
+Stand: 30.06.2014 
+  
+
+ 
+
+ 
+
+ 
+Seite 50 von 50 
+
+

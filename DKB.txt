@@ -1,0 +1,3742 @@
+  
+
+IT-Strategie 
+Version:   2.0 
+Stand:  
+ 
+
+29. Juni 2016 
+
+ 
+Berlin, 29.06.2016 
+
+Vorbemerkungen 
+Ziel, Strategiedimensionen, Gültigkeits- und Geltungsbereich 
+
+ 
+
+Zielsetzung 
+
+Aufbau 
+
+Die IT-Strategie der DKB AG zeigt die zukünftige Entwicklung der IT in Übereinstimmung mit dem jeweils 
+gültigen Gesamtstrategie der Bank, geschäftlichen Erfordernissen und der BayernLB Konzern IT-Strategie 
+auf und gestaltet diese aktiv mit.  
+Sie beinhaltet die strategische IT-Positionierung und setzt Planungsprämissen und Leitplanken für die 
+Kosten- und Risikominimierung bei IT-Entscheidungen. 
+
+Im Einklang mit der BayernLB Konzern IT-Strategie umfasst die IT-Strategie der DKB AG folgende 
+Dimensionen: 
+ Umfeldanalyse 
+ Selbstverständnis, Rolle und Organisation der IT 
+ IT-Governance (inkl. Kosten und Portfoliosteuerung) 
+ IT-Risikomanagement und Informationssicherheit  
+
+ IT-Compliance 
+ IT-Architektur und Technologie 
+ IT-Sourcing (inkl. Personal & Dienstleister) 
+ Individuelle Datenverarbeitung 
+
+Geltungsbereich 
+
+Diese IT-Strategie gilt für die DKB AG. Die Rahmenbedingungen wirken auch auf die relevanten 
+Tochterunternehmen.  
+
+Gültigkeitsdauer 
+
+Die IT-Strategie umfasst einen zeitlichen Horizont von drei Jahren. Die IT-Strategie wird turnusmäßig  
+einmal im Jahr bzw. bei besonderen Anlässen, ggf. auch Ad-hoc, überprüft und fortgeschrieben. 
+
+Beschlussfassung 
+
+Die IT-Strategie wird durch den Vorstand verabschiedet und dem Aufsichtsrat zur Kenntnis vorgelegt. 
+
+Versionierung 
+
+Version 2.0 (Stand Juni 2016)    -    Grundlage: Group IT Governance Policy vom 01.11.2015 
+
+2 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Vision der IT 
+IT ist ein wichtiger Produktionsfaktor 
+
+ Die Anwendungslandschaft ist modern, zukunftssicher und dient der nachhaltigen 
+
+Unterstützung des Geschäftsmodells. 
+
+ Geschäftsprozesse werden effizient unterstützt durch die Vermeidung redundanter 
+
+Datenerfassung und -haltung, Minimierung manueller Eingriffe im Prozessablauf, 
+Integration von Anwendungen und ergonomischen Benutzeroberflächen (angemessenes 
+Kosten-Nutzen-Verhältnis). 
+
+Vision 
+der IT 
+
+ Anwendungen sind durch Einsatz etablierter Standards und Technologien über den 
+gesamten Lebenszyklus flexibel erweiterbar und zu angemessenen Kosten wartbar 
+(Nachhaltigkeit). 
+
+ Zur nachhaltigen Kostenreduktion werden insbesondere im Konzern Kooperationen in 
+
+bankfachlichen und regulatorischen Themenbereichen angestrebt. 
+
+ Eine Standardisierung wird an den Stellen vorangetrieben, an denen es das 
+
+Geschäftsmodell zulässt und unterstützt. 
+
+3 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Management Summary 
+Zielsetzung und Kernaussagen 
+
+ Wesentliche Einflussgrößen aus der DKB-Gesamtstrategie und dem IT-Umfeld werden 
+
+berücksichtigt: Konzern IT-Strategie, sukzessiver Einsatz innovativer Technologien, 
+nachhaltige Steigerung der IT-Effizienz im Zuge zunehmender Regulatorik und 
+Beibehaltung des hohen Sicherheits- und Performanceniveaus. 
+
+ Auf Basis der Rollen der IT als Dienstleister und Steuerer werden im Rahmen der IT-
+
+Governance die IT-Strukturen und -Prozesse permanent weiterentwickelt. 
+
+ Den zunehmenden Anforderungen bzgl. der IT-Sicherheit und des IT-Risiko-managements 
+
+wird mit geeigneten Ansätzen Rechnung getragen. 
+
+Kern- 
+
+aussagen 
+
+ Die internen und externen Anforderungen an die IT werden im Rahmen der IT-Compliance 
+
+in den IT-Prozessen konsequent umgesetzt. 
+
+ Auf Basis der strategischen Partnerschaft mit der Finanz Informatik wird OSPlus weiterhin 
+im Fokus der IT-Architektur stehen und mit konsequenter Standardisierung die IT-Effizienz 
+erhöht. 
+
+ Effizienzsteigerungen werden neben optimierten IT-Prozessen auch durch die 
+
+konsequente Entwicklung der eigenen Mitarbeiter und eine Fokussierung auf wenige 
+externe Partner realisiert. 
+
+ Die IT-Strategie wird mittels konkreter Maßnahmen konsequent operationalisiert und der 
+
+Erfolg mittels KPI regelmäßig überprüft. Die IT-Strategie wird in einem kontinuierlichen 
+Strategieprozess fortgeschrieben. 
+
+4 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+IT-Strategie in der DKB liegt vor 
+Die IT-Strategie ist aus der DKB-Geschäftsstrategie abgeleitet  
+
+Gesamtstrategie 
+
+Geschäftsstrategie 
+
+(Unternehmens-
+
+konzept) 
+
+Risikostrategie 
+
+Mehrjahresplanung 
+
+inkl. Kapital- und 
+Fundingplanung 
+
+Kundengruppenstrategien 
+
+Funktionalstrategien 
+
+Infra-
+
+struktur 
+
+Firmen-
+kunden 
+
+Spark.  
+
+&  
+
+Koop. 
+
+Privat-
+kunden 
+
+SKG 
+Status-
+kunden 
+
+
+
+IT-Strategie 
+ Outsourcing 
+ … 
+
+IT-Management-Cockpit – 
+
+strategisch 
+
+IT-Management 
+Cockpit - operativ 
+
+IT-Strategie 
+
+Operationalisierung der IT-Strategie 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Einordnung der IT-Strategie 
+
+ Die IT unterstützt die DKB AG in der 
+
+Umsetzung der Gesamtstrategie 
+
+ Die Umsetzung der IT-Strategie wird 
+
+grundsätzlich jährlich überprüft und 
+dem Vorstand und Aufsichtsrat 
+vorgelegt. 
+
+ Als Steuerungsinstrument wird die 
+
+Umsetzung der IT-Strategie regelmäßig 
+dem Management  vorgelegt (IT-
+Management-Cockpit) 
+
+ KPIs für die acht Handlungsfelder der 
+DKB IT sind implementiert und werden 
+aktiv gemanaged 
+
+Selbstverständnis, Rolle und Organisation 
+
+der IT 
+
+IT-Architektur u. Technologie 
+
+  
+
+IT-Governance 
+
+IT-Sourcing (inkl. Personal & Dienstl.) 
+
+IT-Risikomgmt. / Informations-sicherheit 
+
+Individuelle Datenverarbeitung 
+
+5 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Umfeldanalyse (1/2) 
+Wesentliche Einflussfaktoren 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Einflüsse  
+aus der 
+
+Geschäfts-
+strategie 
+
+Die IT-Strategie leitet sich aus der DKB-Gesamtstrategie (insb. Unternehmenskonzept 
+und Risikostrategie) und der BayernLB Konzern IT-Strategie ab und unterstützt die 
+Gesamtausrichtung der DKB AG, insbesondere: 
+
+ Einsatz innovativer Technologien zur Renditesteigerung und Kosteneinsparung 
+
+ Steigerung der IT-Effizienz (Automatisierungsgrad ggü. Kunden, IT-Kosten,  Time-to-
+
+Market) 
+
+ Hohes Sicherheits- und Performanceniveau 
+
+Die IT-Strategie ist konsistent zu anderen (Teil-) Strategien der DKB AG (z. B. Risiko) 
+sowie zur IT-Strategie des IT-Partners Finanz Informatik. 
+
+Externe  
+Einfluss- 
+faktoren 
+
+Die IT-Strategie berücksichtigt wesentliche externe Einflüsse: 
+
+ Umsetzung der zunehmenden regulatorischen Anforderungen (z. B. BCBS 239, MaSI, 
+
+MiFID II) 
+
+ Kürzere technologische Innovationszyklen v. a. durch IT-Entwicklungen von FinTechs 
+
+und von Wettbewerbern aus dem Non- und Nearbank-Umfeld 
+
+ Standards des strategischen IT-Partners (Finanz Informatik) 
+
+6 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Umfeldanalyse (2/2) 
+Wesentliche Einflussfaktoren 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Die strategische Partnerschaft mit der Finanz Informatik (FI) wird fortgesetzt und 
+intensiviert: 
+
+ Andauernde Nutzung des Kernbanksystems OSPlus, möglichst im Standard, bzw. 
+
+Ist-Situation 
+
+durch Individualisierung des OSPlus-Standards durch die vorgesehenen 
+Parametrisierungsoptionen  
+
+ Produktion/Betrieb der DKB-Systeme weiterhin bei der FI 
+
+ Ergänzung von OSPlus mit Systemen von Drittanbietern in Bereichen, in denen die FI 
+
+kein wettbewerbsfähiges Leistungsangebot bezüglich der DKB-Anforderungen hat 
+
+Genutzte 
+Standards 
+
+Nutzung des „Sicheren IT-Betriebes“ (Information Security Management System ISMS, 
+entwickelt vom SIZ Sparkassen Informatik Zentrum). Der Standard berücksichtigt 
+Anforderungen der Gesetzgebung (z. B. COBIT, ITIL), der Wirtschaftsprüfer, der ISO 
+27001/2 sowie des BSI Grundschutzes. 
+
+7 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Selbstverständnis, Rolle und Organisation der IT 
+DKB-IT als Dienstleister und Steuerer 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Selbst-
+
+verständnis 
+
+Die IT-Prozesse, Organisation und Rollen sind kundenorientiert und an der IT-
+Wertschöpfungskette ausgerichtet. 
+
+Rolle 
+
+Dienstleister 
+
+Die DKB-IT ist Dienstleister: 
+ Beratung und Betreuung der IT-Nutzer in IT-Fragen (inkl. Anforderungs-
+
+management und Realisierung Effizienzpotenziale) 
+
+ Entwicklung, Bereitstellung und Betrieb bankfachlicher Anwendungen, 
+
+Arbeitsplätze, Telekommunikationslösungen und IT-Infrastruktur 
+
+Rolle 
+
+Steuerer 
+
+Die DKB-IT ist Steuerer: 
+ Mitwirkung an Entscheidungsfindung und Beschlussfragen für IT-Themen 
+ Kritisches Hinterfragen der Anforderungen der Fachbereiche hinsichtlich der IT-
+
+Leistungen 
+
+ Laufende transparente Steuerung der IT-Kosten, der IT-Architektur und des IT-
+
+bezogenen Projektportfolios 
+
+ Laufende Steuerung und Überwachung der IT-Dienstleister (inkl. der Finanz 
+
+Informatik) sowie der DKB-Tochtergesellschaften in IT-Themen 
+
+8 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+IT-Governance (inkl. IT-Kosten- und Portfolio-Steuerung) 
+Entwicklung, Betrieb und Prozesse werden aktiv gesteuert 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Die IT-Strategie wird im Rahmen der vorgegebenen IT-Budgets durch strikte Portfolio- 
+und Kostensteuerung umgesetzt. 
+
+Steuerung 
+
+der IT 
+
+Entwicklung und Betrieb des Anwendungsportfolios und der dazugehörigen IT-Services 
+und Prozesse werden aktiv gesteuert.  
+
+Adäquate Entscheidungsgremien sind etabliert. 
+
+IT-Organisation 
+und IT-Services 
+
+Die Organisation und die IT-Services und Prozesse sind so ausgestaltet, dass die IT 
+die Unternehmensziele optimal unterstützt und zugleich Risiken minimiert werden. 
+
+IT-Prozesse 
+
+Die dokumentierten IT-Prozesse werden regelmäßig mit den benötigten 
+Geschäftsanforderungen abgeglichen, um so eine optimale Unterstützung der 
+Fachbereiche zu gewährleisten. 
+
+Die IT-Strategie wird im Rahmen der vorgegebenen IT-Budgets umgesetzt.  
+
+Höhe der  
+IT-Kosten 
+
+Abweichungen (bspw. aufgrund geänderter Geschäftsanforderungen) werden 
+transparent aufgezeigt und Handlungsempfehlungen bzw. Maßnahmenvorschläge 
+aufbereitet.  
+
+Selbst-
+
+verständnis 
+
+Die Kosten des Betriebs der IT-Landschaft werden aufgrund der konsequenten 
+Verwendung von Standards nachhaltig reduziert. 
+
+9 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+IT-Risikomanagement und Informationssicherheit 
+Absicherung der IT-gestützten Prozesse im Fokus 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Die Informationssicherheit fokussiert auf Wirksamkeit und Einfachheit in der Anwendung.  
+
+IT-Sicherheit 
+
+Ziel der IT-Sicherheit ist die organisatorisch, wirtschaftlich und technisch effiziente 
+Absicherung der IT-gestützten Geschäftstätigkeiten. Diese Geschäftsprozesse sind 
+bezüglich der Schutzwerte Verfügbarkeit, Vertraulichkeit, Authentizität und Integrität 
+angemessen vor Schäden zu schützen auf Basis des „Sicheren IT-Betriebs“. 
+
+Die konsequente Einhaltung der IT-Sicherheitsleitlinie und des Informationssicherheits-
+Managementsystems (ISMS) der DKB AG ist jederzeit gewährleistet. 
+
+IT-Risiko- 
+
+Management 
+
+Das IT-Risikomanagement identifiziert und behandelt IT-Risiken ausgehend von der IT-
+Infrastruktur, von IT-Anwendungen und von IT-Prozessen. Hierfür wird regelmäßig ein 
+definierter IT-Risikomanagementprozess durchlaufen.  
+
+Dieser Prozess ist eingebettet in die Risikostrategie und den Risikomanagement-
+prozess der Bank. Die IT-Risiken sind transparent und werden aktiv gesteuert. 
+
+10 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+IT-Compliance 
+Alle Compliance-Anforderungen werden erfüllt 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Alle Anforderungen des Gesetzgebers, der Regulatoren, des Konzerns und der DKB 
+werden eingehalten.  
+
+Dies betrifft insbesondere Anforderungen an Informationssicherheit, Datenschutz, 
+Verfügbarkeit, Vertraulichkeit, Integrität und Authentizität sowie die Aufbewahrung von 
+Daten. 
+
+Controlling- und Managementprozesse sind etabliert, um die Einhaltung dieser 
+Anforderungen nachzuhalten und durchzusetzen. 
+
+Gesetzliche 
+Regelungen 
+
+Controlling- u. 
+Management-
+
+prozesse 
+
+11 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+IT-Architektur und Technologie 
+Reduzierung der Komplexität durch Einsatz von Standards 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Architektur 
+
+Die Architektur ist modern, zukunftssicher und hat eine angemessene Komplexität zur 
+langfristigen Unterstützung des Geschäftsmodells („so einfach wie möglich, so 
+individuell wie nötig“).  
+
+Eine weitgehende Standardisierung der Architektur wird durch Verwendung des 
+Kernbanksystems OSPlus sichergestellt. 
+
+Architektur-
+entwicklung 
+
+Die Entwicklung der IT-Architektur verläuft Top-Down (abgeleitet aus der 
+Geschäftsstrategie) sowie Bottom-Up (abgeleitet aus Anforderungen aus dem 
+operativen Geschäft). 
+
+Es ist langfristig eine skalierbare Managed Service Architecture aufzubauen. 
+
+Technologie 
+
+Bei technischen Komponenten und Plattform- sowie Infrastrukturelementen werden –
+wenn möglich – Standardbausteine eingesetzt, um die Komplexität der 
+Technologiearchitektur gering zu halten.  
+
+12 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+IT-Sourcing (inkl. Personal & Dienstleister) 
+Fokussierung auf interne Kräfte und den strategischen Partner FI 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Personal 
+
+Sicherstellung der hohen Motivation und Qualifikation der IT-Mitarbeiter als wichtigste 
+Ressource: 
+ Bedarfsorientierte strategische Personalplanung 
+ Gezielte umfassende interne und externe Weiterbildung 
+ Nachwuchsförderung durch eigene Ausbildung und Nachwuchsprogramme 
+
+Dienstleister werden selektiv eingesetzt: 
+ Präferierte Nutzung des Leistungsangebot des strategischen IT-Partners Finanz 
+
+Informatik 
+
+Dienstleister 
+
+ Fokussierung auf wenige externe Partner im Projektgeschäft („Preferred-Partner-
+
+Ansatz“) mit in der DKB nachgewiesener Expertise 
+
+ Kooperationen mit Dritten, sofern intern oder durch die FI diese Leistungen nicht in 
+
+der erforderlichen Zeit dargestellt werden können 
+
+13 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Individuelle Datenverarbeitung 
+IT als Unterstützer der Fachbereiche 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Governance 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+IT-Architektur u. Technologie 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+Individuelle Datenverarbeitung 
+
+Die Methodenverantwortung für Entwicklung und Einsatz von IDV liegt in der DKB-IT. Für 
+die Einhaltung ist der IDV-einsetzende Bereich verantwortlich. 
+
+Individuelle Datenverarbeitung (IDV) wird in den Bereichen entwickelt und betrieben, 
+wenn  
+
+ keine adäquate Anwendung verfügbar ist und  
+
+ aufgrund des Betriebs der IDV grundsätzlich keine oder nur sehr geringe Risiken 
+
+entstehen oder 
+
+ bei Existenz von Risiken diese IDV-Anwendungen im zentralen Risikomanagement 
+
+adäquat berücksichtigt werden.  
+
+Die DKB-IT überprüft im Rahmen des IT-Risikomanagementprozesses die von den 
+Bereichen betriebene IDV.  
+
+IDV in  
+den Fach-
+bereichen 
+
+Einbeziehung  
+in den Risiko-
+management-
+
+prozess 
+
+14 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Ausblick 
+Operationalisierung und Fortschreibung der IT-Strategie 
+
+Operationali-
+
+sierung 
+
+Die Ziele und strategischen Ansätze werden mittels Maßnahmen konkret und messbar 
+operationalisiert und in einem permanenten Controllingprozess gesteuert. Die 
+Ergebnisse werden regelmäßig dem Top-Management berichtet. 
+
+Die Messung des Erfolgs der umgesetzten Maßnahmen der IT-Strategie erfolgt mittels 
+Zielwerten der Key Performance Indikators (KPIs) in den einzelnen Strategie-
+dimensionen in einem eigenen Dokument („Operationalisierung der IT-Strategie“). 
+
+Die Entwicklung, Umsetzung und Fortschreibung der IT-Strategie erfolgt in einem 
+permanenten, regelmäßig zu durchlaufenden Prozess: 
+ Turnusmäßig einmal im Jahr oder bei veränderten Einflussgrößen (Umfeld, 
+
+Geschäftsstrategie) 
+
+IT-Strategie-
+
+prozess 
+
+ Überprüfung und Anpassung der Ziele und Inhalte der einzelnen Strategie-
+
+dimensionen nebst Anpassung der Maßnahmen 
+
+ Analyse der Ist-Werte der KPIs sowie Fortschreibung der Zielwerte 
+ Beschlussfassung der fortgeschriebenen IT-Strategie nebst Operationalisierung durch 
+
+das Top-Management der DKB AG 
+
+15 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+DKB IT-Strategie ist mit BayernLB abgestimmt 
+Die IT-Strategie ist konsistent mit der BayernLB Konzern IT-Strategie 
+
+Strategiepyramide BayernLB-Konzern 
+Strategiepyramide BayernLB-Konzern 
+
+Einordnung der IT-Strategie 
+
+Konzern-
+strategie 
+
+ 
+
+IT-Strategie 
+
+ 
+
+ Die DKB-IT-Strategie ist konsistent mit der 
+
+BayernLB Konzern-IT-Strategie, die aus der 
+Konzern-Geschäftsstrategie abgeleitet ist 
+
+ Die DKB-IT-Strategie ist spiegelbildlich zur 
+IT-Strategie der BayernLB Bank aufgebaut 
+ 
+
+BayernLB Bank 
+
+DKB 
+
+IT-Strategie 
+
+BayernLB Bank 
+
+IT-Strategie 
+
+DKB 
+
+Operationalisierung 
+
+Operationalisierung 
+
+IT-Strategie 
+
+ 
+
+IT-Strategie 
+
+ 
+
+16 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Der IT-Strategieentwicklungsprozess wird mit dem KPI-getriebenen 
+Steuerungsprozess synchronisiert  
+
+IT-Strategieentwicklung: 
+
+ Die Prozesse IT-Strategieentwicklung, IT-Anforderungsmanagement und IT-Portfoliomanagement laufen 
+
+zyklisch und orientieren sich dabei an dem DKB  und BayernLB Planungszyklus 
+
+ Im Prozess der IT-Strategieentwicklung sind die gleichen Gremien aktiv wie im Strategieentwicklungsprozess  
+
+ Die zu ergreifenden Maßnahmen zur Weiterentwicklung der IT-Strategie orientieren sich an den strategischen 
+
+KPIs und den dafür formulierten Schwellwerten und Zielen 
+
+IT-Strategieentwicklung 
+
+IT-Projektmanagement 
+
+Analyse der 
+
+Analyse der  
+
+DKB und 
+Konzern-
+Strategie 
+
+IT-
+
+Potentiale/ 
+des Umfelds 
+
+Konsolidie-
+rung der 
+Anforde-
+rungen 
+
+Abgleich mit 
+
+IT-
+
+Ressourcen 
+
+Entwicklung/ 
+Anpassung  
+IT-Strategie 
+
+und Ziele 
+
+Festlegung 
+
+von 
+
+Maßnahmen 
+
+Umsetzung/ 
+IT-Projekt-
+
+management 
+
+Beurteilung 
+
+und ggf. 
+
+Anpassung  
+
+IT-Anforderungsmanagement 
+
+IT-Portfoliomanagement 
+
+Entsprechende Kommunikation 
+
+17 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Die IT-Strategieentwicklung ist ein zyklischer Prozess (1/2) 
+Die DKB IT-Strategie orientiert sich an der Konzern IT und den Geschäftsbereichen 
+
+Analyse der DKB- 
+
+und Konzern-
+
+Strategie 
+
+Analyse der  
+IT-Potentiale 
+
+• Die BayernLB IT-Strategie und die Gesamtstrategie der DKB bilden den Bezugsrahmen für ein top-down Alignment bzw. die 
+
+Weiterentwicklung der DKB IT-Strategie 
+
+• Der strategische Planungszyklus der DKB und der BayernLB gibt die Zeitpunkte vor, zu denen eine 
+
+Weiterentwicklungsnotwendigkeit geprüft und ggf. veranlasst wird 
+
+• Es sind IT-Potentiale zu bewerten, die geeignet sind, die DKB Gesamtstrategie und die Konzern IT-Strategie zu unterstützen, z.B. 
+Kosteneffizienz im Betrieb, Performance, Sicherheit, Risikominimierung – diese orientieren sich an den vier strategisch relevanten 
+Handlungsfeldern (s.u.) 
+
+•
+
+IT prüft Möglichkeiten, um die Strategie optimal zu unterstützen z.B. Cloud Computing, Bandbreiten, SOA, … 
+
+ 
+
+Konsolidierung der 
+
+Anforderungen 
+
+• Anforderungen an die IT-Strategie kommen ebenfalls aus den Geschäftsbereichen der DKB . Die Anforderungen sind zu 
+
+konsolidieren und vor dem Hintergrund der Konzern IT-Strategie zu bewerten 
+
+• Über die  weitere Behandlung der jeweiligen Anforderungen entscheidet ggf. nach einer entsprechenden Bewertung der 
+
+Innovationsausschuss 
+
+• Anforderungen an die IT-Strategie werden angesichts technischer Machbarkeit, IT-Architektur, IT-Roadmap, IT-Sourcing 
+
+Abgleich mit IT-
+
+Ressourcen 
+
+Strategie,  IT-Sicherheits-/Risikomanagement bewertet 
+
+• Bewertete und grundsätzlich machbare Anforderungen werden zur Entscheidung aufbereitet 
+
+Entwicklung/ 
+Anpassung  
+IT-Strategie 
+
+• Die IT-Strategie wird gemäß der priorisierten top-down und bottom-up Anforderungen angepasst oder konkretisiert 
+
+• Die Zielwerte in den strategischen und operativen KPIs werden ggf. entsprechend kalibriert, um im weiteren Verlauf den Beitrag 
+
+der umgesetzten Anforderungen zur Erreichen der IT-Strategie zu messen 
+
+18 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Die IT-Strategieentwicklung ist ein zyklischer Prozess (2/2) 
+Die DKB IT-Strategie orientiert sich an der Konzern IT und den Geschäftsbereichen 
+
+Festlegung von 
+
+Maßnahmen 
+
+Umsetzung/ IT-
+
+Projekt-
+
+management 
+
+• Die aus den Anforderungen resultierenden Maßnahmenpläne werden bewertet, priorisiert und in ein Ranking gebracht 
+
+• Das jeweils zuständige Gremium bzw. der Entscheider beschließen die umzusetzenden Maßnahmen, die je nach Größe in IT-
+
+Projekte münden 
+
+• Die Umsetzung der IT-Strategie und der Erfolg der Strategieentwicklung zeigen sich in hohem Maße bei der Durchführung von IT-
+
+Projekten  
+
+• Der Verlauf und die Ergebnisse der Maßnahmen/Projekte werden anhand der KPIs gemessen und fungieren im nächsten 
+
+Strategiezyklus erneut als Stimulus für die Bewertung der IT-Strategie 
+
+Beurteilung und ggf. 
+
+• Die IT-Strategie nebst Operationalisierung wird turnusmäßig (mind. einmal p.a.) überprüft und ggf. angepasst bzw. 
+
+Anpassung  
+
+fortgeschrieben; Ad-hoc-Anpassungen sind anlassbezogen möglich 
+
+Entsprechende 
+Kommunikation 
+
+• Kommunikation mit Fokus auf maßgeblich Betroffene. Das betrifft auch Veränderungen an der IT-Strategie. 
+
+19 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Rollen und Verantwortlichkeiten im IT-Strategieprozess 
+Die IT-Strategie wird umfassend im Unternehmen abgestimmt 
+
+Gesamtstrategie inkl. ggf. 
+Kundengruppenstrategien 
+und Funktionalstrategien 
+
+Maßnahmen der 
+
+Bereiche 
+
+CIO, IT,  
+
+Mid Office, UE 
+
+O.g. Einflüsse auswerten  
+
+CIO, IT,  
+
+Mid Office, UE 
+
+Einflüsse aus 
+
+ergänzenden Anforde-
+rungen der  Bereiche 
+
+auswerten  
+
+IT 
+
+Einflüsse aus den IT-
+Bereichen auswerten  
+
+IT 
+
+CIO, IT, Mid 
+Office, UE 
+
+Gesamt-
+vorstand 
+
+Aufsichtsrat 
+
+Auswirkung auf 
+
+Qualitäts-
+
+IT-Strategie 
+
+bewerten und 
+Anpassungen 
+vorschlagen 
+
+sicherung der 
+
+IT-Strategie und 
+Freigabe durch 
+
+CIO 
+
+Genehmigung 
+der IT-Strategie 
+und Auftrag zur 
+
+Umsetzung 
+
+IT-Strategie zur 
+
+Kenntnis 
+nehmen 
+
+Einordnung der IT-Strategie 
+
+ IT-Strategieentwicklung und -
+
+umsetzung ist ein kontinuierlicher 
+Prozess in der DKB AG 
+
+ Die IT-Strategie nebst Operatio-
+
+nalisierung wird turnusmäßig (mind. 
+einmal p.a.) fortgeschrieben; Ad-hoc-
+Anpassungen sind anlassbezogen 
+möglich 
+
+ Verabschiedung durch Gesamt-
+
+vorstand und Kenntnisnahme durch 
+den Aufsichtsrat; anschließende breite 
+Kommunikation mit Fokus auf 
+maßgeblich Betroffene 
+
+  
+
+20 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+KPI-Hierarchie  
+KPI werden auf verschiedenen Ebenen erfasst 
+
+KPI Hierarchie 
+
+KPI Ableitung 
+
+AR-Dashboard mit 4 
+strategischen Zielen 
+
+zugehörigen KPIs 
+
+Konzern 
+BayernLB 
+
+Management Cockpit mit 8 
+
+Handlungsfeldern und 
+
+AR/Vorstand DKB 
+
+zugehörigen KPIs 
+
+ Die neue Strategie der BayernLB Konzern-IT 
+
+enthält einen Satz von KPIs, die zur Messung der 
+strategischen und operativen Ziele dienen 
+
+ 
+
+ Die DKB-KPI für Berichterstattung an den 
+
+Aufsichtsrat (AR) und Gesamtvorstand werden 
+aus den existierenden KPIs abgeleitet 
+
+AR-Report mit 4 strategischen  
+
+Zielen zugehörigen KPIs 
+
+ 
+
+CIO DKB 
+
+Management Cockpit mit 8 
+
+Handlungsfeldern und  
+
+zugehörigen KPIs 
+
+ Die KPIs für das IT-Management Cockpit - 
+
+operativ der DKB IT werden zum regelmäßigen 
+Reporting an den BL-Mid Office genutzt (siehe 
+Dokument: Operationalisierung der IT-Strategie)  
+
+  
+
+21 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Spezielle Anforderungen an strategische KPIs  
+Die Ziele und die daran anknüpfenden KPIs müssen so formuliert werden, das sie sinnvoll überprüft 
+werden können und den Erfolg der IT-Strategie zeigen bzw. auf Verbesserungspotentiale hinweisen 
+
+ 
+
+Kriterien für eine sinnvolle Auswahl und Definition von KPIs: 
+
+ KPI muss messbar sein in Bezug auf strategische/strategierelevante Ziele 
+
+ KPI muss für den Aufsichtsrat und Vorstand aussagekräftig sein im Hinblick auf die 
+
+Beurteilung der IT-Strategieumsetzung 
+
+ Verantwortliche Manager müssen in der Lage sein, ihre KPIs unmittelbar zu 
+
+beeinflussen 
+
+ Andere Einflüsse auf den KPI dürfen nur minimal sein 
+
+ KPI muss analysierbar und durch gezielte Maßnahmen beeinflussbar sein (z.B. Root 
+
+Cause Analyse, 8D, Lean Six Sigma) 
+
+ KPI muss benchmarkfähig sein 
+
+22 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Die Operationalisierung der IT-Strategie beinhaltet 16 KPIs 
+Die KPIs sind paarweise den 8 Handlungsfeldern der IT-Strategie zugewiesen 
+
+Umfeldanalyse 
+
+ IT-Budget: Anteil Change an 
+
+Gesamtkosten 
+
+ Time to Market 
+
+ Entwicklung der Kosten aus IT-Non-
+
+Compliance-Fällen 
+
+IT-Compliance 
+
+ Anzahl der Regelverstöße 
+
+Selbstverständnis, 
+Rolle und 
+Organisation      
+der IT 
+
+ Ergebnis Anwenderbefragung 
+
+ IT-Change Planabweichung im Budget 
+
+und der Laufzeit 
+
+IT-Architektur u. 
+Technologie 
+
+ Zeitspanne zw. der Aktualisierung der 
+
+strategischen Geschäftsplanung und 
+Planung der IT-Architektur 
+
+IT-Governance  
+(inkl. Kosten) 
+
+ Cost-Income-Ratio 
+
+ Abweichung vom IT-Budget 
+
+ IT-Kosten Kernbanksystem pro  Kunde 
+
+IT-Sourcing (inkl. 
+Personal & 
+Dienstl.) 
+
+ Weiterbildungstage DWH / Java 
+
+ Supplier Excellence 
+
+ Anzahl kritischer Sicherheitsvorfälle 
+
+ IT Risiken 
+
+IT-Risikomgmt. / 
+Informations-
+sicherheit 
+
+Individuelle 
+Datenverarbeitung 
+
+ Verhältnis im Risikomanagement-
+
+prozess erfolgreiche IDV-Lösungen : 
+angezeigte IDV-Lösungen 
+
+ Verhältnis durch DKB-IT zentral betreute 
+
+IDV-Lösungen : angezeigte IDV-
+Lösungen 
+
+23 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Herleitung der für den Vorstand/AR relevanten KPIs  
+Aus den existierenden KPIs wird die Mehrzahl der strategischen KPIs ausgewählt 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle und 
+
+Organisation der IT 
+
+IT-Architektur u. Technologie 
+
+IT-Governance 
+
+IT-Sourcing (inkl. Personal & 
+
+Dienstl.) 
+
+IT-Risikomgmt. / Informations-
+
+sicherheit 
+
+Individuelle Datenverarbeitung 
+
+ 
+ 
+
+Fokus: Operationalisierung 
+• Messung der Umsetzung der 
+
+operativen Ziele im Rahmen der IT-
+Strategie mit 16 KPIs 
+
+• Reporting an CIO 
+
+Auswahl von KPIs für das Vorstands- und AR-Reporting auf Basis der als wesentlich 
+
+erachteten Ziele und der Anforderungen an die strategisch relevanten KPIs 
+
+Performance 
+
+Innovationskraft 
+
+Risiko und Sicherheit 
+
+Anwender und Projekte 
+
+Fokus: Strategie 
+• Messung der Umsetzung der IT-
+
+Strategie der DKB mit 8 KPIs 
+
+• Reporting an Gesamtvorstand und 
+
+Aufsichtsrat 
+
+24 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Eine Auswahl der KPIs dient zum Reporting an Vorstand/AR 
+Die ausgewählten KPI müssen geeignet sein, um den Gremien zu ermöglichen die Umsetzung der 
+IT-Strategie bzw. der vier Kernziele beurteilen zu können 
+
+Performance 
+
+Die Performance ist bei 
+marktgängigen Kosten zu 
+verbessern und abzusichern 
+
+Innovations-
+
+kraft 
+
+Die DKB IT führt ausreichend 
+erfolgreiche Innovations-
+projekte durch 
+
+Umfeldanalyse 
+
+IT-Compliance 
+
+Selbstverständnis, Rolle 
+und Organisation der IT 
+
+IT-Architektur u. 
+
+Technologie 
+
+Risiko und 
+Sicherheit 
+
+Risikominimierung und 
+Sicherheitsoptimierung 
+
+IT-Governance 
+
+IT-Sourcing (inkl. Personal 
+
+& Dienstl.) 
+
+Anwender 
+
+und Projekte 
+
+IT-Anwenderzufriedenheit und 
+Projekterfolgsquote steigern  
+
+IT-Risikomgmt. / 
+
+Individuelle 
+
+Informations-sicherheit 
+
+Datenverarbeitung 
+
+25 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Die für Vorstand/AR wesentlichen KPI werden ausgewählt 
+Die ausgewählten KPIs müssen sich eignen, die vier Ziele wirksam und messbar zu unterstützen 
+
+Umfeldanalyse 
+
+ Budget: Anteil Change an 
+
+Gesamtkosten 
+
+ Time to Market 
+
+ Entwicklung der Kosten aus IT-Non-
+
+Compliance-Fällen 
+
+IT-Compliance 
+
+ Anzahl der Regelverstöße 
+
+Selbstverständnis, 
+Rolle und 
+Organisation      
+der IT 
+
+ Ergebnis Anwenderbefragung 
+
+ IT-Change Planabweichung im 
+
+Budget und der Laufzeit 
+
+IT-Architektur u. 
+Technologie 
+
+ Zeitspanne zw. der Aktualisierung der 
+strategischen Geschäftsplanung und 
+Planung der IT-Architektur 
+
+IT-Governance  
+(inkl. Kosten) 
+
+ Cost-Income-Ratio 
+
+ Abweichung vom IT-Budget 
+
+ IT-Kosten Kernbanksystem pro  
+
+Kunde 
+
+ Anzahl kritischer Sicherheitsvorfälle 
+
+IT-Risikomgmt. / 
+Informations-
+sicherheit 
+
+ IT Risiken 
+
+IT-Sourcing (inkl. 
+Personal & 
+Dienstl.) 
+
+ Weiterbildungstage DWH / Java 
+
+ Supplier Excellence 
+
+Individuelle 
+Datenverarbeitung 
+
+ Verhältnis im Risikomanagement-prozess 
+
+erfolgreiche IDV-Lösungen : angezeigte 
+IDV-Lösungen 
+
+ Verhältnis durch DKB-IT zentral betreute 
+
+IDV-Lösungen : angezeigte IDV-Lösungen 
+
+Die dargestellten KPIs (operativen KPIs) sind im Rahmen der Operationalisierung der IT-Strategie detailliert 
+beschrieben.  
+Siehe Anlage 2 „operativen Handlungsfelder“ ab S. 38. 
+
+26 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Die Ziele können anhand der Auswahl  an KPIs gemessen werden 
+Die ausgewählten KPIs sind für die Zielgruppe aussagekräftig und nachvollziehbar 
+
+ Budget: Anteil Change an 
+
+ Das Verhältnis zeigt an, wieviel in innovative Projekte investiert 
+
+Umfeldanalyse 
+
+Gesamtkosten 
+
+ Time to Market 
+
+wird und wieviel in Projekte und Linienaktivitäten für 
+Betrieb/Wartung. Ein höherer Change Anteil deutet auf ein 
+höheres Innovationspotential hin. 
+
+ Ergebnis Anwenderbefragung 
+
+ In der DKB werden regelmäßig Anwenderbefragungen 
+
+Selbstverständnis, 
+Rolle und  
+Organisation der IT 
+
+ IT-Change Planabweichung im 
+
+Budget und der Laufzeit 
+
+durchgeführt Anwenderzufriedenheit ist ein wichtiger Indikator für 
+die Leistung der DKB IT  und die Erfüllung der IT-Strategie 
+
+ Die Umsetzung von Projekten steht in direktem Zusammenhang 
+
+mit der Erfüllung der IT-Strategie (strategisches IT-Projekt-
+portfolio) 
+
+IT-Governance  
+(inkl. Kosten) 
+
+ Cost-Income-Ratio 
+
+ Abweichung vom IT-Budget 
+
+ IT-Kosten Kernbanksystem pro  
+
+Kunde 
+
+ IT-Kosten im Verhältnis zu den Kunden zeigen 
+
+Degressionseffekte auf – bessere Qualität zu (relativ) 
+gleichbleibenden oder sinkenden Kosten. 
+
+I
+n
+n
+o
+v
+a
+t
+i
+o
+n
+s
+-
+
+A
+n
+w
+e
+n
+d
+e
+r
+ 
+
+k
+r
+a
+f
+t
+ 
+
+u
+n
+d
+ 
+P
+r
+o
+e
+k
+t
+e
+ 
+
+j
+
+P
+e
+r
+f
+o
+r
+m
+a
+n
+c
+e
+ 
+
+IT-Risikomgmt. /  
+Informations- 
+sicherheit 
+
+ Anzahl kritischer 
+
+Sicherheitsvorfälle 
+
+ IT Risiken 
+
+ Veränderung der Anzahl identifizierter Risiken pro Risikokategorie. 
+
+Dieser Indikator signalisiert damit Veränderungen der Risikolage 
+und kann als Frühindikator verwendet werden. Die Angabe einer 
+Range ist daher sinnvoll. 
+
+ Sicherheitsrelevante Vorfälle sind der wesentliche Indikator für die 
+IT-Sicherheit und müssen daher permanent beobachtet, analysiert 
+und vermieden werden. 
+
+i
+
+S
+c
+h
+e
+r
+h
+e
+i
+t
+ 
+
+27 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+i
+
+i
+
+R
+s
+k
+o
+ 
+u
+n
+d
+ 
+
+Strategische KPI für den AR-Bericht  
+Die Auswahl der existierenden KPIs wird um zwei neue KPIs ergänzt 
+
+KPI-Inhalte für Aufsichtsrat/Vorstandsbericht 
+
+Performance 
+
+Innovations-
+
+kraft 
+
+Risiko und 
+Sicherheit 
+
+Anwender 
+
+und Projekte 
+
+ IT-Kosten für Kernbanksystem pro Kunde 
+
+ Ausfälle/Schäden IT-Systeme 
+
+ IT-Budget: Anteil Change an Gesamtkosten 
+
+ IT-Budget (Change) Anteil „Kann“ an Gesamt 
+
+ IT-Risiken 
+
+ Anzahl kritischer Sicherheitsvorfälle 
+
+ Ergebnis Anwenderbefragung 
+
+ IT-Change: Planabweichung im Budget und 
+
+der Laufzeit 
+
+Zwei KPIs wurden ergänzt, um Performance und 
+Innovationskraft noch besser zu messen 
+
+ Ausfälle/Schäden der IT-Systeme werden 
+
+mittels Ticketsystem permanent verfolgt und 
+dokumentiert. Verfügbarkeit der Systeme ist 
+wesentliche Voraussetzung für die Erbringung 
+der Leistung 
+
+ Je mehr Kann-Projekte vorhanden sind, umso 
+
+besser kann die IT auf Basis der Anforde-
+rungen an Innovationsprojekte priorisieren und 
+den Fokus auf die innovativsten Vorhaben 
+legen. Knappe Ressourcen werden somit nicht 
+in wenig nutzenstiftenden „vermeintlichen“ 
+Muss-Projekten investiert.  
+
+• Alle KPIs werden monatlich gemessen (Ausnahme ist die Anwenderbefragung) 
+• Report erfolgt jährlich zur AR-Sitzung und zur Vorstandssitzung 
+• KPIs werden kontinuierlich analysiert und gesteuert 
+• Kritische Abweichungen werden sofort berichtet (exception based reporting) 
+
+28 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Performance (1/4) 
+Ziel: Die Performance ist bei marktgängigen Kosten zu verbessern und abzusichern 
+
+Performance 
+
+Handlungsfeld: Performance – IT Kosten und Entwicklung Ausfälle/Schäden 
+
+KPI 
+
+IT-Kosten für Kernbank-system 
+pro Kunde* 
+(jeweils gleitender Durchschnitt der 
+vergangenen 12 Monate) 
+
+Ausgangswert (Baseline) 
+
+Zielwert 
+
+8,10 € pro Kunde brutto in 2015 
+
+< 8,10 € pro Kunde brutto 
+
+Ausfälle/Schaden IT-Systeme  
+(pro Monat) 
+
+Ausfälle/Schaden IT-Systeme April 2016 
+Priorität 1 und 2 in Stück (0 und 18 im April 
+2016)** 
+
+0 Stück Priorität 1 
+<20 Stück Priorität 2 
+ 
+
+ IT-Kosten im Verhältnis zu den Kunden zeigen Degressionseffekte auf – bessere Qualität zu 
+
+(relativ) gleichbleibenden oder sinkenden Kosten. 
+
+Nutzen 
+
+ Ausfälle/Schäden der IT-Systeme werden mittels Ticketsystem permanent verfolgt und 
+
+dokumentiert. Verfügbarkeit der Systeme ist wesentliche Voraussetzung für die Erbringung der 
+Leistung. 
+
+* Kernkonto gemäß FI-Faktura (Produktgruppe 6) 
+** für die Anbieter und Leistungen, die an der Service-Level-Überwachung teilnehmen (nur FI und FI-TS)   
+
+29 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Innovationskraft (2/4) 
+Ziel: Die DKB IT führt ausreichend erfolgreiche Innovationsprojekte durch 
+
+Innovationskraft 
+
+Handlungsfeld: Innovationskraft – Verhältnis Total/Change und Muss/Kann Projekte  
+
+KPI 
+
+IT-Budget: Anteil Change an 
+Gesamtkosten (jeweils gleitender 
+Durchschnitt der vergangenen 12 
+Monate) 
+
+IT-Budget (Change): Anteil  Kann 
+an Gesamt (monatlich, lfd. 
+Geschäftsjahr kumuliert) 
+
+Ausgangswert (Baseline) 
+
+Zielwert 
+
+Wert 2015:  8,18% 
+
+Change/Total - >= 15% 
+
+Ausgangswert wird per Q3 2016 festgelegt 
+
+50-70% Kann-Projekte  
+ 
+
+Nutzen 
+
+ Das Verhältnis zeigt an, wieviel in innovative Projekte investiert wird und wieviel in Projekte und 
+
+Linienaktivitäten für Betrieb/Wartung. Ein höherer Change Anteil deutet auf ein höheres Innovationspotential 
+hin. 
+
+ Je mehr Kann-Projekte vorhanden sind, umso besser kann die IT auf Basis der Anforderungen an 
+
+Innovationsprojekte priorisieren und den Fokus auf die innovativsten Vorhaben legen. Knappe Ressourcen 
+werden somit nicht in wenig nutzenstiftenden „vermeintlichen“ Muss Projekten investiert.  
+
+30 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Risiko und Sicherheit (3/4) 
+Ziel: Risikominimierung und Sicherheitsoptimierung 
+
+Handlungsfeld: Entwicklung Risiko und Anzahl sicherheitsrelevanter Vorfälle 
+
+KPI 
+
+Risiko und 
+Sicherheit 
+
+Ausgangswert (Baseline) 
+
+Zielwert 
+
+IT-Risiken (4 Erhebungen pro 
+Jahr) 
+
+Anzahl der Risiken in Stück (Stand 
+Q1/2016): 16 
+(Zugänge und Abgänge als Zusatz-information 
+ohne Zielwert zur Vermeidung einer 
+Saldierung) 
+
+Range für akzeptiertes Risiko: 15-20 
+
+Anzahl kritischer 
+Sicherheitsvorfälle (jeweils die 
+vergangenen 12 Monate) 
+
+Anzahl kritischer Sicherheitsvorfälle (Stand 
+Q1/2016): 0 
+
+<4 p.a. 
+ 
+
+ Veränderung der Anzahl identifizierter Risiken pro Risikokategorie. Dieser Indikator signalisiert 
+
+damit Veränderungen der Risikolage und kann als Frühindikator verwendet werden. Die Angabe 
+einer Range ist daher sinnvoll. 
+
+Nutzen 
+
+ Sicherheitsrelevante Vorfälle sind der wesentliche Indikator für die IT-Sicherheit und müssen daher 
+
+permanent beobachtet, analysiert und vermieden werden. 
+
+31 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Anwender und Projekte (4/4) 
+Ziel: IT-Anwenderzufriedenheit und Projekterfolgsquote steigern  
+
+Handlungsfeld: IT-Anwenderzufriedenheit und Projekterfolgsquote 
+
+KPI 
+
+Anwender und 
+
+Projekte 
+
+Ausgangswert (Baseline) 
+
+Zielwert 
+
+Ergebnis Anwenderbefragung 
+(1 pro Jahr) 
+
+Anwenderbefragung Q3 2016 
+
+besser als 2,5 (Schulnote) 
+
+IT-Change: Planabweichung im 
+Budget und der Laufzeit 
+(12 pro Jahr) 
+
+Budget- und Zeitplanwert gem. jeweiligem 
+Projektauftrag* 
+
+< 20% Abweichung Ist zu Plan für beide 
+Mess-größen 
+ 
+
+ In der DKB werden regelmäßig Anwenderbefragungen durchgeführt Anwenderzufriedenheit ist ein 
+
+wichtiger Indikator für die Leistung der DKB IT  und die Erfüllung der IT-Strategie 
+
+Nutzen 
+
+ Projekte werden regelmäßig verfolgt und eine Professionalisierung des Projektmanagements wird 
+vorangetrieben. Die Umsetzung von Projekten steht in direktem Zusammenhang mit der Erfüllung 
+der IT-Strategie (strategisches IT-Projektportfolio) 
+
+* Festlegung des Scopes für die Messung (alle Projekte, nur strategische Projekte, >100T€ externes  Budget …) 
+wird in Q3 2016 festgelegt mit UE 
+
+32 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Strategische KPIs 
+Für alle strategischen KPIs existieren Schwellwert für die Messung, die monatlich nachgehalten 
+werden 
+
+Ist 
+
+Soll 
+
+Grün 
+
+IT Kosten … 
+
+8,10€/Kunde in 
+2015 
+
+<8,10€/Kunde  
+
+<8,10 
+
+Gelb 
+
+8,11 – 8,20 
+
+Rot 
+
+>8,20 
+
+Ausfälle/Schaden 
+
+Prio 1 = 0 
+Prio 2 = 18 
+
+Prio 1 = 0 
+Prio 2 = <20 
+
+Prio 1 = 0 
+Prio 2 = <20 
+
+Prio 1 = 1 
+Prio 2 = 20-25 
+
+Prio 1=  >1 
+Prio 2 = >25 
+ 
+
+Anteil Change an 
+Gesamtkosten 
+
+Anteil Kann an 
+Gesamtportfolio 
+
+8,18% in 2015 
+
+Change/Total >= 
+15% 
+
+Noch zu erheben 
+
+50-70% 
+
+IT-Risiken 
+
+16 in Q1 2016 
+
+15-20 
+
+Sicherheitsvorfälle 
+
+0 in Q1 2016 
+
+<4 p.a. 
+
+>= 15% 
+ 
+
+50-70% 
+ 
+
+15-20 
+ 
+
+<4 p.a. 
+
+Anwender-
+befragung 
+
+IT-Change: 
+Planabweichung 
+im Budget und 
+Laufzeit 
+
+Erfolgt in Q3 2016 
+
+Besser als 2,5 
+(Schulnote) 
+
+Besser als 2,5 
+(Schulnote) 
+
+In time und in 
+budget 
+
+< 20% Abweichung 
+Ist zu Plan für 
+beide Messgrößen 
+
+< 20% Abweichung 
+Ist zu Plan für 
+beide Messgrößen 
+
+10-15% 
+
+<10% 
+
+Abweichung bis 
+10% 
+
+Abweichung > 10% 
+
+20-25 
+
+4-5 
+
+2,5-4,5 
+
+>25 
+
+>5 
+
+5-6 
+
+20-25% 
+
+>25% 
+
+33 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Reporting-Prozess (1/2) - IT-Management-Cockpit  
+IT-Management-Cockpit zur operationalen Messung der Strategieumsetzung 
+
+Festlegen von 
+Messwerten  
+(KPI) 
+
+Bewertung quartalsweise 
+
+Einsammeln der definierten 
+Messwerte bei den fest-
+gelegten Bereichen und 
+Bewertung der Messwerte 
+
+IT-Management- 
+Cockpit zur Kenntnis 
+nehmen 
+
+ggfs. IT-Management- 
+Cockpit zur Kenntnis 
+nehmen 
+
+IT 
+
+IT 
+
+Mid Office 
+
+CIO 
+
+Die maßgeblichen 16 KPI 
+für die 8 Handlungsfelder 
+werden in der 
+Operationalisierung der 
+IT-Strategie definiert und 
+durch den CIO bestätigt 
+
+Textuelle Bewertung und 
+Ampelbewertung der Stra-
+tegiedimensionen 
+
+Bei rotem KPI: 
+
+Rücksprache Maßnahmenabstimmung mit BL Mid 
+Office 
+
+Themenfeld wird positiv und 
+bewegt sich im vorgesehenen 
+Zielkorridor.  
+
+ 
+
+Zwei rote KPI: 
+
+Information und Maßnahmenabstimmung mit CIO 
+
+Information an IT-Leitung, dass 
+Maßnahmen angestoßen wur-den. 
+Derzeit ist kein Eingreifen der IT-
+Leitung notwendig.  
+
+Eingreifen durch IT-Leitung 
+notwendig. 
+
+34 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Reporting-Prozess (2/2) - Bericht an Vorstand und Aufsichtsrat  
+AR-Bericht zur Messung einer Zielerreichung in der Strategieumsetzung 
+
+Reporting jährlich 
+
+Bericht zur  
+Strategieumsetzung auf Basis der 
+ausgewählten 8 KPIs 
+
+Bericht zur Kenntnis nehmen (IT 
+Management-Cockpit – strategisch) 
+
+Bericht zur Kenntnis nehmen (IT 
+Management-Cockpit – strategisch) 
+
+Mid Office / CIO 
+
+Gesamtvorstand 
+
+Aufsichtsrat 
+
+Bei Bedarf Vorschläge zur Umsetzung 
+der Maßnahmen oder zur 
+Strategieanpassung genehmigen. 
+
+Strategieumsetzung und ggfs. 
+Maßnahmen oder die Anpassung der 
+IT-Strategie zur Kenntnis nehmen. 
+
+Bewertung der Strategie-umsetzung 
+und ggfs. Vorschläge für Maßnahmen 
+zur Erreichung der festgelegten IT-
+Strategie oder Vorschläge für eine 
+Anpassung der IT-Strategie 
+
+Erstellung eines AR-Berichts im 
+Rahmen des IT Management-Cockpit - 
+strategisch mit den 8 KPIs  
+
+35 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+ANLAGE 1 
+ 
+AR-Report 
+ 
+
+36 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+IT-Management Cockpit – strategisch 
+Das Cockpit mit den strategischen Handlungsfelder zeigt die aktuelle Situation auf einen Blick  
+
+Performance 
+
+Innovationskraft 
+
+Risiko und Sicherheit 
+
+Anwender und Projekte 
+
+37 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Die Handlungsfelder mit je zwei KPI werden jeweils detailliert betrachtet 
+Der aktuelle Status und der Erfolg von ergriffenen Maßnahmen werden regelmäßig erhoben 
+
+Performance 
+
+IT-Kosten für Kernbanksystem pro Kunde 
+
+Ausfälle/Schäden IT-Systeme 
+
+Beobachtungen 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gründe/Root-Cause 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Verantwortlich:  
+
+Ziel der KPIs: 
+
+Messmethode:  
+
+Frequenz: 
+
+Datenquelle:  
+
+Trend:  
+
+Maßnahmen 
+
+Auswirkungen 
+
+38 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+ANLAGE 2 
+ 
+Operative Handlungsfelder 
+ 
+
+39 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 1/8 
+Umfeldanalyse 1/3 
+
+Einflussfaktoren IT-Markt 
+
+Maßnahmen 
+
+ Umfangreiche Weiterentwicklung des Kern-
+
+banksystems OSPlus (> € 100 Mio. p. a.) 
+durch Kooperationshaushalt 
+
+ Steigende Time-to-Market-Erfordernisse und 
+
+eine zunehmende Innovationsdynamik füh-
+ren zur Gründung zahlreicher Start-Ups 
+(FinTechs), die einzelne Wertschöpfungs-
+bereiche mit IT-Innovationen abdecken  
+
+ Weiterentwicklung des Bankingangebots im 
+
+Internet führt zu zunehmender Etablierung 
+von sog. Bankökosystemen („Communities“) 
+
+ Branchenfremde Wettbewerber (v. a. große 
+
+Internetfirmen) drängen verstärkt mit Stan-
+dardservices in den Finanzdienstleistungs-
+markt 
+
+ 
+
+ Weiterentwicklung des DKB-Internetauftritts für 
+Privatkunden („DKB-Community“) bis 03/2016 
+
+ Erweiterung Vermittlerplattform bis 12/2015 
+
+ Vollständige Einführung OSPlus Kredit für die 
+
+Abwicklung der Wohnbaufinanzierungen bis 
+Q4/2015 
+
+ Identifizierung von Kostenpotenzialen und 
+Realisierung der identifizierten Potenziale 
+(laufend)  
+
+ Überprüfung der Konsistenz der IT-Strategie mit 
+
+dem Unternehmenskonzept (UK VIII) für die Jahre 
+2017-19 bis Q4/2016 
+
+ Ausbau des bestehenden Datawarehouse zur 
+
+Umsetzung des Reporting gemäß BCBS239 
+
+ Entlastung der Marktmitarbeiter durch Ein-führung 
+
+neuer optimierter Prozesse in der 
+Kundenbetreuung 
+
+ 
+
+40 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 1/8 
+Umfeldanalyse 2/3 
+
+Strategische Handlungsfelder 
+
+ Zusammenführung der Internet-Plattformen für Homepage und Banking für Privatkunden und 
+
+Einbindung aktueller Technikstandards (beispielsweise: Einbindung eines responsives Design zur 
+Unterstützung verschiedener Gerätetypen (z.B. Smartphone, Tablets, Desktops und Smart-TVs). 
+
+ Ausweitung der Digitalisierungsstrategie in den bankfachlichen Prozessen zwischen Kunde und 
+
+Bank. 
+
+ Ausbau bestehender digitalen Services durch Einbindung ausgewählter Drittleistungen auf den 
+
+DKB Internet-Plattformen über Kooperationsmodelle (Partnering-Konzept –> z.B. Paypal, Cringle) 
+
+ Intensivierung des Standardisierungsgrads durch Optimierung des Kreditprozesses für 
+
+Wohnungsbauendfinanzierung für Privatkunden auf Basis von OSPlus Kredit 
+
+ Weiterentwicklung der Verwalterplattform mit neuen Funktionalitäten für das Geschäftsfeld 
+
+Infrastruktur 
+
+ Institutionalisierung der Prozesse zur kontinuierlichen Konsistenzprüfung der IT-Strategieprüfung 
+
+mit anderen Strategien und zur permanenten Identifikation und Realisierung von  
+Kostenpotenzialen  
+
+ 
+
+41 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 1/8 
+Umfeldanalyse 3/3 
+
+Zielsetzung 
+
+KPI u.a. Messansätze 
+
+1. Erweiterung der Internetpräsenz (dkb.de) 
+
+1. KPI: IT-Budget: Anteil Change an 
+
+zur DKB-Community mit einem 
+erweitertem Serviceangebot 
+
+2. Zeitnahe Nutzung der Innovationskraft 
+
+Dritter zur Generierung von 
+Kundenmehrwerten, ggf. durch 
+Kooperationsmodelle  
+
+3. Verstärkte Nutzung der vom strategischen 
+Partner FI bereitgestellten OSPlus-Funktio-
+nalitäten (z. B. neues Darlehensverfahren) 
+
+Gesamtkosten; Zielwerte 2016-2018 ist  
+Change/Total >= 10%. 
+
+2. KPI: Innovationen aus der Zusammenarbeit mit 
+Dritten, die den Markt erreichen (time-to-market 
+< 6 Monate) 
+
+3.
+
+Jahresgespräch und aktive Teilnahme an den 
+Planungsrunden mit der FI zur Nutzung von 
+Standards aus dem OSPlus Umfeld 
+
+ 
+
+42 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 2/8 
+Selbstverständnis, Rolle und Organisation der IT 1/3 
+
+Anforderungen 
+
+Maßnahmen 
+
+ Überprüfung der strukturellen Aufstellung von 
+DKB AG und DKB Service GmbH bis Q4/2015 
+und Umsetzung von identifizierten  
+Effizienzpotenzialen bis Q2/2016 
+
+ Entwicklung und Durchführung einer 
+
+Kundenbefragung zur Transparenzerhöhung der 
+Kundenzufriedenheit in der DKB bis Q3/2016 
+
+ Weiterentwicklung des Controllings nebst 
+
+Methoden und Verfahren von IT-Projekten bis 
+Q3/2016 
+
+ 
+
+ Perspektive des internen Kunden als 
+
+Dienstleister 
+
+ Kundenberatung (Key Account Mgmt.) bei 
+
+der Weiterentwicklung und der täglichen 
+Nutzung der IT-Lösungen 
+
+ Entwicklung, Bereitstellung und Betrieb von 
+
+Anwendungen, Arbeitsplätzen und 
+Telekommunikationslösungen 
+
+ Perspektive des Vorstands als Steuerer 
+
+ Erstellung Beschlussvorlagen und 
+
+Votierung der (Fachbereichs-) 
+Anforderungen an IT-Lösungen 
+
+ Laufende Steuerung und Transparenz der 
+
+IT-Kosten, der IT-Architektur und  des IT-
+Projektportfolios 
+
+ Setzen von Leitplanken und Steuerungs-
+ansätzen für IT-Entwicklung und -Betrieb 
+der DKB-Tochtergesellschaften  
+
+43 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 2/8 
+Selbstverständnis, Rolle und Organisation der IT 2/3 
+
+ 
+
+Strategische Handlungsfelder 
+
+ Optimierung der Aufgaben, Kompetenzen und Verantwortlichkeiten zwischen der DKB AG und  der DKB 
+
+Service GmbH bzgl. wesentlicher IT-Fragestellungen der beiden Rollen Dienstleister   und Steuerer 
+
+ Überprüfung und ggf. Anpassung der Prozesse bzgl. der beiden Rollen (innerhalb der DKB und gegenüber 
+dem strategischen IT-Partner Finanz Informatik) an die zunehmende Innovations-dynamik des IT-Marktes  
+
+ Erhöhung der Transparenz bzgl. der Kundenzufriedenheit mittels Institutionalisierung einer  
+
+Kundenbefragung 
+
+ 
+
+44 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 2/8 
+Selbstverständnis, Rolle und Organisation der IT 3/3 
+
+ 
+
+Zielsetzung 
+
+KPI u.a. Messansätze 
+
+1. Aktive Steuerung des IT-Budgets zur 
+
+1. KPI: Planabweichungen im Budget und der 
+
+Optimierung des Kosten-Nutzen-Verhältnisses 
+
+2. Konstruktive und offene Kommunikation mit den 
+IT-Nutzern zur Bewertung der IT-Anforderungen 
+und –Erfordernisse 
+
+3. Festlegung und Kommunikation klarer Prozesse 
+
+und Verantwortlichkeiten für die beiden Rollen 
+der IT als Dienstleister und Steuerer 
+
+4. Austausch mit den IT-Verantwortlichen der 
+
+BayernLB und der DKB-Tochtergesellschaften 
+sowie anderen Marktteilnehmern bzgl. 
+Innovationen und Optimierungsmöglichkeiten 
+
+ 
+
+ 
+
+Laufzeit bei durchgeführten IT-Projekten; 
+Zielwert im Kalenderjahresschnitt < 20% der 
+Planwerte 
+
+2. KPI: Ergebnis der Kundenbefragung; Zielwert 
+in jedem Jahr 2016-18 besser als 2,5 (gemäß 
+Schulnotensystem), Anzahl formale 
+Strategieprüfungen Zielwert ist min. 1 Prüfung 
+p. a.   
+
+3. Verwendung von Elementen der sfO z.B. AKV 
+
+oder Prozesslandkarte 
+
+4. Ablage von Protokollen aus den 
+
+entsprechenden Sitzungen 
+
+ 
+
+45 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 3/8 
+IT-Governance (inkl. Kosten und Portfoliosteuerung) 1/3 
+
+Anforderungen 
+
+Maßnahmen 
+
+ Entwicklung und Betrieb eines für die DKB 
+
+ Regelmäßiger Abgleich 
+
+adäquaten Anwendungsportfolios 
+
+ Entwicklung und Betrieb von auf die DKB-
+
+Unternehmensziele passenden IT-Services und 
+Prozessen 
+
+ Realisierung vorhandener Kostenpotenziale 
+
+ 
+
+ 
+
+ des IT-Anwendungsportfolios, 
+
+ der IT-Services sowie  
+
+ der dokumentierten IT-Prozesse 
+
+mit den benötigten Geschäftsanforderungen 
+
+ Adjustierung der IT-Governance-Strukturen 
+
+ Anpassung der Entscheidungsgremien 
+
+
+
+
+
+ Anpassung der Aufbau- und Ablauforganisation 
+
+Einführung einer technischen Caching-Lösung für 
+Umsatzanfragen im Internet-Banking (Reduzierung 
+Stückkosten FI) 
+
+Einsparung externe Entwicklungskosten durch 
+Einstellung eines eigenen Entwicklers für die 
+Verwalterplattform 
+
+ Reduzierung externe Entwickleraufträge für DWH durch 
+
+Einstellung weiterer DWH-Entwicklung 
+
+
+
+Einhaltung des IT-Budgets für Change und Run 
+
+46 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 3/8 
+IT-Governance (inkl. Kosten und Portfoliosteuerung) 2/3 
+
+Strategische Handlungsfelder 
+
+ Konsequentere Ausrichtung  
+
+ des IT-Anwendungsportfolios und  
+
+ der IT-Services wie auch  
+
+ der IT-Prozesse  
+
+auf Unternehmensziele, um eine optimale Unterstützung der Fachbereiche zu gewährleisten 
+
+ Stärkere Ausrichtung der Ergebnisse der strategischen Planung an Vorgehensstandards, um die 
+
+Transparenz zu Entscheidungen zu erhöhen. 
+
+ Konsequente und aktive Steuerung der IT-Kosten in einem institutionalisierten Prozess 
+
+ Realisierung bestehender Synergiepotenziale im BayernLB-Konzern sowie im DKB-Konzern 
+
+ 
+
+47 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 3/8 
+IT-Governance (inkl. Kosten und Portfoliosteuerung) 3/3 
+
+Zielsetzung 
+
+KPI u.a. Messansätze 
+
+1. Generierung eines nennenswerten Beitrags 
+
+1. KPI: Cost-Income-Ratio 
+
+der IT zur Optimierung der CIR  
+(Cost-Income-Ratio) 
+
+2. Nachhaltige Senkung der IT-Kosten im  
+
+Verhältnis zur Anzahl der Kunden  
+
+3. Einhaltung des IT-Kostenbudgets 
+
+4. Beherrschung der folgenden Regelkreise IT-
+
+Strategie, IT-Architektur und  
+IT-Projektportfoliomanagement 
+
+ 
+
+ 
+
+ 
+
+2. KPI: Abweichung vom IT-Budget – Plan 
+
+versus Ist < 10% 
+
+3. KPI: IT-Kosten für Kernbanksystem pro 
+Kunde*; Zielwert: Die IT-Run-Kosten je 
+Kunde liegen unter 8,10 € pro Kunde 
+brutto. 
+
+4. Durchführung von regelmäßigen 
+
+Prozessdurchläufen um die Regelkreise 
+anhand der DKB Prozesslandkarte zu 
+überprüfen 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+* Kernkonto gemäß FI-Faktura (Produktgruppe 6) 
+
+48 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 4/8 
+IT-Risikomanagement und Informationssicherheit 1/3 
+
+Anforderungen 
+
+Maßnahmen 
+
+ Die IT-gestützten Geschäftstätigkeiten der DKB 
+sollen effizient und effektiv abgesichert werden 
+
+ Überprüfung und ggf. Anpassung der IT-
+
+Sicherheitsrichtlinie und -leitlinie der DKB 
+
+ Die in den Geschäftsprozessen verarbeiteten 
+
+ Konsequentere Verwendung einer  
+
+Informationen sollen bezüglich der Schutzwerte 
+Verfügbarkeit, Vertraulichkeit, Authentizität und 
+Integrität angemessen vor Schäden geschützt 
+werden 
+
+ IT-Risiken sollen umfassend frühzeitig erkannt, 
+
+berichtet und adäquat behandelt werden.  
+
+umfassen-den IT-Schadensstatistik zur Ableitung 
+konkreter Maßnahmen zur Risikominimierung und 
+-vermeidung 
+
+ Durchführung von externen Penetrationstests der 
+Internet-Plattformen für Homepage und Banking  
+
+ Einführung einer neuen Autorisierungslösung für 
+
+Kunden im Internet-Banking  
+
+ Einführung einer neuen Autorisierungslösung für 
+
+Kunden der Verwalterplattform 
+
+ 
+
+49 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 4/8 
+IT-Risikomanagement und Informationssicherheit 2/3 
+
+Strategische Handlungsfelder 
+
+ Laufende Adaption der unternehmensinternen Richtlinien zum Thema IT-Sicherheit 
+
+ Der Prozess des IT-Risikomanagements soll konsequent und umfassend in den  
+
+Risikomanagementprozess des Unternehmens eingebettet werden 
+
+50 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 4/8 
+IT-Risikomanagement und Informationssicherheit 3/3 
+
+Zielsetzung 
+
+KPI 
+
+1. Die IT-Sicherheitsrichtlinie, die IT-
+
+1. KPI: Anzahl der kritischer Sicherheitsvorfälle; 
+
+Sicherheitsleitlinie und das 
+Informationssicherheits-Managementsystem 
+ISMS der DKB AG sollen jederzeit konsequent 
+eingehalten werden 
+
+2. Das IT-Risikomanagement soll IT-Risiken 
+ausgehend von der IT-Infrastruktur, von IT-
+Anwendungen und von IT-Services bzw. 
+Prozessen identifiziert, adäquat berichten und 
+behandelt. Hierfür wird regelmäßig ein 
+definierter Risikomanagementprozess 
+durchlaufen 
+
+ 
+
+Zielwert: < 3 p. a. 
+
+2. KPI: Anzahl identifizierter Risiken. Dieser 
+
+Indikator signalisiert damit Veränderungen der 
+Risikolage und kann als Frühindikator 
+verwendet werden. Zielwert ist eine Range für 
+das akzeptierte Risiko: 15-20 
+
+51 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 5/8 
+IT-Compliance 1/3 
+
+Anforderungen 
+
+Maßnahmen 
+
+ Das Steuerungsfeld Compliance wird auch  in der 
+
+ Weiterentwicklung der IT-Controlling-Prozesse 
+
+IT als strategisches Ziel positioniert 
+
+ Vorstand und Bereichsleitungen der DKB sollen 
+
+zur Einhaltung gesetzlicher Anforderungen, 
+Richtlinien und interner Policies 
+
+regelmäßig über Regelverstöße informiert werden 
+
+ Weiterentwicklung von IT-Managementpro-
+
+ Vorstand und Bereichsleitungen der DKB sollen 
+
+regelmäßig über die Umsetzung eingeleiteter 
+Maßnahmen informiert werden 
+
+ Verstöße gegen IT-Compliance stellen Risiken 
+
+dar, die im Rahmen des IT-Risiko-managements 
+behandelt werden müssen 
+
+ 
+
+zessen zur Einhaltung gesetzlicher  
+Anforderungen, Richtlinien und interner Policies 
+
+ Überprüfung und ggf. Anpassung der  
+
+Aufbau- und Ablauforganisation 
+
+52 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 5/8 
+IT-Compliance 2/3 
+
+ 
+
+ Controlling- und Managementprozesse sind so zu gestalten, dass Anforderungen 
+
+Strategische Handlungsfelder 
+
+ des Gesetzgebers,  
+
+ der Regulatoren sowie  
+
+ des Konzerns  
+
+    an Informationssicherheit, Datenschutz, Verfügbarkeit und Aufbewahrung von Daten einfacher  
+    nachgehalten und durchgesetzt werden können. 
+
+ 
+
+53 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 5/8 
+IT-Compliance 3/3 
+
+Zielsetzung 
+
+KPI 
+
+1. Sicherstellung der Ordnungsmäßigkeit der IT-
+
+1. KPI: Entwicklung der jährlichen Kosten aus 
+
+Abläufe 
+
+2. Sicherstellung der Behebung von  
+
+Regelverstößen 
+
+IT-Non-Compliance-Fällen; Zielwert: 0 
+Euro 
+(d. h. es gibt keinen Verstoß) 
+
+2. KPI: Anzahl der Regelverstöße  
+
+ 
+
+54 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 6/8 
+IT-Architektur und Technologie 1/3 
+
+Anforderungen 
+
+Maßnahmen 
+
+ Die IT-Architektur soll modern und zukunfts-
+
+sicher sein 
+
+ Die IT-Architektur soll eine angemessene 
+
+Komplexität zur langfristigen Unterstützung des 
+Geschäftsmodells („so einfach wie möglich, so 
+individuell wie nötig“) besitzen 
+
+ Verwendung von beherrschbaren und 
+
+zukunftsfähigen Technologiekomponenten 
+
+ Verbesserung von Prozessen zur Über-
+setzung von Geschäftsanforderungen in 
+Anforderungen an die IT-Architektur 
+
+ Weitergehende Integration von OSPlus 
+
+in die IT-Architektur der Bank 
+
+55 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 6/8 
+IT-Architektur und Technologie 2/3 
+
+Strategische Handlungsfelder 
+
+ Konsequentere Ausrichtung der IT-Architektur auf die Unternehmenserfordernisse 
+
+ Konformität zur IT-Strategie 
+
+ Reaktion auf kurzfristige Änderungen von Anforderungen 
+
+ Weitgehende Standardisierung der IT-Architektur durch Verwendung des Kernbanksystems 
+
+OSPlus 
+
+ Komplexitätsreduktion der Technologiearchitektur durch Nutzung von Standardbausteinen bei 
+
+technischen Komponenten und Plattform- sowie Infrastrukturelementen werden – wenn möglich – 
+Standardbausteine eingesetzt 
+
+56 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 6/8 
+IT-Architektur und Technologie 3/3 
+
+Zielsetzung 
+
+KPI 
+
+1. Entwicklung einer auf die 
+
+Geschäftstätigkeit passenden IT-
+Architektur auf allen Ebenen 
+
+ Technologie 
+
+ Anwendungen 
+
+ Daten 
+
+1. KPI: Zeitspanne zwischen der 
+
+Aktualisierung der strategischen 
+Geschäftsplanung und der Planung der IT-
+Architektur;  
+Zielwert: jährlich 
+
+57 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 7/8 
+IT-Sourcing (inkl. Personal und Dienstleister) 1/3 
+
+Anforderungen 
+
+Maßnahmen 
+
+ Aufgrund zunehmenden Fachkräftemangel ist die 
+
+ Turnusmäßige Optimierung der bedarfs-
+
+Qualifizierung der eigenen IT-Mitarbeiter zu 
+forcieren 
+
+orientierten strategischen Personalplanung 
+
+ Steigerung der Weiterbildungsbudgets 
+
+ Die Realisierung von IT-Kostenpotenzialen 
+
+(on/off-the-Job) 
+
+erfordert die vermehrte Nutzung des  
+Leistungsangebots der FI (sofern die DKB-
+Anforderungen erfüllt werden)  
+
+ Zur Beherrschung der steigenden  
+
+IT-Komplexität benötigen externe Dienstleister 
+umfassende DKB-/FI-spezifische Erfahrungen; mit 
+einer Reduzierung der externen Partner soll dies 
+besser gewährleistet werden  
+
+ Überprüfung und ggf. Erweiterung der  
+
+bestehenden IT-Ausbildungs- und IT-
+Nachwuchsförderungsprogramme 
+
+ regelmäßige (2 x p.a.) Überprüfung des 
+
+FI-Leistungsangebots bzgl. der DKB-
+Nutzungsmöglichkeiten 
+
+ Festlegung der Preferred-Partner  
+
+(je Dienstleistungsgruppe) 
+
+ kontinuierliche Weiterbildung der IT-Mitarbeiter in 
+den Spezialthemen DWH und Java-Entwicklung 
+
+58 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 7/8 
+IT-Sourcing (inkl. Personal und Dienstleister) 2/3 
+
+ Forcierung der Weiterbildungsaktivitäten für die eigenen IT-Mitarbeiter 
+
+Strategische Handlungsfelder 
+
+ Intensivierung der Nachwuchsgewinnung und -förderung durch eigene Programme für IT-Auszubildende 
+
+und IT-Mitarbeiter mit Potenzial   
+
+ Kosten- und risikominimierte Ausrichtung der Make-or-Buy-Entscheidungen (DKB-intern, BayernLB-
+
+Konzern, Drittmarkt) 
+
+ Etablierung eines „Preferred-Partner-Ansatzes“ mit externen Dienstleistern mit in der DKB nachgewiesener 
+
+Expertise zur Steigerung des DKB-spezifischen Erfahrungsschatzes 
+
+ Präferierte Nutzung des FI-Leistungsangebots (sofern für die DKB passend) 
+
+ Umsetzung von Kooperationsansätzen mit Dritten, sofern intern bzw. die FI diese Leistungen nicht gemäß 
+
+den DKB-Geschäftsanforderungen erbracht werden können 
+
+59 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 7/8 
+IT-Sourcing (inkl. Personal und Dienstleister) 3/3 
+
+Zielsetzung 
+
+KPI 
+
+1. Sicherstellung der hohen Motivation  und 
+
+1. KPI: Durchschnittliche Anzahl an 
+
+Qualifikation der IT-Mitarbeiter als wichtigste 
+IT-Ressource 
+
+Weiterbildungstagen in den Spezialthemen; 
+Zielwert >= 3 Tage je Mitarbeiter p.a.  
+
+2. Fokussierte Nutzung qualifizierter  
+
+Dienstleister für ausgewählte Leistungen 
+
+3. Möglichst umfassende Nutzung des  
+
+Leistungsangebots des IT-Partners FI zur 
+Steigerung des Standardisierungsgrads 
+
+ 
+
+2. KPI: Supplier Excellence – Steigerung der 
+Nutzung externer Leistungen mit weniger 
+Dienstleistern 
+
+Jahresgespräch und aktive Teilnahme an den 
+Planungsrunden mit der FI zur Nutzung von 
+Standards aus dem OSPlus Umfeld 
+
+3.
+
+ 
+
+ 
+
+ 
+
+ 
+
+60 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 8/8 
+Individuelle Datenverarbeitung 1/3 
+
+Anforderungen 
+
+Maßnahmen 
+
+ Vollständige Transparenz über alle im Einsatz 
+
+ Der Risikomanagementprozess wird so  
+
+befindlichen IDV-Lösungen 
+
+ Reibungsloser und risikoarmer Betrieb von IDV-
+
+Lösungen 
+
+ Schnelle Überführungsmöglichkeit von IDV-
+Lösungen in von der DKB-IT betriebene IT-
+Systeme  
+
+ausgestaltet, dass die von Fachbereichen 
+betriebenen IDV-Lösungen regelmäßig überprüft 
+werden.  
+
+ Aufbau von „Small Solutions Packages“, um 
+
+Fachbereichen den Umstieg von IDV-Lösungen 
+auf Lösungen, die durch die DKB-IT betrieben 
+werden, zu erleichtern. 
+
+61 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 8/8 
+Individuelle Datenverarbeitung 2/3 
+
+Strategische Handlungsfelder 
+
+ Adaption des IT-Risikomanagementprozesses mit Hinblick auf die von Fachbereichen betriebene 
+
+individuelle Datenverarbeitung 
+
+ Weiterentwicklung des bestehenden Frameworks zur Überführung von IDV-Lösungen in von der 
+
+DKB-IT betriebene IT-Systeme inkl. 
+
+ Verantwortlichkeiten 
+
+ Prozesse 
+
+ Tools 
+
+62 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+Handlungsfeld 8/8 
+Individuelle Datenverarbeitung 3/3 
+
+Zielsetzung 
+
+KPI 
+
+1.
+
+IDV wird nur dann betrieben, wenn  
+
+1. KPI: Verhältnis der IDV-Lösungen, die 
+
+•
+
+•
+
+keine adäquate Anwendung verfügbar ist 
+und 
+
+auf Grund des Betriebs der IDV 
+grundsätzlich keine oder nur sehr 
+geringe Risiken für die DKB entstehen 
+oder entstehende Risiken im 
+Risikomanagementsystem der DKB AG 
+berücksichtigt werden 
+
+2.
+
+IDV-Lösungen werden schnell und kosten-
+günstig in von der DKB-IT betriebene IT-
+Systeme migriert 
+
+erfolgreich den Risikomanagementprozess 
+durchlaufen haben (zu angezeigten);  Zielwert: 
+> 95% 
+
+2. KPI: Verhältnis der von der DKB-IT zentral 
+betreuten IDV-Lösungen (zu angezeigten); 
+Zielwert 2017 mind. 60% 
+
+63 | IT-Strategie / 29.06.2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Streng Vertraulich - 
+
+
